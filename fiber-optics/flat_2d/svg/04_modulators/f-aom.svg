@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 55" width="170" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="30" x2="45" y2="30" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="45" y="12" width="70" height="36" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<rect x="60" y="6" width="30" height="6" rx="1" fill="#A0A0B0" stroke="#000000" stroke-width="0.5"/>
+<path d="M55,20 C58,18 62,22 65,20 C68,18 72,22 75,20 C78,18 82,22 85,20 C88,18 92,22 95,20" fill="none" stroke="#000000" stroke-width="0.5" opacity="0.3"/>
+<path d="M55,30 C58,28 62,32 65,30 C68,28 72,32 75,30 C78,28 82,32 85,30 C88,28 92,32 95,30" fill="none" stroke="#000000" stroke-width="0.5" opacity="0.3"/>
+<path d="M55,40 C58,38 62,42 65,40 C68,38 72,42 75,40 C78,38 82,42 85,40 C88,38 92,42 95,40" fill="none" stroke="#000000" stroke-width="0.5" opacity="0.3"/>
+<line x1="75" y1="6" x2="75" y2="0" stroke="#000000" stroke-width="0.75"/>
+<text x="82" y="4" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">RF</text>
+<line x1="115" y1="30" x2="165" y2="30" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="80" y="53" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">AOM</text>
+</svg>

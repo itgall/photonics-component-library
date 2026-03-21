@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="52" y1="12" x2="78" y2="65" stroke="#888888" stroke-width="0.5" stroke-dasharray="3,1"/>
+<circle cx="65" cy="38" r="28" fill="none" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="5" y1="55" x2="63" y2="38" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="53" x2="35" y2="46" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="63" y1="38" x2="63" y2="5" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="67" y1="40" x2="115" y2="58" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="60" y="82" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Pellicle BS</text>
+</svg>

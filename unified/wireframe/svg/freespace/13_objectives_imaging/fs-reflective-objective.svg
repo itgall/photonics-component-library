@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 90" width="130" height="90" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<path d="M85,15 C70,30 70,55 85,70" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="81.7" y1="18.9" x2="85.7" y2="16.9" stroke="#888888" stroke-width="0.25"/>
+<line x1="75.6" y1="26.8" x2="79.6" y2="24.8" stroke="#888888" stroke-width="0.25"/>
+<line x1="71.5" y1="34.6" x2="75.5" y2="32.6" stroke="#888888" stroke-width="0.25"/>
+<line x1="70.0" y1="42.5" x2="74.0" y2="40.5" stroke="#888888" stroke-width="0.25"/>
+<line x1="71.5" y1="50.4" x2="75.5" y2="48.4" stroke="#888888" stroke-width="0.25"/>
+<line x1="75.6" y1="58.2" x2="79.6" y2="56.2" stroke="#888888" stroke-width="0.25"/>
+<line x1="81.7" y1="66.1" x2="85.7" y2="64.1" stroke="#888888" stroke-width="0.25"/>
+<path d="M42,32 C48,38 48,48 42,54" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="45.0" y1="35.7" x2="42.0" y2="33.7" stroke="#888888" stroke-width="0.25"/>
+<line x1="48.0" y1="43.0" x2="45.0" y2="41.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="45.0" y1="50.3" x2="42.0" y2="48.3" stroke="#888888" stroke-width="0.25"/>
+<path d="M5,35 L42,35 L80,22 L42,43 L5,43" fill="none" stroke="#c0392b" stroke-width="0.4" opacity="0.25"/>
+<line x1="8" y1="35" x2="25" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="65" y="85" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Reflective objective</text>
+</svg>

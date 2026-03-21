@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 130" width="180" height="130" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<line x1="5" y1="60" x2="20" y2="60" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="8" y1="60" x2="16" y2="60" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<path d="M25.0,49.0 L25.0,71.0 C34,65.5 34,54.5 25.0,49.0 Z" fill="#C8D8F0" stroke="#000000" stroke-width="0.75"/>
+<rect x="48" y="48" width="22" height="22" fill="#C8D8F0" stroke="#000000" stroke-width="0.75"/>
+<line x1="59" y1="48" x2="59" y2="15" stroke="#CC0000" stroke-width="0.8" opacity="0.3"/>
+<line x1="48" y1="10" x2="70" y2="10" stroke="#000000" stroke-width="1.5"/>
+<line x1="50.8" y1="10.0" x2="50.8" y2="5.0" stroke="#666666" stroke-width="0.3"/>
+<line x1="56.2" y1="10.0" x2="56.2" y2="5.0" stroke="#666666" stroke-width="0.3"/>
+<line x1="61.8" y1="10.0" x2="61.8" y2="5.0" stroke="#666666" stroke-width="0.3"/>
+<line x1="67.2" y1="10.0" x2="67.2" y2="5.0" stroke="#666666" stroke-width="0.3"/>
+<text x="45" y="8" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">ref</text>
+<line x1="70" y1="59" x2="130" y2="59" stroke="#CC0000" stroke-width="0.8" opacity="0.3"/>
+<path d="M140,45.0 C148,52.0 148,66.0 140,73.0 C132,66.0 132,52.0 140,45.0 Z" fill="#C8D8F0" stroke="#000000" stroke-width="0.75"/>
+<line x1="160" y1="48" x2="160" y2="72" stroke="#000000" stroke-width="1.5"/>
+<line x1="160.0" y1="51.0" x2="155.0" y2="51.0" stroke="#666666" stroke-width="0.3"/>
+<line x1="160.0" y1="57.0" x2="155.0" y2="57.0" stroke="#666666" stroke-width="0.3"/>
+<line x1="160.0" y1="63.0" x2="155.0" y2="63.0" stroke="#666666" stroke-width="0.3"/>
+<line x1="160.0" y1="69.0" x2="155.0" y2="69.0" stroke="#666666" stroke-width="0.3"/>
+<text x="160" y="44" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">test</text>
+<line x1="59" y1="70" x2="59" y2="105" stroke="#CC0000" stroke-width="0.8" opacity="0.35"/>
+<path d="M56.5,102.0 L56.5,122.0 C64,117.0 64,107.0 56.5,102.0 Z" fill="#C8D8F0" stroke="#000000" stroke-width="0.75"/>
+<rect x="51" y="118" width="16" height="10" rx="2" fill="#808088" stroke="#000000" stroke-width="0.4"/>
+<text x="90" y="125" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Twyman-Green</text>
+</svg>

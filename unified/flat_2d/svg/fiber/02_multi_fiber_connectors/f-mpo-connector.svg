@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 42" width="130" height="42">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="14" x2="25" y2="14" stroke="#1B1E89" stroke-width="1" stroke-linecap="round"/>
+<line x1="5" y1="19" x2="25" y2="19" stroke="#1B1E89" stroke-width="1" stroke-linecap="round"/>
+<line x1="5" y1="24" x2="25" y2="24" stroke="#1B1E89" stroke-width="1" stroke-linecap="round"/>
+<rect x="25" y="6" width="70" height="26" rx="3" fill="#606060" stroke="#000000" stroke-width="0.75"/>
+<circle cx="33" cy="12" r="1.5" fill="#000000" opacity="0.5"/>
+<circle cx="33" cy="26" r="1.5" fill="#000000" opacity="0.5"/>
+<circle cx="45" cy="19" r="1" fill="#000000" opacity="0.4"/>
+<circle cx="50" cy="19" r="1" fill="#000000" opacity="0.4"/>
+<circle cx="55" cy="19" r="1" fill="#000000" opacity="0.4"/>
+<circle cx="60" cy="19" r="1" fill="#000000" opacity="0.4"/>
+<circle cx="65" cy="19" r="1" fill="#000000" opacity="0.4"/>
+<circle cx="70" cy="19" r="1" fill="#000000" opacity="0.4"/>
+<circle cx="75" cy="19" r="1" fill="#000000" opacity="0.4"/>
+<circle cx="80" cy="19" r="1" fill="#000000" opacity="0.4"/>
+<line x1="95" y1="6" x2="95" y2="32" stroke="#000000" stroke-width="0.75"/>
+<text x="60" y="40" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">MPO/MTP</text>
+</svg>

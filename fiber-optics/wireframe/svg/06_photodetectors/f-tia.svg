@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 55" width="130" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<polygon points="30,12 30,42 80,27" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M30,20 L30,5 L80,5 L80,27" fill="none" stroke="#1a1a1a" stroke-width="0.35"/>
+<rect x="45" y="2" width="20" height="6" fill="none" stroke="#1a1a1a" stroke-width="0.4"/>
+<text x="55" y="8" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#888888" text-anchor="middle" font-weight="normal" font-style="normal">Rf</text>
+<line x1="5" y1="27" x2="30" y2="27" stroke="#1a1a1a" stroke-width="0.35"/>
+<line x1="80" y1="27" x2="125" y2="27" stroke="#1a1a1a" stroke-width="0.35"/>
+<text x="8" y="21" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">I_pd</text>
+<text x="123" y="21" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">V_out</text>
+<text x="55" y="52" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">TIA</text>
+</svg>

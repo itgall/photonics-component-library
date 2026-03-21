@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="10" y1="20" x2="190" y2="20" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="15" y1="20" x2="35" y2="20" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="55" y1="10" x2="55" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="59" y1="10" x2="59" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="63" y1="10" x2="63" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="67" y1="10" x2="67" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="71" y1="10" x2="71" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="75" y1="10" x2="75" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="79" y1="10" x2="79" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="83" y1="10" x2="83" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="87" y1="10" x2="87" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="91" y1="10" x2="91" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="98" y1="8" x2="98" y2="32" stroke="#c0392b" stroke-width="0.6" stroke-dasharray="1.5,1.5"/>
+<text x="98" y="7" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#c0392b" text-anchor="middle" font-weight="normal" font-style="normal">π</text>
+<line x1="105" y1="10" x2="105" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="109" y1="10" x2="109" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="113" y1="10" x2="113" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="117" y1="10" x2="117" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="121" y1="10" x2="121" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="125" y1="10" x2="125" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="129" y1="10" x2="129" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="133" y1="10" x2="133" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="137" y1="10" x2="137" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="141" y1="10" x2="141" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<line x1="145" y1="10" x2="145" y2="30" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+<text x="100" y="38" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">PS-FBG</text>
+</svg>

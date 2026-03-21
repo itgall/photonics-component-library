@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<rect x="15" y="10" width="80" height="35" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<circle cx="55" cy="27" r="4" fill="#c0392b" opacity="0.5"/>
+<circle cx="55" cy="27" r="1.5" fill="#c0392b" opacity="0.8"/>
+<path d="M63,24 Q65,27 63,30" fill="none" stroke="#c0392b" stroke-width="0.3" opacity="0.4"/>
+<path d="M69,24 Q71,27 69,30" fill="none" stroke="#c0392b" stroke-width="0.3" opacity="0.4"/>
+<path d="M75,24 Q77,27 75,30" fill="none" stroke="#c0392b" stroke-width="0.3" opacity="0.4"/>
+<text x="30" y="30" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#888888" text-anchor="middle" font-weight="normal" font-style="normal">~4 K</text>
+<line x1="95" y1="27" x2="155" y2="27" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="27" x2="130" y2="27" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="75" y="52" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Single-photon source</text>
+</svg>

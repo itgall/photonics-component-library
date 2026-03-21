@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" width="160" height="60" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="30" x2="45" y2="30" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="30" x2="30" y2="30" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="15" y="24" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">fs pulse</text>
+<rect x="48" y="10" width="35" height="38" rx="2" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="65" y="32" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">ZnTe</text>
+<path d="M83,30 C93,24 98,36 108,30 C113,26 118,34 128,30 C133,28 138,32 148,30" fill="none" stroke="#c0392b" stroke-width="0.5" opacity="0.4"/>
+<line x1="100" y1="30" x2="135" y2="30" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="140" y="24" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">THz</text>
+<text x="80" y="55" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">THz (opt. rect.)</text>
+</svg>

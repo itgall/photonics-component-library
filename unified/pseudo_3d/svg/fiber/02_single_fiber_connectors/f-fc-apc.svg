@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 45" width="120" height="45">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="housing-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0D8C0"/>
+      <stop offset="50%" stop-color="#C0B898"/>
+      <stop offset="100%" stop-color="#908868"/>
+    </linearGradient>
+  <linearGradient id="ferrule-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8E8F0"/>
+      <stop offset="50%" stop-color="#B0B0C0"/>
+      <stop offset="100%" stop-color="#808090"/>
+    </linearGradient>
+  <linearGradient id="knurl-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C8C0B0"/>
+      <stop offset="50%" stop-color="#A09888"/>
+      <stop offset="100%" stop-color="#787068"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="22" x2="30" y2="22" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="30" y="15" width="14" height="14" rx="1" fill="url(#ferrule-grad)" stroke="#000" stroke-width="0.5"/>
+<rect x="44" y="10" width="30" height="24" rx="2" fill="url(#housing-grad)" stroke="#000" stroke-width="0.75"/>
+<rect x="74" y="12" width="10" height="20" rx="1" fill="url(#knurl-grad)" stroke="#000" stroke-width="0.5"/>
+<line x1="76" y1="14" x2="82" y2="14" stroke="#000000" stroke-width="0.3" opacity="0.35"/>
+<line x1="76" y1="18" x2="82" y2="18" stroke="#000000" stroke-width="0.3" opacity="0.35"/>
+<line x1="76" y1="22" x2="82" y2="22" stroke="#000000" stroke-width="0.3" opacity="0.35"/>
+<line x1="76" y1="26" x2="82" y2="26" stroke="#000000" stroke-width="0.3" opacity="0.35"/>
+<line x1="76" y1="30" x2="82" y2="30" stroke="#000000" stroke-width="0.3" opacity="0.35"/>
+<line x1="86" y1="12" x2="90" y2="32" stroke="#000000" stroke-width="0.75"/>
+<rect x="48" y="6" width="6" height="4" rx="1" fill="#22AA22" stroke="#000000" stroke-width="0.3"/>
+<text x="60" y="42" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">FC/APC</text>
+</svg>

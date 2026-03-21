@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" width="150" height="60" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="housing-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B0B0B8"/><stop offset="100%" stop-color="#707078"/></linearGradient>
+</defs>
+<line x1="5" y1="30" x2="28" y2="30" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="8" y1="30" x2="20" y2="30" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<rect x="30" y="8" width="75" height="38" rx="3" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.75"/>
+<rect x="34" y="22" width="50" height="6" fill="#101828" stroke="#000000" stroke-width="0.3"/>
+<line x1="36" y1="22" x2="36" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="39" y1="22" x2="39" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="42" y1="22" x2="42" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="45" y1="22" x2="45" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="48" y1="22" x2="48" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="51" y1="22" x2="51" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="54" y1="22" x2="54" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="57" y1="22" x2="57" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="60" y1="22" x2="60" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="63" y1="22" x2="63" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="66" y1="22" x2="66" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="69" y1="22" x2="69" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="72" y1="22" x2="72" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="75" y1="22" x2="75" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="78" y1="22" x2="78" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<line x1="81" y1="22" x2="81" y2="28" stroke="#333366" stroke-width="0.3" opacity="0.3"/>
+<text x="80" y="32" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">1D</text>
+<line x1="105" y1="27" x2="145" y2="27" stroke="#000000" stroke-width="0.4"/>
+<text x="75" y="55" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Line-scan camera</text>
+</svg>

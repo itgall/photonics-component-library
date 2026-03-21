@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <radialGradient id="coating-grad" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FFD966"/>
+      <stop offset="60%" stop-color="#E8A820"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+  <radialGradient id="cladding-grad" cx="38%" cy="33%" r="52%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#D8DCE8"/>
+      <stop offset="100%" stop-color="#98A0B8"/>
+    </radialGradient>
+</defs>
+<circle cx="40" cy="40" r="36" fill="url(#coating-grad)" stroke="#000" stroke-width="0.75"/>
+<circle cx="40" cy="40" r="28" fill="url(#cladding-grad)" stroke="#000" stroke-width="0.5"/>
+<circle cx="40.0" cy="22.0" r="6" fill="white" stroke="#404060" stroke-width="0.4"/>
+<circle cx="54.1" cy="28.8" r="6" fill="white" stroke="#404060" stroke-width="0.4"/>
+<circle cx="57.5" cy="44.0" r="6" fill="white" stroke="#404060" stroke-width="0.4"/>
+<circle cx="47.8" cy="56.2" r="6" fill="white" stroke="#404060" stroke-width="0.4"/>
+<circle cx="32.2" cy="56.2" r="6" fill="white" stroke="#404060" stroke-width="0.4"/>
+<circle cx="22.5" cy="44.0" r="6" fill="white" stroke="#404060" stroke-width="0.4"/>
+<circle cx="25.9" cy="28.8" r="6" fill="white" stroke="#404060" stroke-width="0.4"/>
+<circle cx="40" cy="40" r="8" fill="#E8F0FF" stroke="#404060" stroke-width="0.5"/>
+</svg>

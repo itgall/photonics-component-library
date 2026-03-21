@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+</defs>
+<line x1="10" y1="25" x2="190" y2="25" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="50" y1="15" x2="50" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="54" y1="15" x2="54" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="58" y1="15" x2="58" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="62" y1="15" x2="62" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="66" y1="15" x2="66" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<text x="60" y="12" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#0066CC" text-anchor="middle">λ1</text>
+<line x1="90" y1="15" x2="90" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="94" y1="15" x2="94" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="98" y1="15" x2="98" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="102" y1="15" x2="102" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="106" y1="15" x2="106" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<text x="100" y="12" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#0066CC" text-anchor="middle">λ2</text>
+<line x1="130" y1="15" x2="130" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="134" y1="15" x2="134" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="138" y1="15" x2="138" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="142" y1="15" x2="142" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="146" y1="15" x2="146" y2="35" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<text x="140" y="12" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#0066CC" text-anchor="middle">λ3</text>
+<text x="100" y="46" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">FBG sensor array</text>
+</svg>

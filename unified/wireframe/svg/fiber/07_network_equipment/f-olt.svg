@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<rect x="25" y="10" width="120" height="55" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="85" y="40" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">OLT</text>
+<line x1="5" y1="37" x2="25" y2="37" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="37" x2="18" y2="37" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="8" y="31" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">uplink</text>
+<line x1="145" y1="20" x2="195" y2="20" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="155" y1="20" x2="175" y2="20" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="145" y1="34" x2="195" y2="34" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="155" y1="34" x2="175" y2="34" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="145" y1="48" x2="195" y2="48" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="155" y1="48" x2="175" y2="48" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="145" y1="62" x2="195" y2="62" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="155" y1="62" x2="175" y2="62" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="193" y="14" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">PON 1</text>
+<text x="193" y="56" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">PON N</text>
+<text x="85" y="74" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">OLT</text>
+</svg>

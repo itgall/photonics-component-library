@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 90" width="200" height="90">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="30" x2="40" y2="30" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="5" y1="60" x2="40" y2="60" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="40" y="15" width="100" height="60" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<rect x="55" y="35" width="20" height="20" rx="2" fill="none" stroke="#000000" stroke-width="0.4"/>
+<text x="65" y="48" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">BS</text>
+<polygon points="110,21 120,25 110,29" fill="#333366" stroke="#000000" stroke-width="0.3" opacity="0.7"/>
+<line x1="120" y1="25" x2="135" y2="25" stroke="#000000" stroke-width="0.5"/>
+<polygon points="110,36 120,40 110,44" fill="#333366" stroke="#000000" stroke-width="0.3" opacity="0.7"/>
+<line x1="120" y1="40" x2="135" y2="40" stroke="#000000" stroke-width="0.5"/>
+<polygon points="110,51 120,55 110,59" fill="#333366" stroke="#000000" stroke-width="0.3" opacity="0.7"/>
+<line x1="120" y1="55" x2="135" y2="55" stroke="#000000" stroke-width="0.5"/>
+<polygon points="110,66 120,70 110,74" fill="#333366" stroke="#000000" stroke-width="0.3" opacity="0.7"/>
+<line x1="120" y1="70" x2="135" y2="70" stroke="#000000" stroke-width="0.5"/>
+<text x="8" y="24" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">A</text>
+<text x="8" y="54" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">B</text>
+<text x="133" y="19" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">D1</text>
+<text x="133" y="64" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">D4</text>
+<text x="90" y="86" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Bell state analyzer</text>
+</svg>

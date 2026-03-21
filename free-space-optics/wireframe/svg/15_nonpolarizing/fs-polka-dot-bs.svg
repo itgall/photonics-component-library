@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 75" width="110" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<path d="M38,8 L44,8 L68,62 L62,62 Z" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="60" cy="58" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="56" cy="48" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="60" cy="48" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="50" cy="30" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="63" cy="58" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="55" cy="39" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="51" cy="33" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="53" cy="34" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="56" cy="43" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="46" cy="16" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="56" cy="46" r="1.5" fill="#888888" opacity="0.3"/>
+<circle cx="60" cy="53" r="1.5" fill="#888888" opacity="0.3"/>
+<line x1="5" y1="48" x2="50" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="46" x2="30" y2="42" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="50" y1="35" x2="50" y2="5" stroke="#c0392b" stroke-width="0.6" opacity="0.35"/>
+<line x1="55" y1="38" x2="105" y2="52" stroke="#c0392b" stroke-width="0.6" opacity="0.35"/>
+<text x="55" y="72" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Polka-dot BS</text>
+</svg>

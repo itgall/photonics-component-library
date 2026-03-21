@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 90" width="200" height="90">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+</defs>
+<line x1="10" y1="45" x2="80" y2="45" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<path d="M80,45 C110,45 120,25 190,25" fill="none" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<path d="M80,45 C110,45 120,65 190,65" fill="none" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="8" y="39" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">in</text>
+<text x="192" y="19" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">1</text>
+<text x="192" y="75" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">2</text>
+<text x="100" y="85" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1×2 Splitter</text>
+</svg>

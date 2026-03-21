@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="160" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="20" x2="72" y2="20" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="88" y1="20" x2="155" y2="20" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="72" y1="12" x2="88" y2="28" stroke="#1a1a1a" stroke-width="0.75"/>
+<line x1="72" y1="28" x2="88" y2="12" stroke="#1a1a1a" stroke-width="0.75"/>
+<rect x="55" y="8" width="50" height="24" rx="3" fill="none" stroke="#1a1a1a" stroke-width="0.4" stroke-dasharray="2,2" opacity="0.4"/>
+<line x1="10" y1="20" x2="30" y2="20" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="80" y="38" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Fusion splice</text>
+</svg>

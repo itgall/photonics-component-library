@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70" width="140" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="prism-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#D8E0F0"/><stop offset="50%" stop-color="#E8F0FF"/><stop offset="100%" stop-color="#B0B8D0"/></linearGradient>
+</defs>
+<line x1="5" y1="35" x2="42" y2="35" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="10" y1="35" x2="28" y2="35" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<polygon points="45,10 50,10 55,60 45,60" fill="url(#prism-grad)" stroke="#000000" stroke-width="0.75"/>
+<polygon points="55,10 65,10 60,60 55,60" fill="url(#prism-grad)" stroke="#000000" stroke-width="0.75"/>
+<rect x="68" y="10" width="8" height="50" rx="1" fill="url(#prism-grad)" stroke="#000000" stroke-width="0.75"/>
+<line x1="48" y1="5" x2="62" y2="5" stroke="#000000" stroke-width="0.4" marker-end="url(#arrowhead)"/>
+<line x1="76" y1="35" x2="135" y2="35" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<text x="65" y="66" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Babinet-Soleil</text>
+</svg>

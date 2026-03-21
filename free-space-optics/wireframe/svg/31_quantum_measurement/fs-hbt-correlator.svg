@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="45" x2="55" y2="45" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="45" x2="35" y2="45" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="55" y="30" width="25" height="25" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="55" y1="55" x2="80" y2="30" stroke="#888888" stroke-width="0.4" opacity="0.3"/>
+<text x="67" y="45" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">50/50</text>
+<line x1="80" y1="42" x2="120" y2="42" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<rect x="123" y="34" width="16" height="16" rx="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.4" opacity="0.3"/>
+<text x="131" y="44" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">D₁</text>
+<line x1="67" y1="55" x2="67" y2="78" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<rect x="59" y="80" width="16" height="16" rx="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.4" opacity="0.3"/>
+<text x="67" y="90" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">D₂</text>
+<text x="8" y="40" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">source</text>
+<text x="145" y="50" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">g²(τ)</text>
+<text x="80" y="98" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">HBT correlator</text>
+</svg>

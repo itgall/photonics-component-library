@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70" width="220" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="35" x2="50" y2="35" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<path d="M50,35 C58,20 68,50 78,35 C88,20 98,50 108,35 C118,20 128,50 138,35 C148,20 158,50 168,35" fill="none" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="168" y1="35" x2="215" y2="35" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="200" y1="15" x2="200" y2="35" stroke="#CC3300" stroke-width="1.5"/>
+<polygon points="196,10 200,5 204,10 202,10 202,15 198,15 198,10" fill="#CC3300" opacity="0.7"/>
+<text x="208" y="10" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#CC3300" text-anchor="middle" font-weight="normal" font-style="normal">NL pump</text>
+<rect x="190" y="28" width="16" height="14" rx="1" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<text x="100" y="55" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">SBS</text>
+<text x="110" y="68" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Brillouin amplifier</text>
+</svg>

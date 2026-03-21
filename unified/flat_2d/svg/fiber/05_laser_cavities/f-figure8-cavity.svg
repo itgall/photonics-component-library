@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 100" width="220" height="100">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<ellipse cx="70" cy="50" rx="40" ry="30" fill="none" stroke="#1B1E89" stroke-width="2.5"/>
+<ellipse cx="150" cy="50" rx="40" ry="30" fill="none" stroke="#1B1E89" stroke-width="2.5"/>
+<circle cx="110" cy="50" r="4" fill="#D4D8E8" stroke="#000000" stroke-width="0.5"/>
+<path d="M145,22 C150,20 155,24 160,22" fill="none" stroke="#2D8B2D" stroke-width="1.5"/>
+<text x="152" y="18" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#2D8B2D" text-anchor="middle" font-weight="normal" font-style="normal">gain</text>
+<rect x="50" y="43" width="12" height="12" rx="1" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<polygon points="53,46 53,52 59,49" fill="#000000" opacity="0.4"/>
+<line x1="70" y1="80" x2="70" y2="96" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="76" y="94" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">out</text>
+<text x="110" y="96" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Figure-8 cavity</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 75" width="200" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="5" y="25" width="30" height="18" rx="2" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="20" y="37" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">laser</text>
+<line x1="35" y1="34" x2="55" y2="34" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<rect x="58" y="24" width="16" height="18" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<text x="66" y="36" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">S</text>
+<path d="M87.5,23.0 L87.5,45.0 C80,39.5 80,28.5 87.5,23.0 Z" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="95" y="22" width="5" height="22" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="97" y="18" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">NF</text>
+<rect x="110" y="12" width="55" height="42" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="130" y="20" width="6" height="22" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<rect x="148" y="18" width="12" height="18" fill="#101828" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="154" y="30" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">CCD</text>
+<line x1="88" y1="34" x2="110" y2="34" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<line x1="165" y1="33" x2="195" y2="33" stroke="#1a1a1a" stroke-width="0.4"/>
+<text x="100" y="68" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Raman spectrometer</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 55" width="140" height="55" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="15" y="8" width="60" height="35" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<ellipse cx="45" cy="25" rx="8" ry="12" fill="#888888" opacity="0.2" stroke="#1a1a1a" stroke-width="0.3"/>
+<circle cx="45" cy="25" r="3" fill="#888888" opacity="0.4"/>
+<text x="45" y="28" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Xe</text>
+<line x1="75" y1="25" x2="135" y2="25" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="75" y="50" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Xe arc lamp</text>
+</svg>

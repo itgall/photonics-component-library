@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 45" width="160" height="45">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="22" x2="35" y2="22" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="22" x2="20" y2="22" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="35" y="10" width="55" height="24" rx="2" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<path d="M88,10 C94,16 94,28 88,34" fill="none" stroke="#1a1a1a" stroke-width="0.75"/>
+<path d="M90,10 C96,16 96,28 90,34" fill="none" stroke="#888888" stroke-width="0.5" opacity="0.5"/>
+<line x1="96" y1="16" x2="155" y2="16" stroke="#c0392b" stroke-width="0.5" opacity="0.5"/>
+<line x1="96" y1="22" x2="155" y2="22" stroke="#c0392b" stroke-width="0.5" opacity="0.5"/>
+<line x1="96" y1="28" x2="155" y2="28" stroke="#c0392b" stroke-width="0.5" opacity="0.5"/>
+<line x1="39" y1="22" x2="88" y2="16" stroke="#888888" stroke-width="0.35" opacity="0.25"/>
+<line x1="39" y1="22" x2="88" y2="22" stroke="#888888" stroke-width="0.35" opacity="0.25"/>
+<line x1="39" y1="22" x2="88" y2="28" stroke="#888888" stroke-width="0.35" opacity="0.25"/>
+<text x="75" y="42" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Collimator</text>
+</svg>

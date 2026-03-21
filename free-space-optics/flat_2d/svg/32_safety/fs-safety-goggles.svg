@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 55" width="110" height="55" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<path d="M15,20 C15,12 25,8 35,10 L50,12 L55,12 L70,10 C80,8 90,12 90,20 L88,30 C85,38 75,40 65,38 L55,36 L50,36 L40,38 C30,40 20,38 17,30 Z" fill="#808088" stroke="#000000" stroke-width="0.75" opacity="0.5"/>
+<ellipse cx="35" cy="24" rx="16" ry="12" fill="#CC6600" stroke="#000000" stroke-width="0.4" opacity="0.3"/>
+<ellipse cx="70" cy="24" rx="16" ry="12" fill="#CC6600" stroke="#000000" stroke-width="0.4" opacity="0.3"/>
+<line x1="51" y1="22" x2="54" y2="22" stroke="#000000" stroke-width="0.5"/>
+<line x1="15" y1="22" x2="5" y2="18" stroke="#000000" stroke-width="0.5"/>
+<line x1="90" y1="22" x2="105" y2="18" stroke="#000000" stroke-width="0.5"/>
+<text x="52" y="42" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">OD5+</text>
+<text x="52" y="52" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Safety goggles</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 80" width="140" height="80" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="20" y="10" width="50" height="8" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<rect x="70" y="12" width="2" height="4" fill="#888888" opacity="0.4"/>
+<rect x="20" y="22" width="50" height="8" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<rect x="70" y="24" width="2" height="4" fill="#888888" opacity="0.4"/>
+<rect x="20" y="34" width="50" height="8" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<rect x="70" y="36" width="2" height="4" fill="#888888" opacity="0.4"/>
+<rect x="20" y="46" width="50" height="8" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<rect x="70" y="48" width="2" height="4" fill="#888888" opacity="0.4"/>
+<rect x="20" y="58" width="50" height="8" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<rect x="70" y="60" width="2" height="4" fill="#888888" opacity="0.4"/>
+<line x1="72" y1="14" x2="130" y2="14" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="72" y1="26" x2="130" y2="26" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="72" y1="38" x2="130" y2="38" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="72" y1="50" x2="130" y2="50" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="72" y1="62" x2="130" y2="62" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="10" y1="20" x2="10" y2="60" stroke="#888888" stroke-width="0.6"/>
+<line x1="10" y1="20" x2="20" y2="20" stroke="#888888" stroke-width="0.4"/>
+<line x1="10" y1="60" x2="20" y2="60" stroke="#888888" stroke-width="0.4"/>
+<text x="45" y="42" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">kW</text>
+<text x="70" y="76" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Diode stack</text>
+</svg>

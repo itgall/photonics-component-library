@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 75" width="130" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="prism-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#D8E0F0"/><stop offset="50%" stop-color="#E8F0FF"/><stop offset="100%" stop-color="#B0B8D0"/></linearGradient>
+<linearGradient id="grating-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C8C0A0"/><stop offset="100%" stop-color="#908860"/></linearGradient>
+</defs>
+<polygon points="40,12 40,58 80,58 68,12" fill="url(#prism-grad)" stroke="#000000" stroke-width="0.75"/>
+<line x1="40" y1="16" x2="38" y2="18" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="20" x2="38" y2="22" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="24" x2="38" y2="26" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="28" x2="38" y2="30" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="32" x2="38" y2="34" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="36" x2="38" y2="38" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="40" x2="38" y2="42" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="44" x2="38" y2="46" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="48" x2="38" y2="50" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="40" y1="52" x2="38" y2="54" stroke="#000000" stroke-width="0.3" opacity="0.4"/>
+<line x1="5" y1="35" x2="40" y2="35" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="10" y1="35" x2="28" y2="35" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="75" y1="35" x2="125" y2="25" stroke="#CC0000" stroke-width="0.5" opacity="0.4"/>
+<line x1="75" y1="35" x2="125" y2="35" stroke="#CC0000" stroke-width="0.5" opacity="0.5"/>
+<line x1="75" y1="35" x2="125" y2="45" stroke="#CC0000" stroke-width="0.5" opacity="0.4"/>
+<text x="65" y="70" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Grism</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" width="180" height="50" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="15" y="12" width="140" height="20" rx="4" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="15" y="16" width="4" height="12" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.3"/>
+<rect x="151" y="16" width="4" height="12" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="85" y1="32" x2="85" y2="42" stroke="#888888" stroke-width="0.5"/>
+<text x="92" y="40" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">N₂</text>
+<line x1="5" y1="22" x2="15" y2="22" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="7" y1="22" x2="12" y2="22" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="155" y1="22" x2="175" y2="22" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="85" y="48" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Purge tube</text>
+</svg>

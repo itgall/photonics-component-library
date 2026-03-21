@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="27" x2="40" y2="27" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="40" y="10" width="60" height="34" rx="2" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<rect x="48" y="16" width="20" height="22" rx="1" fill="GRADIENT" stroke="#000000" stroke-width="0.3"/>
+<rect x="48" y="12" width="20" height="4" rx="1" fill="#A0A0B0" stroke="#000000" stroke-width="0.3"/>
+<path d="M72,34 L72,18 L80,18 L80,34 L88,34 L88,18 L92,18" fill="none" stroke="#0066CC" stroke-width="0.5"/>
+<line x1="58" y1="10" x2="58" y2="4" stroke="#000000" stroke-width="0.5"/>
+<text x="65" y="4" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#0066CC" text-anchor="middle" font-weight="normal" font-style="normal">gate</text>
+<line x1="100" y1="27" x2="155" y2="27" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="70" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Pulse picker</text>
+</svg>

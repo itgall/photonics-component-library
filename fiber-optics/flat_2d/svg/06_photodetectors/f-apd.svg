@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 55" width="130" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="27" x2="35" y2="27" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="35" y="10" width="55" height="34" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<polygon points="72,16 72,38 52,27" fill="#333366" stroke="#000000" stroke-width="0.5" opacity="1"/>
+<line x1="52" y1="16" x2="52" y2="38" stroke="#000000" stroke-width="0.75"/>
+<line x1="62" y1="10" x2="62" y2="3" stroke="#000000" stroke-width="0.75"/>
+<text x="69" y="6" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">HV</text>
+<line x1="62" y1="44" x2="62" y2="52" stroke="#000000" stroke-width="0.75"/>
+<circle cx="100" cy="27" r="6" fill="none" stroke="#000000" stroke-width="0.5"/>
+<circle cx="100" cy="27" r="2" fill="#000000"/>
+<text x="65" y="53" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">APD</text>
+</svg>

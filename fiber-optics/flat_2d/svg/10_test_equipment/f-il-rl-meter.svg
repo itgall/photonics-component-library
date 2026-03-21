@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" width="160" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="30" x2="25" y2="30" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="25" y="8" width="90" height="42" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<rect x="32" y="14" width="55" height="20" rx="2" fill="#101828" stroke="#000000" stroke-width="0.3"/>
+<text x="60" y="28" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#00CC66" text-anchor="middle">0.35 dB</text>
+<text x="95" y="30" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">IL</text>
+<line x1="115" y1="30" x2="155" y2="30" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="80" y="58" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">IL/RL meter</text>
+</svg>

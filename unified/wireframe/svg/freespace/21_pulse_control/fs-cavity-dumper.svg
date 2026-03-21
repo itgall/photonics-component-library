@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 65" width="190" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="15" y1="18" x2="15" y2="48" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="15.0" y1="20.5" x2="20.0" y2="20.5" stroke="#888888" stroke-width="0.25"/>
+<line x1="15.0" y1="25.5" x2="20.0" y2="25.5" stroke="#888888" stroke-width="0.25"/>
+<line x1="15.0" y1="30.5" x2="20.0" y2="30.5" stroke="#888888" stroke-width="0.25"/>
+<line x1="15.0" y1="35.5" x2="20.0" y2="35.5" stroke="#888888" stroke-width="0.25"/>
+<line x1="15.0" y1="40.5" x2="20.0" y2="40.5" stroke="#888888" stroke-width="0.25"/>
+<line x1="15.0" y1="45.5" x2="20.0" y2="45.5" stroke="#888888" stroke-width="0.25"/>
+<line x1="155" y1="18" x2="155" y2="48" stroke="#1a1a1a" stroke-width="0.6"/>
+<line x1="157" y1="18" x2="157" y2="48" stroke="#1a1a1a" stroke-width="0.6"/>
+<rect x="65" y="18" width="35" height="28" rx="2" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="82" y="36" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">AO/EO</text>
+<line x1="82" y1="18" x2="82" y2="8" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="88" y="12" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">trigger</text>
+<line x1="17" y1="33" x2="65" y2="33" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<line x1="100" y1="33" x2="155" y2="33" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<line x1="82" y1="46" x2="82" y2="62" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="82" y1="50" x2="82" y2="58" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="90" y="58" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#c0392b" text-anchor="middle" font-weight="normal">output pulse</text>
+<text x="95" y="65" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Cavity dumper</text>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 70" width="120" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="35" x2="35" y2="35" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="35" y1="35" x2="42" y2="32" stroke="#CC0000" stroke-width="0.5" opacity="0.5"/>
+<line x1="35" y1="35" x2="42" y2="38" stroke="#CC0000" stroke-width="0.5" opacity="0.5"/>
+<rect x="42" y="12" width="50" height="46" rx="3" fill="#F0D8C0" stroke="#000" stroke-width="0.75"/>
+<path d="M47,24 C52,22 57,26 62,24 C67,22 72,26 77,24 C82,22 87,26 87,24" fill="none" stroke="#C8A080" stroke-width="0.5" opacity="0.5"/>
+<path d="M47,35 C52,33 57,37 62,35 C67,33 72,37 77,35 C82,33 87,37 87,35" fill="none" stroke="#C8A080" stroke-width="0.5" opacity="0.5"/>
+<path d="M47,46 C52,44 57,48 62,46 C67,44 72,48 77,46 C82,44 87,48 87,46" fill="none" stroke="#C8A080" stroke-width="0.5" opacity="0.5"/>
+<text x="67" y="66" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Sample</text>
+</svg>

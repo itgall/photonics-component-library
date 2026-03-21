@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<rect x="15" y="10" width="75" height="35" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<path d="M40,21 C50,19 60,23 70,21" fill="none" stroke="#c0392b" stroke-width="0.35" opacity="0.5"/>
+<path d="M40,24 C50,22 60,26 70,24" fill="none" stroke="#c0392b" stroke-width="0.35" opacity="0.5"/>
+<path d="M40,27 C50,25 60,29 70,27" fill="none" stroke="#c0392b" stroke-width="0.35" opacity="0.5"/>
+<path d="M40,30 C50,28 60,32 70,30" fill="none" stroke="#c0392b" stroke-width="0.35" opacity="0.5"/>
+<path d="M40,33 C50,31 60,35 70,33" fill="none" stroke="#c0392b" stroke-width="0.35" opacity="0.5"/>
+<text x="52" y="32" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">ASE</text>
+<line x1="90" y1="27" x2="155" y2="27" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="105" y1="27" x2="125" y2="27" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="75" y="52" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">ASE source</text>
+</svg>

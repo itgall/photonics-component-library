@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" width="150" height="60" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="30" x2="45" y2="30" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="30" x2="30" y2="30" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="48" y="10" width="40" height="38" rx="2" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="68" y="32" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">PbWO₄</text>
+<line x1="88" y1="30" x2="145" y2="30" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="98" y1="30" x2="132" y2="30" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="75" y="55" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PbWO4 (Raman)</text>
+</svg>

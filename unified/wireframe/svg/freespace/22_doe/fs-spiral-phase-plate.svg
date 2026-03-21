@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 80" width="110" height="80" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="40" x2="38" y2="40" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="10" y1="40" x2="25" y2="40" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<circle cx="55" cy="40" r="20" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M55,40 L55,22 A18,18 0 0,1 73,40 A18,18 0 0,1 55,58 A18,18 0 0,1 37,40 A18,18 0 0,1 50,23" fill="none" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<text x="55" y="42" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">l=1</text>
+<circle cx="92" cy="40" r="8" fill="none" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<circle cx="92" cy="40" r="3" fill="none" stroke="#c0392b" stroke-width="0.3" opacity="0.2"/>
+<text x="55" y="72" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Spiral phase plate</text>
+</svg>

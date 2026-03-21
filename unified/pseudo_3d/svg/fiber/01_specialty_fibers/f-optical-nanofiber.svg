@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 45" width="200" height="45">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+</defs>
+<line x1="10" y1="22" x2="50" y2="22" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<path d="M50,18 C65,20 65,20 80,21.5" fill="none" stroke="#000000" stroke-width="0.4"/>
+<path d="M50,26 C65,24 65,24 80,22.5" fill="none" stroke="#000000" stroke-width="0.4"/>
+<line x1="80" y1="22" x2="120" y2="22" stroke="#CC3300" stroke-width="0.3"/>
+<line x1="80" y1="22" x2="120" y2="22" stroke="#CC3300" stroke-width="4" opacity="0.08"/>
+<path d="M120,21.5 C135,20 135,20 150,18" fill="none" stroke="#000000" stroke-width="0.4"/>
+<path d="M120,22.5 C135,24 135,24 150,26" fill="none" stroke="#000000" stroke-width="0.4"/>
+<line x1="150" y1="22" x2="190" y2="22" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="100" y="14" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">~500 nm</text>
+<text x="100" y="40" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Optical nanofiber</text>
+</svg>

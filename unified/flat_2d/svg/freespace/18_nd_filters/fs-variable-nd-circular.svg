@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 65" width="110" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<line x1="5" y1="32" x2="44" y2="32" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="10" y1="32" x2="28" y2="32" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<rect x="47" y="8" width="10" height="48" rx="1" fill="#D0C8E0" stroke="#000000" stroke-width="0.75"/>
+<line x1="47" y1="12" x2="57" y2="12" stroke="#000000" stroke-width="1" opacity="0.05"/>
+<line x1="47" y1="14" x2="57" y2="14" stroke="#000000" stroke-width="1" opacity="0.07"/>
+<line x1="47" y1="16" x2="57" y2="16" stroke="#000000" stroke-width="1" opacity="0.10"/>
+<line x1="47" y1="18" x2="57" y2="18" stroke="#000000" stroke-width="1" opacity="0.12"/>
+<line x1="47" y1="20" x2="57" y2="20" stroke="#000000" stroke-width="1" opacity="0.15"/>
+<line x1="47" y1="22" x2="57" y2="22" stroke="#000000" stroke-width="1" opacity="0.17"/>
+<line x1="47" y1="24" x2="57" y2="24" stroke="#000000" stroke-width="1" opacity="0.19"/>
+<line x1="47" y1="26" x2="57" y2="26" stroke="#000000" stroke-width="1" opacity="0.22"/>
+<line x1="47" y1="28" x2="57" y2="28" stroke="#000000" stroke-width="1" opacity="0.24"/>
+<line x1="47" y1="30" x2="57" y2="30" stroke="#000000" stroke-width="1" opacity="0.27"/>
+<line x1="47" y1="32" x2="57" y2="32" stroke="#000000" stroke-width="1" opacity="0.29"/>
+<line x1="47" y1="34" x2="57" y2="34" stroke="#000000" stroke-width="1" opacity="0.31"/>
+<line x1="47" y1="36" x2="57" y2="36" stroke="#000000" stroke-width="1" opacity="0.34"/>
+<line x1="47" y1="38" x2="57" y2="38" stroke="#000000" stroke-width="1" opacity="0.36"/>
+<line x1="47" y1="40" x2="57" y2="40" stroke="#000000" stroke-width="1" opacity="0.39"/>
+<line x1="47" y1="42" x2="57" y2="42" stroke="#000000" stroke-width="1" opacity="0.41"/>
+<line x1="47" y1="44" x2="57" y2="44" stroke="#000000" stroke-width="1" opacity="0.43"/>
+<line x1="47" y1="46" x2="57" y2="46" stroke="#000000" stroke-width="1" opacity="0.46"/>
+<line x1="47" y1="48" x2="57" y2="48" stroke="#000000" stroke-width="1" opacity="0.48"/>
+<line x1="47" y1="50" x2="57" y2="50" stroke="#000000" stroke-width="1" opacity="0.51"/>
+<line x1="57" y1="32" x2="105" y2="32" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<text x="52" y="60" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Variable ND (circular)</text>
+</svg>

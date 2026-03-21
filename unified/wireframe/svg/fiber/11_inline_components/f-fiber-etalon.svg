@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" width="160" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="25" x2="45" y2="25" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<rect x="45" y="8" width="60" height="34" rx="2" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<line x1="60" y1="12" x2="60" y2="38" stroke="#1a1a1a" stroke-width="0.75"/>
+<line x1="90" y1="12" x2="90" y2="38" stroke="#1a1a1a" stroke-width="0.75"/>
+<line x1="65" y1="25" x2="85" y2="25" stroke="#c0392b" stroke-width="0.35"/>
+<polygon points="65,23 65,27 62,25" fill="#c0392b"/>
+<polygon points="85,23 85,27 88,25" fill="#c0392b"/>
+<line x1="105" y1="25" x2="155" y2="25" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="25" x2="30" y2="25" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="75" y="48" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">FFP etalon</text>
+</svg>

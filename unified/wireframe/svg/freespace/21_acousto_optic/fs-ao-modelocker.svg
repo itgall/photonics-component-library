@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" width="150" height="60" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="35" y="10" width="60" height="34" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="45" y="16" width="40" height="22" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.3"/>
+<rect x="52" y="10" width="20" height="4" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="62" y1="10" x2="62" y2="2" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="68" y="6" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">f_rep/2</text>
+<line x1="48" y1="20" x2="48" y2="34" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<line x1="53" y1="20" x2="53" y2="34" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<line x1="58" y1="20" x2="58" y2="34" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<line x1="63" y1="20" x2="63" y2="34" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<line x1="68" y1="20" x2="68" y2="34" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<line x1="73" y1="20" x2="73" y2="34" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<line x1="78" y1="20" x2="78" y2="34" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<line x1="5" y1="27" x2="35" y2="27" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="8" y1="27" x2="25" y2="27" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="95" y1="27" x2="145" y2="27" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="65" y="55" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">AO mode-locker</text>
+</svg>

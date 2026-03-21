@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 75" width="80" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<rect x="10" y="10" width="55" height="8" rx="2" fill="#808088" stroke="#000000" stroke-width="0.75"/>
+<rect x="10" y="50" width="55" height="8" rx="2" fill="#808088" stroke="#000000" stroke-width="0.75"/>
+<line x1="18" y1="18" x2="57" y2="50" stroke="#000000" stroke-width="0.6"/>
+<line x1="57" y1="18" x2="18" y2="50" stroke="#000000" stroke-width="0.6"/>
+<circle cx="37" cy="34" r="2" fill="#000000" opacity="0.3"/>
+<line x1="72" y1="18" x2="72" y2="50" stroke="#666666" stroke-width="0.4" marker-end="url(#arrowhead)"/>
+<line x1="72" y1="50" x2="72" y2="18" stroke="#666666" stroke-width="0.0"/>
+<text x="37" y="70" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Lab jack</text>
+</svg>

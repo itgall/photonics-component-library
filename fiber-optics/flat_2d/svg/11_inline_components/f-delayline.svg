@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="25" x2="30" y2="25" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<path d="M30,25 C35,8 50,8 55,25 C60,42 75,42 80,25 C85,8 100,8 105,25 C110,42 125,42 130,25 C135,8 150,8 155,25" fill="none" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="155" y1="25" x2="195" y2="25" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="100" y="48" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Delay line</text>
+</svg>

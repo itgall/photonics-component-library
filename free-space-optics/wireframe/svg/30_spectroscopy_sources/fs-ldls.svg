@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 55" width="170" height="55" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="15" y="8" width="90" height="33" rx="4" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="22" y="14" width="20" height="16" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="32" y="25" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">pump</text>
+<circle cx="65" cy="24" r="8" fill="#888888" opacity="0.2" stroke="#1a1a1a" stroke-width="0.3"/>
+<circle cx="65" cy="24" r="3" fill="#888888" opacity="0.4"/>
+<text x="65" y="27" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Xe</text>
+<line x1="105" y1="24" x2="165" y2="24" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="115" y1="24" x2="150" y2="24" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="85" y="50" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">LDLS source</text>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="160" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="20" x2="65" y2="20" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="95" y1="20" x2="155" y2="20" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="55" y="8" width="50" height="24" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75"/>
+<path d="M62,20 L70,14 L78,20 L86,14 L94,20" fill="none" stroke="#444444" stroke-width="0.5"/>
+<text x="80" y="38" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Mech. splice</text>
+</svg>

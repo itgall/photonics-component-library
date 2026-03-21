@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 70" width="130" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="35" x2="45" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="35" x2="30" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="48" y="8" width="18" height="52" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M50,12 C53,13 56,11 59,12 C62,13 64,11 64,12" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,16 C53,17 56,15 59,16 C62,17 64,15 64,16" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,20 C53,21 56,19 59,20 C62,21 64,19 64,20" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,24 C53,25 56,23 59,24 C62,25 64,23 64,24" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,28 C53,29 56,27 59,28 C62,29 64,27 64,28" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,32 C53,33 56,31 59,32 C62,33 64,31 64,32" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,36 C53,37 56,35 59,36 C62,37 64,35 64,36" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,40 C53,41 56,39 59,40 C62,41 64,39 64,40" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,44 C53,45 56,43 59,44 C62,45 64,43 64,44" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,48 C53,49 56,47 59,48 C62,49 64,47 64,48" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<path d="M50,52 C53,53 56,51 59,52 C62,53 64,51 64,52" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.3"/>
+<text x="57" y="6" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">VPH</text>
+<line x1="66" y1="35" x2="125" y2="20" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="66" y1="35" x2="125" y2="35" stroke="#c0392b" stroke-width="0.3" opacity="0.2"/>
+<text x="65" y="66" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">VPH grating</text>
+</svg>

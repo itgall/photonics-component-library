@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 80" width="180" height="80" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="crystal-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8D8F0"/><stop offset="100%" stop-color="#C0A8D0"/></linearGradient>
+</defs>
+<line x1="5" y1="40" x2="55" y2="40" stroke="#6600CC" stroke-width="0.8" opacity="0.5"/>
+<line x1="10" y1="40" x2="35" y2="40" stroke="#6600CC" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<rect x="58" y="16" width="35" height="48" rx="2" fill="url(#crystal-grad)" stroke="#000000" stroke-width="0.75"/>
+<text x="75" y="42" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#000000" text-anchor="middle" font-weight="normal">BBO</text>
+<text x="75" y="52" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">Type II</text>
+<path d="M93,40 C110,30 140,18 170,15" fill="none" stroke="#CC0000" stroke-width="0.5" opacity="0.4"/>
+<path d="M93,40 C110,50 140,62 170,65" fill="none" stroke="#CC0000" stroke-width="0.5" opacity="0.4"/>
+<path d="M93,40 C110,32 140,22 170,25" fill="none" stroke="#0066CC" stroke-width="0.5" opacity="0.4"/>
+<path d="M93,40 C110,48 140,58 170,55" fill="none" stroke="#0066CC" stroke-width="0.5" opacity="0.4"/>
+<circle cx="150" cy="20" r="2" fill="#CC0000" opacity="0.4"/>
+<circle cx="150" cy="60" r="2" fill="#CC0000" opacity="0.4"/>
+<text x="90" y="76" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">SPDC source (Type II)</text>
+</svg>

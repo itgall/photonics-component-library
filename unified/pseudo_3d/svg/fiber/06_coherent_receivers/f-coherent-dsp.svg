@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 55" width="130" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="8" width="85" height="38" rx="3" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<text x="57" y="30" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">DSP</text>
+<line x1="5" y1="18" x2="15" y2="18" stroke="#000000" stroke-width="0.3"/>
+<line x1="5" y1="26" x2="15" y2="26" stroke="#000000" stroke-width="0.3"/>
+<line x1="5" y1="34" x2="15" y2="34" stroke="#000000" stroke-width="0.3"/>
+<line x1="5" y1="42" x2="15" y2="42" stroke="#000000" stroke-width="0.3"/>
+<text x="3" y="14" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">ADC</text>
+<line x1="100" y1="27" x2="125" y2="27" stroke="#000000" stroke-width="0.5"/>
+<text x="123" y="21" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">data</text>
+<text x="57" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Coherent DSP</text>
+</svg>

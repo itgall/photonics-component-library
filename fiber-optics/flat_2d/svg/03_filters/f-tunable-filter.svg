@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="27" x2="45" y2="27" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="45" y="8" width="60" height="38" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<path d="M55,36 L62,35 L68,32 L72,18 L76,32 L82,35 L90,36" fill="none" stroke="#0066CC" stroke-width="0.5"/>
+<line x1="72" y1="8" x2="72" y2="2" stroke="#000000" stroke-width="0.5"/>
+<path d="M68,4 L76,4" fill="none" stroke="#000000" stroke-width="0.4" marker-end="url(#arrowhead)"/>
+<text x="80" y="5" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">tune</text>
+<line x1="105" y1="27" x2="155" y2="27" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="75" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Tunable filter</text>
+</svg>

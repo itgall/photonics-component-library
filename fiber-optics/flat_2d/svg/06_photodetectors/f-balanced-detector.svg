@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<polygon points="55,18 80,30 55,42" fill="#D4D8E8" stroke="#000000" stroke-width="0.75"/>
+<line x1="80" y1="18" x2="80" y2="42" stroke="#000000" stroke-width="0.75"/>
+<line x1="5" y1="30" x2="55" y2="30" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="80" y1="30" x2="110" y2="30" stroke="#000000" stroke-width="0.5"/>
+<text x="8" y="23" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">H</text>
+<polygon points="55,68 80,80 55,92" fill="#D4D8E8" stroke="#000000" stroke-width="0.75"/>
+<line x1="80" y1="68" x2="80" y2="92" stroke="#000000" stroke-width="0.75"/>
+<line x1="5" y1="80" x2="55" y2="80" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="80" y1="80" x2="110" y2="80" stroke="#000000" stroke-width="0.5"/>
+<text x="8" y="73" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">V</text>
+<line x1="110" y1="30" x2="110" y2="80" stroke="#000000" stroke-width="0.5"/>
+<circle cx="130" cy="55" r="9" fill="white" stroke="#000000" stroke-width="0.75"/>
+<line x1="126" y1="55" x2="134" y2="55" stroke="#000000" stroke-width="0.75"/>
+<line x1="110" y1="55" x2="121" y2="55" stroke="#000000" stroke-width="0.5"/>
+<line x1="139" y1="55" x2="185" y2="55" stroke="#000000" stroke-width="0.5"/>
+<text x="185" y="49" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">I_bal</text>
+<text x="100" y="112" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Balanced detectors</text>
+</svg>

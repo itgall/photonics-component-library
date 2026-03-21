@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 45" width="120" height="45">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="22" x2="25" y2="22" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="25" y="10" width="40" height="24" rx="2" fill="#A8A098" stroke="#000000" stroke-width="0.75"/>
+<circle cx="75" cy="22" r="12" fill="none" stroke="#000000" stroke-width="0.5"/>
+<circle cx="75" cy="22" r="8" fill="#D4D8E8" stroke="#000000" stroke-width="0.4"/>
+<line x1="69" y1="12" x2="72" y2="15" stroke="#000000" stroke-width="0.5"/>
+<line x1="81" y1="32" x2="78" y2="29" stroke="#000000" stroke-width="0.5"/>
+<line x1="87" y1="22" x2="90" y2="22" stroke="#000000" stroke-width="0.75"/>
+<text x="55" y="42" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">ST</text>
+</svg>

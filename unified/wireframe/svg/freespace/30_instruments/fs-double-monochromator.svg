@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70" width="220" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="15" y="8" width="85" height="45" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="110" y="8" width="85" height="45" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="50" y="18" width="8" height="22" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<rect x="145" y="18" width="8" height="22" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="103" y1="18" x2="103" y2="25" stroke="#1a1a1a" stroke-width="0.4"/>
+<line x1="103" y1="33" x2="103" y2="40" stroke="#1a1a1a" stroke-width="0.4"/>
+<line x1="5" y1="30" x2="15" y2="30" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="7" y1="30" x2="12" y2="30" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="195" y1="30" x2="215" y2="30" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="200" y1="30" x2="212" y2="30" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="57" y="15" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">G₁</text>
+<text x="152" y="15" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">G₂</text>
+<text x="103" y="15" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">slit</text>
+<text x="110" y="62" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Double monochromator</text>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="20" y="10" width="150" height="70" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<line x1="5" y1="35" x2="20" y2="35" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="8" y="28" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">Sig</text>
+<line x1="5" y1="55" x2="20" y2="55" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="8" y="48" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">LO</text>
+<rect x="40" y="25" width="40" height="40" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<text x="60" y="48" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">90°</text>
+<polygon points="100,24 112,30 100,36" fill="#D4D8E8" stroke="#000000" stroke-width="0.4"/>
+<line x1="112" y1="24" x2="112" y2="36" stroke="#000000" stroke-width="0.4"/>
+<line x1="80" y1="30" x2="100" y2="30" stroke="#000000" stroke-width="0.5"/>
+<line x1="112" y1="30" x2="165" y2="30" stroke="#000000" stroke-width="0.5"/>
+<text x="163" y="24" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">I</text>
+<polygon points="100,54 112,60 100,66" fill="#D4D8E8" stroke="#000000" stroke-width="0.4"/>
+<line x1="112" y1="54" x2="112" y2="66" stroke="#000000" stroke-width="0.4"/>
+<line x1="80" y1="60" x2="100" y2="60" stroke="#000000" stroke-width="0.5"/>
+<line x1="112" y1="60" x2="165" y2="60" stroke="#000000" stroke-width="0.5"/>
+<text x="163" y="54" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">Q</text>
+<line x1="170" y1="30" x2="195" y2="30" stroke="#000000" stroke-width="0.5"/>
+<line x1="170" y1="60" x2="195" y2="60" stroke="#000000" stroke-width="0.5"/>
+<text x="95" y="95" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Coherent receiver</text>
+</svg>

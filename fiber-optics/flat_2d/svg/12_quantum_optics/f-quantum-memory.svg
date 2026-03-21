@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="27" x2="30" y2="27" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="30" y="8" width="80" height="38" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<circle cx="70" cy="27" r="10" fill="none" stroke="#4488CC" stroke-width="0.4"/>
+<line x1="70" y1="27" x2="70" y2="20" stroke="#4488CC" stroke-width="0.4"/>
+<line x1="70" y1="27" x2="75" y2="30" stroke="#4488CC" stroke-width="0.4"/>
+<circle cx="50" cy="27" r="3" fill="#CC0000" opacity="0.3"/>
+<text x="50" y="20" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">|ψ⟩</text>
+<text x="95" y="20" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#4488CC" text-anchor="middle" font-weight="normal" font-style="normal">~mK</text>
+<line x1="110" y1="27" x2="155" y2="27" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="70" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Quantum memory</text>
+</svg>

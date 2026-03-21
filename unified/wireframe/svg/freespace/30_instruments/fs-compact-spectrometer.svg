@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 60" width="130" height="60" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="25" y="8" width="75" height="38" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="25" cy="27" r="5" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<line x1="5" y1="27" x2="20" y2="27" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<rect x="55" y="14" width="6" height="26" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<rect x="75" y="14" width="18" height="12" fill="#101828" stroke="#1a1a1a" stroke-width="0.3"/>
+<rect x="100" y="20" width="12" height="8" rx="1" fill="none" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="112" y1="24" x2="125" y2="24" stroke="#1a1a1a" stroke-width="0.4"/>
+<text x="62" y="54" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Compact spectrometer</text>
+</svg>

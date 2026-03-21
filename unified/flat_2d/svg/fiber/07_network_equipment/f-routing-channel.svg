@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="10" y="14" width="180" height="12" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.4"/>
+<line x1="10" y1="18" x2="190" y2="18" stroke="#1B1E89" stroke-width="0.7" opacity="0.4"/>
+<line x1="10" y1="20" x2="190" y2="20" stroke="#1B1E89" stroke-width="0.7" opacity="0.4"/>
+<line x1="10" y1="22" x2="190" y2="22" stroke="#1B1E89" stroke-width="0.7" opacity="0.4"/>
+<text x="100" y="35" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Routing channel</text>
+</svg>

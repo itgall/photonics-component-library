@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 50" width="150" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="25" x2="40" y2="25" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="40" y="8" width="60" height="34" rx="2" fill="#E0D8F0" stroke="#000000" stroke-width="0.75"/>
+<text x="70" y="29" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">φ</text>
+<line x1="70" y1="8" x2="70" y2="0" stroke="#000000" stroke-width="0.75"/>
+<text x="77" y="5" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">V</text>
+<line x1="100" y1="25" x2="145" y2="25" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="70" y="48" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Phase mod</text>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 70" width="200" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="31" x2="60" y2="31" stroke="GRADIENT" stroke-width="0.7" opacity="0.5"/>
+<line x1="5" y1="33" x2="60" y2="33" stroke="GRADIENT" stroke-width="0.7" opacity="0.5"/>
+<line x1="5" y1="35" x2="60" y2="35" stroke="GRADIENT" stroke-width="0.7" opacity="0.5"/>
+<line x1="5" y1="37" x2="60" y2="37" stroke="GRADIENT" stroke-width="0.7" opacity="0.5"/>
+<line x1="5" y1="39" x2="60" y2="39" stroke="GRADIENT" stroke-width="0.7" opacity="0.5"/>
+<path d="M55,25 L80,15 L80,55 L55,45 Z" fill="#404040" stroke="#000000" stroke-width="0.4" opacity="0.3"/>
+<line x1="80" y1="15" x2="195" y2="15" stroke="GRADIENT" stroke-width="3.0" opacity="0.5"/>
+<line x1="80" y1="27" x2="195" y2="27" stroke="GRADIENT" stroke-width="3.0" opacity="0.5"/>
+<line x1="80" y1="39" x2="195" y2="39" stroke="GRADIENT" stroke-width="3.0" opacity="0.5"/>
+<line x1="80" y1="51" x2="195" y2="51" stroke="GRADIENT" stroke-width="3.0" opacity="0.5"/>
+<line x1="80" y1="63" x2="195" y2="63" stroke="GRADIENT" stroke-width="3.0" opacity="0.5"/>
+<text x="100" y="66" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Furcation / breakout</text>
+</svg>

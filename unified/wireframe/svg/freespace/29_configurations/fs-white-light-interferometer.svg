@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 80" width="170" height="80" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="5" y="28" width="16" height="12" rx="2" fill="#888888" opacity="0.3" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="13" y="26" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">LED</text>
+<line x1="21" y1="34" x2="48" y2="34" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<rect x="50" y="22" width="20" height="20" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="60" y1="22" x2="60" y2="5" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<line x1="50" y1="2" x2="70" y2="2" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="52.5" y1="2.0" x2="52.5" y2="-3.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="57.5" y1="2.0" x2="57.5" y2="-3.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="62.5" y1="2.0" x2="62.5" y2="-3.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="67.5" y1="2.0" x2="67.5" y2="-3.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="70" y1="32" x2="110" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<path d="M112,20 C115,28 118,22 121,30 C124,35 127,25 130,32 C133,38 136,28 139,35" fill="none" stroke="#1a1a1a" stroke-width="0.6"/>
+<text x="125" y="16" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">surface</text>
+<line x1="60" y1="42" x2="60" y2="65" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<path d="M58.0,60.0 L58.0,76.0 C64,72.0 64,64.0 58.0,60.0 Z" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="53" y="72" width="14" height="6" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="85" y="74" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">White-light interferometer</text>
+</svg>

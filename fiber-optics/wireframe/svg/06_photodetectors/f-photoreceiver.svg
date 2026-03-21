@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="27" x2="30" y2="27" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="27" x2="20" y2="27" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="30" y="8" width="85" height="38" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<polygon points="60,16 60,38 40,27" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.4" opacity="0.3"/>
+<line x1="40" y1="16" x2="40" y2="38" stroke="#1a1a1a" stroke-width="0.5"/>
+<polygon points="72,18 72,36 95,27" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<line x1="65" y1="14" x2="65" y2="40" stroke="#888888" stroke-width="0.35" stroke-dasharray="1.5,1.5"/>
+<line x1="115" y1="27" x2="155" y2="27" stroke="#1a1a1a" stroke-width="0.35"/>
+<text x="153" y="21" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">V_out</text>
+<text x="72" y="52" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Photoreceiver</text>
+</svg>

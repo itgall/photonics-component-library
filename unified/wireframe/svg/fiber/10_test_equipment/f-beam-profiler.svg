@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 65" width="130" height="65">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="32" x2="25" y2="32" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="32" x2="18" y2="32" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="25" y="8" width="70" height="45" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<rect x="35" y="14" width="40" height="30" rx="2" fill="#101828" stroke="#1a1a1a" stroke-width="0.3"/>
+<circle cx="55" cy="29" r="12" fill="#c0392b" opacity="0.2" stroke="none"/>
+<circle cx="55" cy="29" r="8" fill="#c0392b" opacity="0.4" stroke="none"/>
+<circle cx="55" cy="29" r="4" fill="#c0392b" opacity="0.7" stroke="none"/>
+<text x="60" y="60" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Beam profiler</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 110" width="120" height="110" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<rect x="25" y="80" width="50" height="20" rx="3" fill="#404050" stroke="#000000" stroke-width="0.75"/>
+<text x="50" y="93" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#FFAA00" text-anchor="middle" font-weight="normal">589 nm</text>
+<path d="M50,55.5 C56,61.75 56,74.25 50,80.5 C44,74.25 44,61.75 50,55.5 Z" fill="#C8D8F0" stroke="#000000" stroke-width="0.75"/>
+<line x1="50" y1="55" x2="50" y2="8" stroke="#FFAA00" stroke-width="1" opacity="0.5"/>
+<line x1="50" y1="45" x2="50" y2="12" stroke="#FFAA00" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<circle cx="50" cy="6" r="5" fill="#FFAA00" opacity="0.2"/>
+<circle cx="50" cy="6" r="2" fill="#FFAA00" opacity="0.4"/>
+<text x="70" y="8" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">Na layer</text>
+<text x="60" y="108" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Laser guide star</text>
+</svg>

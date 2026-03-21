@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 90" width="200" height="90">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="10" y1="45" x2="80" y2="45" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<path d="M80,45 C110,45 120,25 190,25" fill="none" stroke="#333333" stroke-width="0.7" />
+<path d="M80,45 C110,45 120,65 190,65" fill="none" stroke="#333333" stroke-width="0.7" />
+<line x1="15" y1="45" x2="40" y2="45" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="150" y1="25" x2="170" y2="25" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="150" y1="65" x2="170" y2="65" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="8" y="39" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">in</text>
+<text x="192" y="19" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">1</text>
+<text x="192" y="75" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">2</text>
+<text x="100" y="85" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">1×2 Splitter</text>
+</svg>

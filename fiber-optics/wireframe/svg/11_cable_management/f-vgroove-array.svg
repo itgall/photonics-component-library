@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 50" width="150" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<rect x="40" y="12" width="60" height="20" rx="2" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M48,32 L50,26 L52,32" fill="none" stroke="#1a1a1a" stroke-width="0.3"/>
+<circle cx="50" cy="28" r="1.5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3"/>
+<path d="M58,32 L60,26 L62,32" fill="none" stroke="#1a1a1a" stroke-width="0.3"/>
+<circle cx="60" cy="28" r="1.5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3"/>
+<path d="M68,32 L70,26 L72,32" fill="none" stroke="#1a1a1a" stroke-width="0.3"/>
+<circle cx="70" cy="28" r="1.5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3"/>
+<path d="M78,32 L80,26 L82,32" fill="none" stroke="#1a1a1a" stroke-width="0.3"/>
+<circle cx="80" cy="28" r="1.5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3"/>
+<path d="M88,32 L90,26 L92,32" fill="none" stroke="#1a1a1a" stroke-width="0.3"/>
+<circle cx="90" cy="28" r="1.5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="5" y1="16" x2="40" y2="16" stroke="#333333" stroke-width="0.4"/>
+<line x1="5" y1="20" x2="40" y2="20" stroke="#333333" stroke-width="0.4"/>
+<line x1="5" y1="24" x2="40" y2="24" stroke="#333333" stroke-width="0.4"/>
+<line x1="5" y1="28" x2="40" y2="28" stroke="#333333" stroke-width="0.4"/>
+<line x1="5" y1="32" x2="40" y2="32" stroke="#333333" stroke-width="0.4"/>
+<text x="70" y="46" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">V-groove array</text>
+</svg>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 50" width="130" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="25" x2="25" y2="25" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="25" y="10" width="55" height="30" rx="2" fill="#808080" stroke="#000000" stroke-width="0.75"/>
+<line x1="30" y1="10" x2="31.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="30" y1="40" x2="31.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="33" y1="10" x2="34.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="33" y1="40" x2="34.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="36" y1="10" x2="37.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="36" y1="40" x2="37.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="39" y1="10" x2="40.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="39" y1="40" x2="40.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="42" y1="10" x2="43.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="42" y1="40" x2="43.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="45" y1="10" x2="46.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="45" y1="40" x2="46.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="48" y1="10" x2="49.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="48" y1="40" x2="49.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="51" y1="10" x2="52.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="51" y1="40" x2="52.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="54" y1="10" x2="55.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="54" y1="40" x2="55.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="57" y1="10" x2="58.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="57" y1="40" x2="58.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="60" y1="10" x2="61.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="60" y1="40" x2="61.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="63" y1="10" x2="64.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="63" y1="40" x2="64.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="66" y1="10" x2="67.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="66" y1="40" x2="67.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="69" y1="10" x2="70.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="69" y1="40" x2="70.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="72" y1="10" x2="73.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="72" y1="40" x2="73.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="75" y1="10" x2="76.5" y2="12" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<line x1="75" y1="40" x2="76.5" y2="38" stroke="#444444" stroke-width="0.25" opacity="0.35"/>
+<rect x="80" y="12" width="10" height="26" rx="1" fill="#A0A0B0" stroke="#000000" stroke-width="0.4" opacity="0.5"/>
+<line x1="80" y1="15" x2="90" y2="15" stroke="#000000" stroke-width="0.2" opacity="0.3"/>
+<line x1="80" y1="19" x2="90" y2="19" stroke="#000000" stroke-width="0.2" opacity="0.3"/>
+<line x1="80" y1="23" x2="90" y2="23" stroke="#000000" stroke-width="0.2" opacity="0.3"/>
+<line x1="80" y1="27" x2="90" y2="27" stroke="#000000" stroke-width="0.2" opacity="0.3"/>
+<line x1="80" y1="31" x2="90" y2="31" stroke="#000000" stroke-width="0.2" opacity="0.3"/>
+<line x1="80" y1="35" x2="90" y2="35" stroke="#000000" stroke-width="0.2" opacity="0.3"/>
+<line x1="92" y1="14" x2="92" y2="36" stroke="#000000" stroke-width="0.75"/>
+<text x="55" y="48" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">HP-SMA</text>
+</svg>

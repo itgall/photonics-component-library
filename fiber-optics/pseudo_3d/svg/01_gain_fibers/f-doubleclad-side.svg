@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="dc-clad-side-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0D8D0"/>
+      <stop offset="50%" stop-color="#B0A898"/>
+      <stop offset="100%" stop-color="#808070"/>
+    </linearGradient>
+</defs>
+<line x1="10" y1="20" x2="190" y2="20" stroke="url(#dc-clad-side-grad)" stroke-width="8" stroke-linecap="round"/>
+<line x1="10" y1="20" x2="190" y2="20" stroke="url(#fiber-grad)" stroke-width="3" stroke-linecap="round"/>
+<polygon points="12,10 18,13 12,13" fill="#CC3300" opacity="0.7"/>
+<polygon points="12,27 18,27 12,30" fill="#CC3300" opacity="0.7"/>
+<text x="100" y="10" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">DC fiber</text>
+</svg>

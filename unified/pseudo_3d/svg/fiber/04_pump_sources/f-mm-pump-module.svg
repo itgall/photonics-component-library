@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 65" width="180" height="65">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="diode-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8F0E0"/>
+      <stop offset="50%" stop-color="#D8C8A8"/>
+      <stop offset="100%" stop-color="#A89878"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="10" width="90" height="45" rx="3" fill="url(#diode-grad)" stroke="#000000" stroke-width="0.75"/>
+<polygon points="30,18 30,26 45,22" fill="#CC3300" stroke="#000000" stroke-width="0.3" opacity="0.7"/>
+<polygon points="30,28 30,36 45,32" fill="#CC3300" stroke="#000000" stroke-width="0.3" opacity="0.7"/>
+<polygon points="30,38 30,46 45,42" fill="#CC3300" stroke="#000000" stroke-width="0.3" opacity="0.7"/>
+<path d="M50,22 L70,32 M50,32 L70,32 M50,42 L70,32" fill="none" stroke="#000000" stroke-width="0.4"/>
+<line x1="105" y1="32" x2="175" y2="32" stroke="url(#fiber-grad)" stroke-width="5" stroke-linecap="round"/>
+<line x1="30" y1="10" x2="30" y2="3" stroke="#000000" stroke-width="0.75"/>
+<line x1="55" y1="10" x2="55" y2="3" stroke="#000000" stroke-width="0.75"/>
+<text x="140" y="24" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#CC3300" text-anchor="middle" font-weight="normal" font-style="normal">976 nm</text>
+<text x="90" y="62" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">MM pump module</text>
+</svg>

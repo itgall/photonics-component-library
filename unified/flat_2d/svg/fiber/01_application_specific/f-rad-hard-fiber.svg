@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="10" y1="20" x2="190" y2="20" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<circle cx="100" cy="10" r="4" fill="none" stroke="#CC9900" stroke-width="0.5"/>
+<circle cx="100.0" cy="7.5" r="1.2" fill="#CC9900" opacity="0.5"/>
+<circle cx="102.2" cy="11.2" r="1.2" fill="#CC9900" opacity="0.5"/>
+<circle cx="97.8" cy="11.2" r="1.2" fill="#CC9900" opacity="0.5"/>
+<text x="100" y="36" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Rad-hard fiber</text>
+</svg>

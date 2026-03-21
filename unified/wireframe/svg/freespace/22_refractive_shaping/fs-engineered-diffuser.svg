@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 70" width="120" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="35" x2="45" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="35" x2="28" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="48" y="8" width="10" height="54" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="58" y1="12" x2="58.9" y2="14" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="15" x2="57.1" y2="17" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="18" x2="57.8" y2="20" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="21" x2="57.7" y2="23" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="24" x2="59.2" y2="26" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="27" x2="59.0" y2="29" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="30" x2="59.7" y2="32" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="33" x2="57.3" y2="35" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="36" x2="58.3" y2="38" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="39" x2="57.1" y2="41" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="42" x2="57.7" y2="44" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="45" x2="58.5" y2="47" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="48" x2="57.1" y2="50" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="51" x2="57.6" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="54" x2="58.9" y2="56" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="57" x2="58.6" y2="59" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="35" x2="115" y2="15" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="19" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="23" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="27" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="31" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="35" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="39" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="43" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="47" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="51" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<line x1="58" y1="35" x2="115" y2="55" stroke="#c0392b" stroke-width="0.3" opacity="0.15"/>
+<text x="55" y="68" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Engineered diffuser</text>
+</svg>

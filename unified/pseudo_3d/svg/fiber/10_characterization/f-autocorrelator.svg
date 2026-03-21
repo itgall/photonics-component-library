@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 70" width="150" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="35" x2="25" y2="35" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="25" y="8" width="90" height="48" rx="3" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<rect x="32" y="14" width="60" height="28" rx="2" fill="#101828" stroke="#000000" stroke-width="0.3"/>
+<path d="M36,38 L42,37 L48,36 L54,32 L60,20 L66,32 L72,36 L78,37 L84,38 L88,38" fill="none" stroke="#00CC66" stroke-width="0.8"/>
+<text x="62" y="50" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">AC</text>
+<text x="70" y="66" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Autocorrelator</text>
+</svg>

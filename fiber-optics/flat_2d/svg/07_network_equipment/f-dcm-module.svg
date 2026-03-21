@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 65" width="160" height="65">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="25" y="10" width="90" height="40" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<ellipse cx="70" cy="30" rx="25" ry="12" fill="none" stroke="#444444" stroke-width="0.4"/>
+<ellipse cx="70" cy="30" rx="18" ry="9" fill="none" stroke="#444444" stroke-width="0.4"/>
+<ellipse cx="70" cy="30" rx="22" ry="10" fill="none" stroke="#1B1E89" stroke-width="2.5" opacity="0.3"/>
+<text x="70" y="45" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">DCF</text>
+<line x1="5" y1="30" x2="25" y2="30" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="115" y1="30" x2="155" y2="30" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="70" y="62" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">DCM module</text>
+</svg>

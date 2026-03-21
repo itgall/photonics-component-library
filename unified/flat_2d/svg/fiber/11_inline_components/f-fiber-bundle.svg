@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="10" y1="18" x2="190" y2="18" stroke="#1B1E89" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="10" y1="22" x2="190" y2="22" stroke="#1B1E89" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="10" y1="25" x2="190" y2="25" stroke="#1B1E89" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="10" y1="28" x2="190" y2="28" stroke="#1B1E89" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="10" y1="32" x2="190" y2="32" stroke="#1B1E89" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="10" y1="14" x2="190" y2="14" stroke="#444444" stroke-width="0.5" stroke-dasharray="4,3"/>
+<line x1="10" y1="36" x2="190" y2="36" stroke="#444444" stroke-width="0.5" stroke-dasharray="4,3"/>
+<text x="100" y="46" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Fiber bundle</text>
+</svg>

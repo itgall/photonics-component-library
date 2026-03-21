@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 70" width="150" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="8" width="90" height="48" rx="3" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<rect x="22" y="14" width="60" height="28" rx="2" fill="#101828" stroke="#000000" stroke-width="0.3"/>
+<path d="M26,36 L35,30 L45,31 L48,36 L50,28 L60,29 L70,30 L78,36" fill="none" stroke="#00CC66" stroke-width="0.8"/>
+<text x="52" y="50" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">OTDR</text>
+<line x1="105" y1="32" x2="145" y2="32" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="75" y="66" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">OTDR</text>
+</svg>

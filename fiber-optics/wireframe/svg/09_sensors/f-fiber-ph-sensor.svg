@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 55" width="140" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="27" x2="40" y2="27" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="27" x2="22" y2="27" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="40" y="10" width="50" height="34" rx="2" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<rect x="48" y="18" width="34" height="18" rx="2" fill="#888888" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<text x="65" y="30" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">pH</text>
+<line x1="90" y1="27" x2="135" y2="27" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<text x="65" y="52" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Fiber pH sensor</text>
+</svg>

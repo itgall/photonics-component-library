@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<path d="M10,25 C40,25 60,15 90,20 C120,25 140,35 170,25 L190,25" fill="none" stroke="#1B1E89" stroke-width="2.5"/>
+<circle cx="40" cy="30" r="3" fill="none" stroke="#000000" stroke-width="0.4"/>
+<circle cx="70" cy="29" r="3" fill="none" stroke="#000000" stroke-width="0.4"/>
+<circle cx="100" cy="23" r="3" fill="none" stroke="#000000" stroke-width="0.4"/>
+<circle cx="130" cy="20" r="3" fill="none" stroke="#000000" stroke-width="0.4"/>
+<circle cx="160" cy="23" r="3" fill="none" stroke="#000000" stroke-width="0.4"/>
+<text x="100" y="45" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Shape sensor (MCF)</text>
+</svg>

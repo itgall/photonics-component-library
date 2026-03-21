@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<circle cx="40" cy="40" r="36" fill="none" stroke="#1a1a1a" stroke-width="0.35"/>
+<circle cx="40" cy="40" r="28" fill="white" stroke="#1a1a1a" stroke-width="0.35"/>
+<circle cx="47.8" cy="35.5" r="2.5" fill="white" stroke="#888888" stroke-width="0.35"/>
+<circle cx="47.8" cy="44.5" r="2.5" fill="white" stroke="#888888" stroke-width="0.35"/>
+<circle cx="40.0" cy="49.0" r="2.5" fill="white" stroke="#888888" stroke-width="0.35"/>
+<circle cx="32.2" cy="44.5" r="2.5" fill="white" stroke="#888888" stroke-width="0.35"/>
+<circle cx="32.2" cy="35.5" r="2.5" fill="white" stroke="#888888" stroke-width="0.35"/>
+<circle cx="40.0" cy="31.0" r="2.5" fill="white" stroke="#888888" stroke-width="0.35"/>
+<circle cx="34" cy="40" r="4" fill="white" stroke="#888888" stroke-width="0.4"/>
+<circle cx="46" cy="40" r="4" fill="white" stroke="#888888" stroke-width="0.4"/>
+<circle cx="40" cy="40" r="2.5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.4"/>
+</svg>

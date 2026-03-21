@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 65" width="120" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="32" x2="42" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="32" x2="28" y2="32" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="45" y="6" width="10" height="50" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M46,10 C48,9 50,11 52,9 C53,10 54,11 54,10" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<path d="M46,15 C48,14 50,16 52,14 C53,15 54,16 54,15" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<path d="M46,20 C48,19 50,21 52,19 C53,20 54,21 54,20" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<path d="M46,25 C48,24 50,26 52,24 C53,25 54,26 54,25" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<path d="M46,30 C48,29 50,31 52,29 C53,30 54,31 54,30" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<path d="M46,35 C48,34 50,36 52,34 C53,35 54,36 54,35" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<path d="M46,40 C48,39 50,41 52,39 C53,40 54,41 54,40" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<path d="M46,45 C48,44 50,46 52,44 C53,45 54,46 54,45" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<path d="M46,50 C48,49 50,51 52,49 C53,50 54,51 54,50" fill="none" stroke="#888888" stroke-width="0.2" opacity="0.3"/>
+<line x1="55" y1="32" x2="115" y2="16" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<line x1="55" y1="32" x2="115" y2="20" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<line x1="55" y1="32" x2="115" y2="24" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<line x1="55" y1="32" x2="115" y2="28" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<line x1="55" y1="32" x2="115" y2="32" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<line x1="55" y1="32" x2="115" y2="36" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<line x1="55" y1="32" x2="115" y2="40" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<line x1="55" y1="32" x2="115" y2="44" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<line x1="55" y1="32" x2="115" y2="48" stroke="#c0392b" stroke-width="0.3" opacity="0.12"/>
+<text x="55" y="62" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Holographic diffuser</text>
+</svg>

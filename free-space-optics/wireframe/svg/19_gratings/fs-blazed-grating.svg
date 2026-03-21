@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 90" width="140" height="90" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="65" y="12" width="12" height="55" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M65,15 L63,18 L65,20" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,20 L63,23 L65,25" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,25 L63,28 L65,30" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,30 L63,33 L65,35" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,35 L63,38 L65,40" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,40 L63,43 L65,45" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,45 L63,48 L65,50" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,50 L63,53 L65,55" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,55 L63,58 L65,60" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<path d="M65,60 L63,63 L65,65" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.5"/>
+<line x1="5" y1="55" x2="65" y2="40" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="53" x2="35" y2="48" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="65" y1="40" x2="135" y2="20" stroke="#c0392b" stroke-width="0.5" opacity="0.4"/>
+<line x1="65" y1="40" x2="135" y2="35" stroke="#c0392b" stroke-width="0.7" opacity="0.6"/>
+<line x1="65" y1="40" x2="135" y2="50" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<text x="130" y="18" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">m=1</text>
+<text x="130" y="33" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">m=0</text>
+<text x="70" y="82" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Blazed grating</text>
+</svg>

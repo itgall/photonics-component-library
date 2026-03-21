@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<polygon points="55,18 80,30 55,42" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="80" y1="18" x2="80" y2="42" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="5" y1="30" x2="55" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="30" x2="28" y2="30" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="80" y1="30" x2="110" y2="30" stroke="#1a1a1a" stroke-width="0.35"/>
+<text x="8" y="23" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">H</text>
+<polygon points="55,68 80,80 55,92" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="80" y1="68" x2="80" y2="92" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="5" y1="80" x2="55" y2="80" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="80" x2="28" y2="80" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="80" y1="80" x2="110" y2="80" stroke="#1a1a1a" stroke-width="0.35"/>
+<text x="8" y="73" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">V</text>
+<line x1="110" y1="30" x2="110" y2="80" stroke="#1a1a1a" stroke-width="0.35"/>
+<circle cx="130" cy="55" r="9" fill="white" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="126" y1="55" x2="134" y2="55" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="110" y1="55" x2="121" y2="55" stroke="#1a1a1a" stroke-width="0.35"/>
+<line x1="139" y1="55" x2="185" y2="55" stroke="#1a1a1a" stroke-width="0.35"/>
+<text x="185" y="49" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">I_bal</text>
+<text x="100" y="112" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Balanced detectors</text>
+</svg>

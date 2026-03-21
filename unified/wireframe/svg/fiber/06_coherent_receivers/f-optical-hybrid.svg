@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 80" width="150" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="30" x2="35" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="5" y1="55" x2="35" y2="55" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="30" x2="20" y2="30" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="8" y1="55" x2="20" y2="55" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="35" y="15" width="55" height="55" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="62" y="45" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">90°</text>
+<line x1="90" y1="22" x2="145" y2="22" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="22" x2="125" y2="22" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="143" y="16" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">1</text>
+<line x1="90" y1="35" x2="145" y2="35" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="35" x2="125" y2="35" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="143" y="29" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">2</text>
+<line x1="90" y1="50" x2="145" y2="50" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="50" x2="125" y2="50" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="143" y="44" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">3</text>
+<line x1="90" y1="63" x2="145" y2="63" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="63" x2="125" y2="63" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="143" y="57" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">4</text>
+<text x="8" y="24" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">Sig</text>
+<text x="8" y="49" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">LO</text>
+<text x="75" y="78" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">90° hybrid</text>
+</svg>

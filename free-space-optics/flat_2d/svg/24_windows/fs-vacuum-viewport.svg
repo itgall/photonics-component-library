@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 65" width="120" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<rect x="30" y="5" width="40" height="48" rx="2" fill="#808088" stroke="#000000" stroke-width="0.75"/>
+<rect x="40" y="15" width="10" height="28" rx="1" fill="#C8D8F0" stroke="#000000" stroke-width="0.4"/>
+<ellipse cx="38" cy="29" rx="1.5" ry="8" fill="none" stroke="#000000" stroke-width="0.4" opacity="0.3"/>
+<circle cx="33" cy="10" r="2" fill="none" stroke="#000000" stroke-width="0.3" opacity="0.3"/>
+<circle cx="33" cy="22" r="2" fill="none" stroke="#000000" stroke-width="0.3" opacity="0.3"/>
+<circle cx="33" cy="36" r="2" fill="none" stroke="#000000" stroke-width="0.3" opacity="0.3"/>
+<circle cx="33" cy="48" r="2" fill="none" stroke="#000000" stroke-width="0.3" opacity="0.3"/>
+<line x1="5" y1="29" x2="30" y2="29" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="8" y1="29" x2="22" y2="29" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="70" y1="29" x2="115" y2="29" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<text x="60" y="60" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Vacuum viewport</text>
+</svg>

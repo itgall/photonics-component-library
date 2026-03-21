@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 70" width="170" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="8" width="100" height="48" rx="3" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<rect x="22" y="14" width="60" height="28" rx="2" fill="#101828" stroke="#000000" stroke-width="0.3"/>
+<path d="M26,36 L35,30 L42,28 L50,32 L58,26 L65,30 L72,24 L78,32" fill="none" stroke="#CC4444" stroke-width="0.7"/>
+<text x="95" y="35" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">DTS</text>
+<line x1="115" y1="32" x2="165" y2="32" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="163" y="26" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">sense</text>
+<text x="65" y="66" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">DTS interrogator</text>
+</svg>

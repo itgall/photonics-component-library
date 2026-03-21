@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 65" width="150" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<rect x="20" y="8" width="65" height="40" rx="3" fill="#808088" stroke="#000000" stroke-width="0.75"/>
+<rect x="25" y="12" width="55" height="32" rx="2" fill="none" stroke="#4488CC" stroke-width="0.4" stroke-dasharray="2,2"/>
+<text x="52" y="15" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#4488CC" text-anchor="middle" font-weight="normal">4 K</text>
+<circle cx="52" cy="28" r="3" fill="#FF6600" opacity="0.4" stroke="#000000" stroke-width="0.3"/>
+<text x="52" y="38" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">InAs/GaAs</text>
+<line x1="52" y1="0" x2="52" y2="8" stroke="#0066CC" stroke-width="0.5" opacity="0.4"/>
+<text x="58" y="5" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#0066CC" text-anchor="middle" font-weight="normal">pump</text>
+<line x1="85" y1="28" x2="145" y2="28" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="95" y1="28" x2="130" y2="28" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<text x="75" y="58" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">QD single-photon</text>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 70" width="170" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="35" x2="25" y2="35" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="25" y="8" width="110" height="48" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<rect x="32" y="14" width="75" height="28" rx="2" fill="#101828" stroke="#000000" stroke-width="0.3"/>
+<path d="M36,38 L42,36 L46,30 L48,20 L50,30 L56,36 L60,34 L62,22 L64,34 L70,36 L74,32 L76,18 L78,32 L84,36 L88,34 L90,24 L92,34 L98,38 L104,38" fill="none" stroke="#00CC66" stroke-width="0.6"/>
+<text x="115" y="35" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">OSA</text>
+<text x="80" y="66" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Optical spectrum analyzer</text>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60" width="180" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="30" x2="35" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<rect x="35" y="8" width="90" height="44" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M45,30 L55,18 L105,18 L115,30" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M45,30 L55,42 L105,42 L115,30" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="65" y="14" width="30" height="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.3"/>
+<rect x="65" y="22" width="30" height="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="80" y1="8" x2="80" y2="0" stroke="#1a1a1a" stroke-width="0.75"/>
+<text x="87" y="5" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">RF</text>
+<line x1="125" y1="30" x2="175" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="30" x2="28" y2="30" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="80" y="58" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">MZM</text>
+</svg>

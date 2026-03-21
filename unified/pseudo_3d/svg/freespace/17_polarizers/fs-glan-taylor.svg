@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 70" width="130" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="prism-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#D8E0F0"/><stop offset="50%" stop-color="#E8F0FF"/><stop offset="100%" stop-color="#B0B8D0"/></linearGradient>
+</defs>
+<polygon points="30,12 30,55 55,55 60,12" fill="url(#prism-grad)" stroke="#000000" stroke-width="0.75"/>
+<line x1="60" y1="12" x2="55" y2="55" stroke="#000000" stroke-width="0.35" stroke-dasharray="2,2"/>
+<polygon points="62,12 57,55 90,55 90,12" fill="url(#prism-grad)" stroke="#000000" stroke-width="0.75"/>
+<line x1="5" y1="33" x2="30" y2="33" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="8" y1="33" x2="20" y2="33" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="90" y1="33" x2="125" y2="33" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="95" y1="33" x2="115" y2="33" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="58" y1="35" x2="45" y2="60" stroke="#0066CC" stroke-width="0.4" opacity="0.3" stroke-dasharray="2,2"/>
+<text x="8" y="28" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#666666" text-anchor="middle" font-weight="normal">↕↔</text>
+<text x="118" y="28" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#CC0000" text-anchor="middle" font-weight="normal">↕</text>
+<text x="60" y="68" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Glan-Taylor</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="crystal-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8D8F0"/><stop offset="100%" stop-color="#C0A8D0"/></linearGradient>
+<linearGradient id="housing-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B0B0B8"/><stop offset="100%" stop-color="#707078"/></linearGradient>
+</defs>
+<rect x="20" y="15" width="6" height="26" rx="1" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.4"/>
+<text x="23" y="12" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#000000" text-anchor="middle" font-weight="normal">P₁</text>
+<rect x="50" y="12" width="60" height="32" rx="3" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.75"/>
+<rect x="60" y="18" width="40" height="20" rx="1" fill="url(#crystal-grad)" stroke="#000000" stroke-width="0.3"/>
+<line x1="80" y1="12" x2="80" y2="5" stroke="#000000" stroke-width="0.5"/>
+<text x="86" y="8" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">HV gate</text>
+<rect x="135" y="15" width="6" height="26" rx="1" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.4"/>
+<text x="138" y="12" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#000000" text-anchor="middle" font-weight="normal">P₂</text>
+<line x1="5" y1="28" x2="5" y2="28" stroke="#CC0000" stroke-width="1.5" opacity="0.3"/>
+<line x1="10" y1="28" x2="10" y2="28" stroke="#CC0000" stroke-width="1.5" opacity="0.3"/>
+<line x1="15" y1="28" x2="15" y2="28" stroke="#CC0000" stroke-width="1.5" opacity="0.3"/>
+<line x1="5" y1="28" x2="20" y2="28" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="8" y1="28" x2="16" y2="28" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="26" y1="28" x2="50" y2="28" stroke="#CC0000" stroke-width="0.8" opacity="0.3"/>
+<line x1="110" y1="28" x2="135" y2="28" stroke="#CC0000" stroke-width="0.8" opacity="0.3"/>
+<line x1="141" y1="28" x2="195" y2="28" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="155" y1="28" x2="185" y2="28" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<text x="100" y="55" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Pulse picker</text>
+</svg>

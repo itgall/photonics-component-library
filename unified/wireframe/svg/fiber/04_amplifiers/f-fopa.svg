@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70" width="220" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="35" x2="40" y2="35" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<rect x="40" y="28" width="20" height="14" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="50" y="38" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">WDM</text>
+<line x1="50" y1="14" x2="50" y2="28" stroke="#c0392b" stroke-width="1.5"/>
+<polygon points="46,9 50,4 54,9 52,9 52,14 48,14 48,9" fill="#c0392b" opacity="0.7"/>
+<text x="58" y="10" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#c0392b" text-anchor="middle" font-weight="normal" font-style="normal">Pump</text>
+<path d="M60,35 C68,22 78,48 88,35 C98,22 108,48 118,35 C128,22 138,48 148,35" fill="none" stroke="#333333" stroke-width="0.7" />
+<text x="105" y="58" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#888888" text-anchor="middle" font-weight="normal" font-style="normal">HNLF</text>
+<rect x="150" y="28" width="20" height="14" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="160" y="38" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">WDM</text>
+<line x1="170" y1="35" x2="215" y2="35" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="35" x2="25" y2="35" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="185" y1="35" x2="200" y2="35" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="110" y="68" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">FOPA</text>
+</svg>

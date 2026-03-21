@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="gain-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5DC85D"/>
+      <stop offset="25%" stop-color="#2D8B2D"/>
+      <stop offset="100%" stop-color="#145A14"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="27" x2="30" y2="27" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="30" y="22" width="14" height="10" rx="1" fill="GRADIENT" stroke="#000000" stroke-width="0.4"/>
+<line x1="37" y1="12" x2="37" y2="22" stroke="#CC3300" stroke-width="1"/>
+<polygon points="34,8 37,4 40,8" fill="#CC3300" opacity="0.7"/>
+<path d="M44,27 C52,18 62,36 72,27 C82,18 92,36 102,27 C112,18 122,36 130,27" fill="none" stroke="url(#gain-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="130" y1="27" x2="155" y2="27" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="80" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">EDFA gain block</text>
+</svg>

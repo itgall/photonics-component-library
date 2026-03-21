@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 60" width="130" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="30" x2="40" y2="30" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<circle cx="65" cy="30" r="18" fill="none" stroke="#000000" stroke-width="0.5"/>
+<path d="M65,30 L83.0,30.0 A18,18 0 0,1 76.6,43.8 Z" fill="#000000" opacity="0.3"/>
+<path d="M65,30 L56.0,45.6 A18,18 0 0,1 47.3,33.1 Z" fill="#000000" opacity="0.3"/>
+<path d="M65,30 L56.0,14.4 A18,18 0 0,1 71.2,13.1 Z" fill="#000000" opacity="0.3"/>
+<circle cx="65" cy="30" r="3" fill="#000000"/>
+<line x1="83" y1="30" x2="125" y2="30" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="65" y="56" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Chopper</text>
+</svg>

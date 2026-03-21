@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <radialGradient id="coating-grad" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FFD966"/>
+      <stop offset="60%" stop-color="#E8A820"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+  <radialGradient id="cladding-grad" cx="38%" cy="33%" r="52%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#D8DCE8"/>
+      <stop offset="100%" stop-color="#98A0B8"/>
+    </radialGradient>
+</defs>
+<circle cx="40" cy="40" r="36" fill="url(#coating-grad)" stroke="#000" stroke-width="0.75"/>
+<circle cx="40" cy="40" r="28" fill="url(#cladding-grad)" stroke="#000" stroke-width="0.5"/>
+<circle cx="40" cy="31" r="2.8" fill="#FFFFFF" stroke="#404060" stroke-width="0.4"/>
+<circle cx="47.8" cy="35.5" r="2.8" fill="#FFFFFF" stroke="#404060" stroke-width="0.4"/>
+<circle cx="47.8" cy="44.5" r="2.8" fill="#FFFFFF" stroke="#404060" stroke-width="0.4"/>
+<circle cx="40" cy="49" r="2.8" fill="#FFFFFF" stroke="#404060" stroke-width="0.4"/>
+<circle cx="32.2" cy="44.5" r="2.8" fill="#FFFFFF" stroke="#404060" stroke-width="0.4"/>
+<circle cx="32.2" cy="35.5" r="2.8" fill="#FFFFFF" stroke="#404060" stroke-width="0.4"/>
+<circle cx="40" cy="22.5" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="47.6" cy="26.2" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="55.2" cy="31.5" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="55.2" cy="40" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="55.2" cy="48.5" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="47.6" cy="53.8" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="40" cy="57.5" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="32.4" cy="53.8" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="24.8" cy="48.5" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="24.8" cy="40" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="24.8" cy="31.5" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="32.4" cy="26.2" r="2.5" fill="#FFFFFF" stroke="#404060" stroke-width="0.35"/>
+<circle cx="40" cy="40" r="3.5" fill="#B8BCE0" stroke="#1B1E89" stroke-width="0.5"/>
+</svg>

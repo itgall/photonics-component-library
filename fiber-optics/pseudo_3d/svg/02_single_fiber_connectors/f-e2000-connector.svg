@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 42" width="110" height="42">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="housing-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0D8C0"/>
+      <stop offset="50%" stop-color="#C0B898"/>
+      <stop offset="100%" stop-color="#908868"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="21" x2="22" y2="21" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="22" y="8" width="45" height="26" rx="2" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.75"/>
+<rect x="67" y="12" width="12" height="18" rx="1" fill="#A0A0B0" stroke="#000000" stroke-width="0.4"/>
+<path d="M70,16 L73,18 L70,20 L73,22 L70,24 L73,26" fill="none" stroke="#000000" stroke-width="0.3"/>
+<line x1="81" y1="12" x2="81" y2="30" stroke="#000000" stroke-width="0.75"/>
+<text x="45" y="40" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">E2000</text>
+</svg>

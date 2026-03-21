@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 70" width="110" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="55" y="12" width="14" height="46" rx="1" fill="#e8e8ec" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="55" y1="16" x2="69" y2="16" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="23" x2="69" y2="23" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="30" x2="69" y2="30" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="37" x2="69" y2="37" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="44" x2="69" y2="44" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="51" x2="69" y2="51" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="5" y1="35" x2="55" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="35" x2="30" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="55" y1="35" x2="5" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.0"/>
+<path d="M55,33 L30,20" fill="none" stroke="#c0392b" stroke-width="0.6" opacity="0.4" marker-end="url(#arrowhead-beam)"/>
+<text x="72" y="18" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">>99.9%R</text>
+<text x="50" y="68" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">HR dielectric</text>
+</svg>

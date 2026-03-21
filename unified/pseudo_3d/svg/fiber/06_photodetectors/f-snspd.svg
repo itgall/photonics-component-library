@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60" width="140" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="30" x2="30" y2="30" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="30" y="8" width="65" height="44" rx="3" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<path d="M40,18 L60,18 L60,24 L40,24 L40,30 L60,30 L60,36 L40,36 L40,42 L60,42" fill="none" stroke="#4488CC" stroke-width="0.5" opacity="0.6"/>
+<text x="78" y="28" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#4488CC" text-anchor="middle" opacity="0.5">❄</text>
+<text x="78" y="40" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#4488CC" text-anchor="middle" font-weight="normal" font-style="normal">~1 K</text>
+<line x1="95" y1="30" x2="135" y2="30" stroke="#000000" stroke-width="0.5"/>
+<text x="133" y="24" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">out</text>
+<text x="62" y="58" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">SNSPD</text>
+</svg>

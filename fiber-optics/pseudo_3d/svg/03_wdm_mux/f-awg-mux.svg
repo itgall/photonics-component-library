@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 90" width="180" height="90">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="45" x2="35" y2="45" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="35" y="10" width="90" height="70" rx="3" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<path d="M50,45 C65,30 85,30 110,45" fill="none" stroke="#444444" stroke-width="0.3" opacity="0.4"/>
+<path d="M50,45 C65,35 85,35 110,45" fill="none" stroke="#444444" stroke-width="0.3" opacity="0.4"/>
+<path d="M50,45 C65,40 85,40 110,45" fill="none" stroke="#444444" stroke-width="0.3" opacity="0.4"/>
+<path d="M50,45 C65,45 85,45 110,45" fill="none" stroke="#444444" stroke-width="0.3" opacity="0.4"/>
+<path d="M50,45 C65,50 85,50 110,45" fill="none" stroke="#444444" stroke-width="0.3" opacity="0.4"/>
+<path d="M50,45 C65,55 85,55 110,45" fill="none" stroke="#444444" stroke-width="0.3" opacity="0.4"/>
+<path d="M50,45 C65,60 85,60 110,45" fill="none" stroke="#444444" stroke-width="0.3" opacity="0.4"/>
+<text x="80" y="50" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">AWG</text>
+<line x1="125" y1="22" x2="175" y2="22" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="173" y="16" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">ch1</text>
+<line x1="125" y1="38" x2="175" y2="38" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="173" y="32" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">ch2</text>
+<line x1="125" y1="54" x2="175" y2="54" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="173" y="48" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">ch3</text>
+<line x1="125" y1="70" x2="175" y2="70" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="173" y="64" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">ch4</text>
+<text x="8" y="39" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">in</text>
+<text x="80" y="88" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">AWG mux/demux</text>
+</svg>

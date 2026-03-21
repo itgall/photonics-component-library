@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 70" width="170" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="35" x2="50" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="35" x2="30" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="50" y="12" width="60" height="44" rx="2" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="56" y1="15" x2="56" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="61" y1="15" x2="61" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="66" y1="15" x2="66" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="71" y1="15" x2="71" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="76" y1="15" x2="76" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="81" y1="15" x2="81" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="86" y1="15" x2="86" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="91" y1="15" x2="91" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="96" y1="15" x2="96" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="101" y1="15" x2="101" y2="53" stroke="#1a1a1a" stroke-width="0.3" opacity="0.3"/>
+<line x1="58" y1="32" x2="58" y2="38" stroke="#888888" stroke-width="0.3" marker-end="url(#arrowhead)" opacity="0.3"/>
+<line x1="68" y1="38" x2="68" y2="32" stroke="#888888" stroke-width="0.3" marker-end="url(#arrowhead)" opacity="0.3"/>
+<line x1="78" y1="32" x2="78" y2="38" stroke="#888888" stroke-width="0.3" marker-end="url(#arrowhead)" opacity="0.3"/>
+<line x1="88" y1="38" x2="88" y2="32" stroke="#888888" stroke-width="0.3" marker-end="url(#arrowhead)" opacity="0.3"/>
+<line x1="98" y1="32" x2="98" y2="38" stroke="#888888" stroke-width="0.3" marker-end="url(#arrowhead)" opacity="0.3"/>
+<line x1="110" y1="35" x2="165" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="120" y1="35" x2="150" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="80" y="8" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">Λ</text>
+<text x="85" y="65" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PPLN crystal</text>
+</svg>

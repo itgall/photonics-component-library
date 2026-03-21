@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 65" width="130" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="32" x2="35" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="10" y1="32" x2="25" y2="32" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="38" y="10" width="6" height="44" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="41" y="8" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">LP</text>
+<rect x="52" y="10" width="8" height="44" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="56" y="8" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">λ/4</text>
+<line x1="60" y1="32" x2="95" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<path d="M100,28 A5,5 0 1,1 100,37" fill="none" stroke="#888888" stroke-width="0.5" opacity="0.4" marker-end="url(#arrowhead-beam)"/>
+<text x="65" y="60" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Circular polarizer</text>
+</svg>

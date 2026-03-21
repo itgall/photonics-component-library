@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 45" width="110" height="45">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="8" width="80" height="23" rx="3" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<text x="55" y="24" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">DAC</text>
+<line x1="5" y1="22" x2="15" y2="22" stroke="#000000" stroke-width="0.5"/>
+<line x1="95" y1="22" x2="105" y2="22" stroke="#000000" stroke-width="0.5"/>
+<text x="8" y="16" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">in</text>
+<text x="102" y="16" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">out</text>
+<text x="55" y="41" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">DAC module</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 65" width="140" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="32" x2="40" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="32" x2="28" y2="32" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<polygon points="42,10 42,55 62,55 55,10" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<polygon points="68,10 75,55 95,55 95,10" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M52,8 A8,4 0 0,1 60,5" fill="none" stroke="#888888" stroke-width="0.4" marker-end="url(#arrowhead)"/>
+<path d="M85,8 A8,4 0 0,0 77,5" fill="none" stroke="#888888" stroke-width="0.4" marker-end="url(#arrowhead)"/>
+<line x1="95" y1="32" x2="135" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="105" y1="32" x2="125" y2="32" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="68" y="60" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">ADC</text>
+</svg>

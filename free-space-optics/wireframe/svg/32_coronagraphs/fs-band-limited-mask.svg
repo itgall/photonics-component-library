@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 70" width="120" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="35" x2="38" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="8" y1="35" x2="25" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="40" y1="15" x2="40" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.60"/>
+<line x1="41" y1="15" x2="41" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.59"/>
+<line x1="42" y1="15" x2="42" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.59"/>
+<line x1="43" y1="15" x2="43" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.58"/>
+<line x1="44" y1="15" x2="44" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.56"/>
+<line x1="45" y1="15" x2="45" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.54"/>
+<line x1="46" y1="15" x2="46" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.51"/>
+<line x1="47" y1="15" x2="47" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.48"/>
+<line x1="48" y1="15" x2="48" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.43"/>
+<line x1="49" y1="15" x2="49" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.37"/>
+<line x1="50" y1="15" x2="50" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.30"/>
+<line x1="51" y1="15" x2="51" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.23"/>
+<line x1="52" y1="15" x2="52" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.16"/>
+<line x1="53" y1="15" x2="53" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.10"/>
+<line x1="54" y1="15" x2="54" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.05"/>
+<line x1="55" y1="15" x2="55" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.01"/>
+<line x1="56" y1="15" x2="56" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.00"/>
+<line x1="57" y1="15" x2="57" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.01"/>
+<line x1="58" y1="15" x2="58" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.05"/>
+<line x1="59" y1="15" x2="59" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.10"/>
+<line x1="60" y1="15" x2="60" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.16"/>
+<line x1="61" y1="15" x2="61" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.23"/>
+<line x1="62" y1="15" x2="62" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.30"/>
+<line x1="63" y1="15" x2="63" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.37"/>
+<line x1="64" y1="15" x2="64" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.43"/>
+<line x1="65" y1="15" x2="65" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.48"/>
+<line x1="66" y1="15" x2="66" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.51"/>
+<line x1="67" y1="15" x2="67" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.54"/>
+<line x1="68" y1="15" x2="68" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.56"/>
+<line x1="69" y1="15" x2="69" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.58"/>
+<line x1="70" y1="15" x2="70" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.59"/>
+<line x1="71" y1="15" x2="71" y2="55" stroke="#1a1a1a" stroke-width="1" opacity="0.59"/>
+<rect x="40" y="15" width="32" height="40" fill="none" stroke="#1a1a1a" stroke-width="0.4"/>
+<line x1="72" y1="35" x2="115" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.35"/>
+<text x="56" y="10" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">apodized</text>
+<text x="60" y="66" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Band-limited mask</text>
+</svg>

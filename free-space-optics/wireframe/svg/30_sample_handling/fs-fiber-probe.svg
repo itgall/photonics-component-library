@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 55" width="150" height="55" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="10" y="18" width="40" height="16" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<ellipse cx="10" cy="26" rx="3" ry="6" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.3"/>
+<path d="M50,26 C60,26 70,20 80,22 C90,24 100,28 110,26 C120,24 130,26 145,26" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="7" y1="22" x2="0" y2="18" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="7" y1="26" x2="0" y2="26" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="7" y1="30" x2="0" y2="34" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<text x="75" y="50" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Fiber optic probe</text>
+</svg>

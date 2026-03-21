@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 90" width="140" height="90" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<path d="M95,15 C80,30 80,55 95,70" fill="none" stroke="#000000" stroke-width="1.5"/>
+<line x1="92.1" y1="18.4" x2="97.1" y2="15.4" stroke="#666666" stroke-width="0.3"/>
+<line x1="86.7" y1="25.3" x2="91.7" y2="22.3" stroke="#666666" stroke-width="0.3"/>
+<line x1="82.5" y1="32.2" x2="87.5" y2="29.2" stroke="#666666" stroke-width="0.3"/>
+<line x1="80.3" y1="39.1" x2="85.3" y2="36.1" stroke="#666666" stroke-width="0.3"/>
+<line x1="80.3" y1="45.9" x2="85.3" y2="42.9" stroke="#666666" stroke-width="0.3"/>
+<line x1="82.5" y1="52.8" x2="87.5" y2="49.8" stroke="#666666" stroke-width="0.3"/>
+<line x1="86.7" y1="59.7" x2="91.7" y2="56.7" stroke="#666666" stroke-width="0.3"/>
+<line x1="92.1" y1="66.6" x2="97.1" y2="63.6" stroke="#666666" stroke-width="0.3"/>
+<line x1="5" y1="28" x2="84.85737649588971" y2="28" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="5" y1="42" x2="80.00611710757715" y2="42" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="5" y1="56" x2="84.24302292861555" y2="56" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="85" y1="28" x2="50" y2="42" stroke="#CC0000" stroke-width="0.5" opacity="0.3"/>
+<line x1="80" y1="42" x2="50" y2="42" stroke="#CC0000" stroke-width="0.5" opacity="0.3"/>
+<line x1="84" y1="56" x2="50" y2="42" stroke="#CC0000" stroke-width="0.5" opacity="0.3"/>
+<circle cx="50" cy="42" r="2" fill="#CC0000" opacity="0.5"/>
+<text x="50" y="38" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#666666" text-anchor="middle" font-weight="normal">f</text>
+<text x="70" y="85" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Concave mirror</text>
+</svg>

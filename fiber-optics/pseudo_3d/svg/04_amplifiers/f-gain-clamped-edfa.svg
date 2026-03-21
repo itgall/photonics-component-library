@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 75" width="240" height="75">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="gain-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5DC85D"/>
+      <stop offset="25%" stop-color="#2D8B2D"/>
+      <stop offset="100%" stop-color="#145A14"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="37" x2="30" y2="37" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="30" y="30" width="14" height="14" rx="1" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<polygon points="33,33 33,41 41,37" fill="#000000" opacity="0.4"/>
+<path d="M44,37 C52,24 62,50 72,37 C82,24 92,50 102,37 C112,24 122,50 132,37" fill="none" stroke="url(#gain-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="136" y="30" width="14" height="14" rx="1" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<polygon points="139,33 139,41 147,37" fill="#000000" opacity="0.4"/>
+<line x1="150" y1="37" x2="235" y2="37" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<path d="M170,37 C170,15 50,15 50,37" fill="none" stroke="#CC3300" stroke-width="0.5" stroke-dasharray="3,2" opacity="0.4"/>
+<text x="110" y="12" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#CC3300" text-anchor="middle" font-weight="normal" font-style="normal">lasing ring</text>
+<line x1="88" y1="58" x2="88" y2="50" stroke="#CC3300" stroke-width="1"/>
+<polygon points="85,62 88,66 91,62" fill="#CC3300" opacity="0.7"/>
+<text x="96" y="64" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#CC3300" text-anchor="middle" font-weight="normal" font-style="normal">980 nm</text>
+<text x="120" y="72" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Gain-clamped EDFA</text>
+</svg>

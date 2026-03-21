@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 65" width="180" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="10" y1="18" x2="10" y2="48" stroke="#1a1a1a" stroke-width="0.4" stroke-dasharray="2,2"/>
+<text x="10" y="14" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">obj</text>
+<path d="M55,17.0 C63,25.0 63,41.0 55,49.0 C47,41.0 47,25.0 55,17.0 Z" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M120,17.0 C128,25.0 128,41.0 120,49.0 C112,41.0 112,25.0 120,17.0 Z" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="165" y1="18" x2="165" y2="48" stroke="#1a1a1a" stroke-width="0.4" stroke-dasharray="2,2"/>
+<text x="165" y="14" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">img</text>
+<path d="M10,22 L48,30 L62,30 L112,38 L128,38 L165,44" fill="none" stroke="#c0392b" stroke-width="0.3" opacity="0.2"/>
+<path d="M10,44 L48,36 L62,36 L112,28 L128,28 L165,22" fill="none" stroke="#c0392b" stroke-width="0.3" opacity="0.2"/>
+<text x="87" y="14" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">1:1</text>
+<text x="87" y="60" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Relay lens (4f)</text>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 55" width="150" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="27" x2="40" y2="27" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<rect x="40" y="10" width="60" height="34" rx="2" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<polygon points="55,16 55,38 85,38 85,16" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="55" y1="14" x2="55" y2="10" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="85" y1="14" x2="85" y2="10" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="70" y1="10" x2="70" y2="2" stroke="#1a1a1a" stroke-width="0.75"/>
+<text x="77" y="6" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">HV</text>
+<line x1="100" y1="27" x2="145" y2="27" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="27" x2="28" y2="27" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="70" y="52" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Pockels cell</text>
+</svg>

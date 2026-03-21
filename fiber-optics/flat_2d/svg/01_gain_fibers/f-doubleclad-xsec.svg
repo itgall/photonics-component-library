@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<circle cx="40" cy="40" r="36" fill="#C0A060" stroke="#000" stroke-width="0.75"/>
+<circle cx="40" cy="40" r="28" fill="#E8E0D0" stroke="#000" stroke-width="0.5"/>
+<circle cx="40" cy="40" r="18" fill="#D4D8E8" stroke="#000" stroke-width="0.5"/>
+<circle cx="40" cy="40" r="5.5" fill="#1B1E89" stroke="#000" stroke-width="0.5"/>
+<line x1="23" y1="28" x2="33" y2="38" stroke="#CC3300" stroke-width="0.5" opacity="0.6"/>
+<line x1="57" y1="52" x2="47" y2="42" stroke="#CC3300" stroke-width="0.5" opacity="0.6"/>
+</svg>

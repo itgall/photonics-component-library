@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 65" width="110" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="32" x2="44" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="10" y1="32" x2="28" y2="32" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="47" y="8" width="10" height="48" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M49,44 L50,44 L50.5,16 L56,16" fill="none" stroke="#c0392b" stroke-width="0.5"/>
+<line x1="57" y1="32" x2="105" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="52" y="60" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Raman edge filter</text>
+</svg>

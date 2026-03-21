@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="20" y="10" width="140" height="50" rx="10" fill="none" stroke="#1B1E89" stroke-width="2.5"/>
+<rect x="55" y="6" width="40" height="8" rx="2" fill="#2D8B2D" stroke="#000000" stroke-width="0.4" opacity="0.4"/>
+<text x="75" y="12" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">gain</text>
+<rect x="65" y="56" width="25" height="8" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.4"/>
+<text x="77" y="62" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">SA</text>
+<rect x="153" y="28" width="10" height="10" rx="1" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<polygon points="155,30 155,36 161,33" fill="#000000" opacity="0.3"/>
+<circle cx="28" cy="35" r="2.5" fill="#000000"/>
+<line x1="28" y1="38" x2="28" y2="70" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="34" y="68" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">out</text>
+<line x1="75" y1="0" x2="75" y2="6" stroke="#CC3300" stroke-width="1"/>
+<polygon points="72,-3 75,-6 78,-3" fill="#CC3300" opacity="0.7"/>
+<text x="100" y="78" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">ML oscillator</text>
+</svg>

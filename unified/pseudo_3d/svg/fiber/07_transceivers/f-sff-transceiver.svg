@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 45" width="130" height="45">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="8" width="65" height="26" rx="2" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75"/>
+<rect x="80" y="12" width="8" height="8" rx="1" fill="#000000" opacity="0.3"/>
+<rect x="80" y="24" width="8" height="8" rx="1" fill="#000000" opacity="0.3"/>
+<line x1="88" y1="16" x2="125" y2="16" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="88" y1="28" x2="125" y2="28" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="5" y="12" width="10" height="16" fill="#000000" opacity="0.2"/>
+<text x="47" y="24" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">SFF</text>
+<text x="60" y="42" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">SFF transceiver</text>
+</svg>

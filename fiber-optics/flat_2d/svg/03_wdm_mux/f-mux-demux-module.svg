@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 90" width="200" height="90">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="15" y="10" width="50" height="65" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<text x="40" y="45" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">MUX</text>
+<line x1="5" y1="20" x2="15" y2="20" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="5" y1="35" x2="15" y2="35" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="5" y1="50" x2="15" y2="50" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="5" y1="65" x2="15" y2="65" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="65" y1="42" x2="115" y2="42" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="115" y="10" width="50" height="65" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<text x="140" y="45" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">DEMUX</text>
+<line x1="165" y1="20" x2="195" y2="20" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="165" y1="35" x2="195" y2="35" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="165" y1="50" x2="195" y2="50" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="165" y1="65" x2="195" y2="65" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="100" y="86" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">MUX/DEMUX module</text>
+</svg>

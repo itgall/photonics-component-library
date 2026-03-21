@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 50" width="130" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="15" y="8" width="85" height="32" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<line x1="40" y1="24" x2="55" y2="16" stroke="#000000" stroke-width="0.75"/>
+<circle cx="40" cy="24" r="2" fill="#000000"/>
+<circle cx="60" cy="24" r="2" fill="none" stroke="#000000" stroke-width="0.5"/>
+<circle cx="80" cy="24" r="5" fill="#CC4444" opacity="0.3" stroke="#000000" stroke-width="0.3"/>
+<line x1="5" y1="24" x2="15" y2="24" stroke="#000000" stroke-width="0.5"/>
+<line x1="100" y1="24" x2="125" y2="24" stroke="#000000" stroke-width="0.5"/>
+<text x="8" y="18" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">door</text>
+<text x="123" y="18" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">enable</text>
+<text x="57" y="48" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Safety interlock</text>
+</svg>

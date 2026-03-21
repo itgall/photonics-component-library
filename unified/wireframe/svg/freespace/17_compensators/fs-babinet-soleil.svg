@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70" width="140" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="35" x2="42" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="10" y1="35" x2="28" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<polygon points="45,10 50,10 55,60 45,60" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<polygon points="55,10 65,10 60,60 55,60" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="68" y="10" width="8" height="50" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="48" y1="5" x2="62" y2="5" stroke="#1a1a1a" stroke-width="0.4" marker-end="url(#arrowhead)"/>
+<line x1="76" y1="35" x2="135" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="65" y="66" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Babinet-Soleil</text>
+</svg>

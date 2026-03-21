@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 65" width="150" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="15" y="8" width="60" height="40" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="75" y="18" width="3" height="22" fill="#888888" opacity="0.4" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="78" y1="20" x2="140" y2="20" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="78" y1="23" x2="140" y2="23" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="78" y1="26" x2="140" y2="26" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="78" y1="29" x2="140" y2="29" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="78" y1="32" x2="140" y2="32" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="78" y1="35" x2="140" y2="35" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<rect x="10" y="48" width="70" height="8" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<text x="45" y="32" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">20-120W</text>
+<text x="75" y="60" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Diode laser bar</text>
+</svg>

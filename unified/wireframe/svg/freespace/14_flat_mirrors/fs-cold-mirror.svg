@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 75" width="120" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<path d="M48,8 L54,8 L72,62 L66,62 Z" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="5" y1="48" x2="56" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="46" x2="32" y2="42" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="56" y1="35" x2="56" y2="5" stroke="#c0392b" stroke-width="0.5" opacity="0.4"/>
+<text x="62" y="10" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#c0392b" text-anchor="middle" font-weight="normal">VIS</text>
+<line x1="60" y1="38" x2="115" y2="52" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="105" y="48" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#c0392b" text-anchor="middle" font-weight="normal">IR</text>
+<text x="60" y="72" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Cold mirror</text>
+</svg>

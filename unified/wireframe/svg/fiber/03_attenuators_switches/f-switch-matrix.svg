@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<rect x="35" y="10" width="75" height="75" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="72" y="50" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">N×N</text>
+<line x1="5" y1="22" x2="35" y2="22" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="22" x2="155" y2="22" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="22" x2="22" y2="22" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="120" y1="22" x2="140" y2="22" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="5" y1="40" x2="35" y2="40" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="40" x2="155" y2="40" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="40" x2="22" y2="40" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="120" y1="40" x2="140" y2="40" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="5" y1="58" x2="35" y2="58" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="58" x2="155" y2="58" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="58" x2="22" y2="58" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="120" y1="58" x2="140" y2="58" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="5" y1="76" x2="35" y2="76" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="76" x2="155" y2="76" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="76" x2="22" y2="76" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="120" y1="76" x2="140" y2="76" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<circle cx="48" cy="22" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="48" cy="40" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="48" cy="58" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="48" cy="76" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="64" cy="22" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="64" cy="40" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="64" cy="58" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="64" cy="76" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="80" cy="22" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="80" cy="40" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="80" cy="58" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="80" cy="76" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="96" cy="22" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="96" cy="40" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="96" cy="58" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<circle cx="96" cy="76" r="1.5" fill="#1a1a1a" opacity="0.2"/>
+<text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Switch matrix</text>
+</svg>

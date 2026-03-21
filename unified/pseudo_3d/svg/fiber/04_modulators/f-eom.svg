@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 55" width="170" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="eom-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0E8F8"/>
+      <stop offset="50%" stop-color="#C0B0D8"/>
+      <stop offset="100%" stop-color="#8878A0"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="30" x2="45" y2="30" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="45" y="12" width="70" height="36" rx="2" fill="url(#eom-grad)" stroke="#000" stroke-width="0.75"/>
+<rect x="55" y="12" width="40" height="4" fill="#A0A0B0" stroke="#000000" stroke-width="0.3"/>
+<rect x="55" y="44" width="40" height="4" fill="#A0A0B0" stroke="#000000" stroke-width="0.3"/>
+<line x1="65" y1="16" x2="65" y2="44" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3"/>
+<line x1="75" y1="16" x2="75" y2="44" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3"/>
+<line x1="85" y1="16" x2="85" y2="44" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3"/>
+<line x1="75" y1="12" x2="75" y2="0" stroke="#000000" stroke-width="0.75"/>
+<text x="82" y="5" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">V(t)</text>
+<line x1="115" y1="30" x2="165" y2="30" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="80" y="53" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">EOM</text>
+</svg>

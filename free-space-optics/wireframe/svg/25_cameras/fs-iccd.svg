@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 65" width="160" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="32" x2="30" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="8" y1="32" x2="20" y2="32" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="33" y="8" width="85" height="48" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="36" y="15" width="5" height="28" fill="#AA8800" opacity="0.3" stroke="#1a1a1a" stroke-width="0.3"/>
+<rect x="48" y="15" width="8" height="28" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="48" y1="17" x2="56" y2="17" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="48" y1="20" x2="56" y2="20" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="48" y1="23" x2="56" y2="23" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="48" y1="26" x2="56" y2="26" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="48" y1="29" x2="56" y2="29" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="48" y1="32" x2="56" y2="32" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="48" y1="35" x2="56" y2="35" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="48" y1="38" x2="56" y2="38" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="48" y1="41" x2="56" y2="41" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="63" y="15" width="3" height="28" fill="#00AA44" opacity="0.15"/>
+<rect x="73" y="15" width="20" height="28" fill="#101828" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="50" y="50" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">MCP</text>
+<text x="83" y="50" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">CCD</text>
+<line x1="118" y1="32" x2="155" y2="32" stroke="#1a1a1a" stroke-width="0.4"/>
+<text x="80" y="62" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">ICCD camera</text>
+</svg>

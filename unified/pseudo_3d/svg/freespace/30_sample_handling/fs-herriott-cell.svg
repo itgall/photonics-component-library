@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 75" width="180" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<path d="M30,15 C22,30 22,45 30,60" fill="none" stroke="#000000" stroke-width="1.5"/>
+<path d="M145,15 C153,30 153,45 145,60" fill="none" stroke="#000000" stroke-width="1.5"/>
+<line x1="28" y1="19" x2="24" y2="17" stroke="#666666" stroke-width="0.3"/>
+<line x1="147" y1="19" x2="151" y2="17" stroke="#666666" stroke-width="0.3"/>
+<line x1="24" y1="26" x2="20" y2="24" stroke="#666666" stroke-width="0.3"/>
+<line x1="151" y1="26" x2="155" y2="24" stroke="#666666" stroke-width="0.3"/>
+<line x1="22" y1="34" x2="18" y2="32" stroke="#666666" stroke-width="0.3"/>
+<line x1="153" y1="34" x2="157" y2="32" stroke="#666666" stroke-width="0.3"/>
+<line x1="22" y1="41" x2="18" y2="39" stroke="#666666" stroke-width="0.3"/>
+<line x1="153" y1="41" x2="157" y2="39" stroke="#666666" stroke-width="0.3"/>
+<line x1="24" y1="49" x2="20" y2="47" stroke="#666666" stroke-width="0.3"/>
+<line x1="151" y1="49" x2="155" y2="47" stroke="#666666" stroke-width="0.3"/>
+<line x1="28" y1="56" x2="24" y2="54" stroke="#666666" stroke-width="0.3"/>
+<line x1="147" y1="56" x2="151" y2="54" stroke="#666666" stroke-width="0.3"/>
+<path d="M5,30 L30,30 L145,22 L30,38 L145,30 L30,46 L145,38 L30,54 L145,46 L175,46" fill="none" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="8" y1="30" x2="20" y2="30" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<circle cx="30" cy="30" r="2" fill="none" stroke="#000000" stroke-width="0.3"/>
+<circle cx="145" cy="46" r="2" fill="none" stroke="#000000" stroke-width="0.3"/>
+<line x1="88" y1="0" x2="88" y2="8" stroke="#000000" stroke-width="0.4"/>
+<text x="88" y="5" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">gas</text>
+<text x="88" y="72" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Herriott cell</text>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 50" width="150" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="40" y="12" width="60" height="20" rx="2" fill="GRADIENT" stroke="#000000" stroke-width="0.75"/>
+<path d="M48,32 L50,26 L52,32" fill="none" stroke="#000000" stroke-width="0.3"/>
+<circle cx="50" cy="28" r="1.5" fill="GRADIENT" stroke="#000000" stroke-width="0.3"/>
+<path d="M58,32 L60,26 L62,32" fill="none" stroke="#000000" stroke-width="0.3"/>
+<circle cx="60" cy="28" r="1.5" fill="GRADIENT" stroke="#000000" stroke-width="0.3"/>
+<path d="M68,32 L70,26 L72,32" fill="none" stroke="#000000" stroke-width="0.3"/>
+<circle cx="70" cy="28" r="1.5" fill="GRADIENT" stroke="#000000" stroke-width="0.3"/>
+<path d="M78,32 L80,26 L82,32" fill="none" stroke="#000000" stroke-width="0.3"/>
+<circle cx="80" cy="28" r="1.5" fill="GRADIENT" stroke="#000000" stroke-width="0.3"/>
+<path d="M88,32 L90,26 L92,32" fill="none" stroke="#000000" stroke-width="0.3"/>
+<circle cx="90" cy="28" r="1.5" fill="GRADIENT" stroke="#000000" stroke-width="0.3"/>
+<line x1="5" y1="16" x2="40" y2="16" stroke="GRADIENT" stroke-width="0.8"/>
+<line x1="5" y1="20" x2="40" y2="20" stroke="GRADIENT" stroke-width="0.8"/>
+<line x1="5" y1="24" x2="40" y2="24" stroke="GRADIENT" stroke-width="0.8"/>
+<line x1="5" y1="28" x2="40" y2="28" stroke="GRADIENT" stroke-width="0.8"/>
+<line x1="5" y1="32" x2="40" y2="32" stroke="GRADIENT" stroke-width="0.8"/>
+<text x="70" y="46" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">V-groove array</text>
+</svg>

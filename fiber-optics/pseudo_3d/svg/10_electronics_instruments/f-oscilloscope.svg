@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 65" width="150" height="65">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="8" width="95" height="42" rx="3" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<rect x="22" y="14" width="60" height="24" rx="2" fill="#101828" stroke="#000000" stroke-width="0.3"/>
+<path d="M26,30 L30,30 L32,18 L36,18 L38,30 L46,30 L48,18 L52,18 L54,30 L62,30 L64,18 L68,18 L70,30 L78,30" fill="none" stroke="#00CC66" stroke-width="0.7"/>
+<line x1="110" y1="30" x2="145" y2="30" stroke="#000000" stroke-width="0.5"/>
+<text x="143" y="24" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">CH1</text>
+<text x="62" y="62" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Oscilloscope</text>
+</svg>

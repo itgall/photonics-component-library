@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" width="100" height="110" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="housing-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B0B0B8"/><stop offset="100%" stop-color="#707078"/></linearGradient>
+<linearGradient id="lens-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#D0E0F8"/><stop offset="50%" stop-color="#E8F0FF"/><stop offset="100%" stop-color="#B8C8E0"/></linearGradient>
+</defs>
+<rect x="25" y="5" width="45" height="65" rx="3" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.75"/>
+<line x1="47" y1="0" x2="47" y2="15" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<ellipse cx="47" cy="22" rx="12" ry="3" fill="url(#lens-grad)" stroke="#000000" stroke-width="0.3"/>
+<ellipse cx="47" cy="50" rx="14" ry="3" fill="url(#lens-grad)" stroke="#000000" stroke-width="0.3"/>
+<line x1="35" y1="53" x2="47" y2="85" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="47" y1="53" x2="47" y2="85" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="59" y1="53" x2="47" y2="85" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<polygon points="38,70 56,70 52,82 42,82" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.4"/>
+<line x1="33" y1="64" x2="61" y2="64" stroke="#666666" stroke-width="0.3" opacity="0.4"/>
+<line x1="47" y1="82" x2="47" y2="100" stroke="#0088CC" stroke-width="0.4" opacity="0.3" marker-end="url(#arrowhead)"/>
+<rect x="15" y="98" width="65" height="8" fill="#A8A8B0" stroke="#000000" stroke-width="0.4"/>
+<circle cx="47" cy="98" r="2" fill="#CC0000" opacity="0.5"/>
+<text x="47" y="88" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">focus</text>
+<text x="50" y="108" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#000000" text-anchor="middle" font-weight="bold">Cutting head</text>
+</svg>

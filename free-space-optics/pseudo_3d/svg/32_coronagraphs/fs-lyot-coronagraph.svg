@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 75" width="220" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="lens-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#D0E0F8"/><stop offset="50%" stop-color="#E8F0FF"/><stop offset="100%" stop-color="#B8C8E0"/></linearGradient>
+<linearGradient id="housing-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B0B0B8"/><stop offset="100%" stop-color="#707078"/></linearGradient>
+</defs>
+<line x1="5" y1="37" x2="30" y2="37" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="8" y1="37" x2="20" y2="37" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<path d="M34.0,22.0 L34.0,52.0 C46,44.5 46,29.5 34.0,22.0 Z" fill="url(#lens-grad)" stroke="#000000" stroke-width="0.75"/>
+<circle cx="68" cy="37" r="4" fill="#404048" stroke="#000000" stroke-width="0.4" opacity="0.7"/>
+<text x="68" y="50" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">FPM</text>
+<path d="M99.0,22.0 L99.0,52.0 C87,44.5 87,29.5 99.0,22.0 Z" fill="url(#lens-grad)" stroke="#000000" stroke-width="0.75"/>
+<line x1="120" y1="15" x2="120" y2="30" stroke="#000000" stroke-width="0.5"/>
+<line x1="120" y1="44" x2="120" y2="60" stroke="#000000" stroke-width="0.5"/>
+<text x="120" y="62" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">Lyot stop</text>
+<path d="M141.0,22.0 L141.0,52.0 C153,44.5 153,29.5 141.0,22.0 Z" fill="url(#lens-grad)" stroke="#000000" stroke-width="0.75"/>
+<rect x="175" y="28" width="18" height="18" rx="2" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.4"/>
+<rect x="178" y="32" width="8" height="10" fill="#101828" stroke="#000000" stroke-width="0.2"/>
+<path d="M68,33 C80,20 100,15 118,15" fill="none" stroke="#666666" stroke-width="0.3" opacity="0.2" stroke-dasharray="2,2"/>
+<path d="M68,41 C80,54 100,59 118,59" fill="none" stroke="#666666" stroke-width="0.3" opacity="0.2" stroke-dasharray="2,2"/>
+<text x="110" y="72" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Lyot coronagraph</text>
+</svg>

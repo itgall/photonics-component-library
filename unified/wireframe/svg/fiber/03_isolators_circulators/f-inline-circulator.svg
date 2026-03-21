@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 50" width="140" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="25" x2="35" y2="25" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="25" x2="22" y2="25" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="35" y="8" width="55" height="34" rx="2" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<path d="M55,18 A8,8 0 1,1 60,28" fill="none" stroke="#c0392b" stroke-width="0.5" marker-end="url(#arrowhead)"/>
+<text x="57" y="36" font-family="Arial, Helvetica, sans-serif" font-size="3.5" fill="#c0392b" text-anchor="middle" font-weight="normal" font-style="normal">1→2→3</text>
+<line x1="90" y1="25" x2="135" y2="25" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="100" y1="25" x2="118" y2="25" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="62" y1="42" x2="62" y2="50" stroke="#1a1a1a" stroke-width="0.35"/>
+<text x="8" y="19" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">1</text>
+<text x="133" y="19" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">2</text>
+<text x="68" y="48" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">3</text>
+<text x="62" y="4" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Inline circulator</text>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 70" width="200" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="31" x2="60" y2="31" stroke="#333333" stroke-width="0.4" opacity="0.5"/>
+<line x1="5" y1="33" x2="60" y2="33" stroke="#333333" stroke-width="0.4" opacity="0.5"/>
+<line x1="5" y1="35" x2="60" y2="35" stroke="#333333" stroke-width="0.4" opacity="0.5"/>
+<line x1="5" y1="37" x2="60" y2="37" stroke="#333333" stroke-width="0.4" opacity="0.5"/>
+<line x1="5" y1="39" x2="60" y2="39" stroke="#333333" stroke-width="0.4" opacity="0.5"/>
+<path d="M55,25 L80,15 L80,55 L55,45 Z" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.4" opacity="0.15"/>
+<line x1="80" y1="15" x2="195" y2="15" stroke="#333333" stroke-width="0.7" opacity="0.5"/>
+<line x1="80" y1="27" x2="195" y2="27" stroke="#333333" stroke-width="0.7" opacity="0.5"/>
+<line x1="80" y1="39" x2="195" y2="39" stroke="#333333" stroke-width="0.7" opacity="0.5"/>
+<line x1="80" y1="51" x2="195" y2="51" stroke="#333333" stroke-width="0.7" opacity="0.5"/>
+<line x1="80" y1="63" x2="195" y2="63" stroke="#333333" stroke-width="0.7" opacity="0.5"/>
+<text x="100" y="66" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Furcation / breakout</text>
+</svg>

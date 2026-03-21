@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 90" width="180" height="90">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<rect x="40" y="10" width="80" height="70" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="80" y="48" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">X-point</text>
+<circle cx="55" cy="25" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.6"/>
+<circle cx="55" cy="43" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<circle cx="55" cy="61" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<circle cx="75" cy="25" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<circle cx="75" cy="43" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<circle cx="75" cy="61" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.6"/>
+<circle cx="95" cy="25" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<circle cx="95" cy="43" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.6"/>
+<circle cx="95" cy="61" r="3" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="5" y1="25" x2="40" y2="25" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="120" y1="25" x2="175" y2="25" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="25" x2="25" y2="25" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="5" y1="43" x2="40" y2="43" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="120" y1="43" x2="175" y2="43" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="43" x2="25" y2="43" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="5" y1="61" x2="40" y2="61" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="120" y1="61" x2="175" y2="61" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="61" x2="25" y2="61" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="90" y="86" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Crosspoint switch</text>
+</svg>

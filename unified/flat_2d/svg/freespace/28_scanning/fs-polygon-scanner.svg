@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 80" width="130" height="80" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<circle cx="55" cy="38" r="22" fill="#808088" stroke="#000000" stroke-width="0.75"/>
+<polygon points="67,31 67,45 55,52 43,45 43,31 55,24" fill="#B0B8C8" stroke="#000000" stroke-width="0.5"/>
+<path d="M55,12 A26,26 0 0,1 78,20" fill="none" stroke="#666666" stroke-width="0.4" marker-end="url(#arrowhead)"/>
+<line x1="5" y1="28" x2="42" y2="32" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="8" y1="29" x2="25" y2="31" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="68" y1="28" x2="125" y2="15" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="68" y1="32" x2="125" y2="28" stroke="#CC0000" stroke-width="0.5" opacity="0.4"/>
+<line x1="68" y1="36" x2="125" y2="42" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<text x="65" y="74" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Polygon scanner</text>
+</svg>

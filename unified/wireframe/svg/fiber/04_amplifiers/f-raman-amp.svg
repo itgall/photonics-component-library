@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70" width="220" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="35" x2="50" y2="35" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<path d="M50,35 C58,20 68,50 78,35 C88,20 98,50 108,35 C118,20 128,50 138,35 C148,20 158,50 168,35" fill="none" stroke="#333333" stroke-width="0.7" />
+<line x1="168" y1="35" x2="215" y2="35" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="200" y1="15" x2="200" y2="35" stroke="#c0392b" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="196,10 200,5 204,10 202,10 202,15 198,15 198,10" fill="#c0392b" opacity="0.7"/>
+<text x="208" y="10" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#c0392b" text-anchor="middle" font-weight="normal" font-style="normal">Pump</text>
+<rect x="190" y="28" width="16" height="14" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="10" y1="35" x2="30" y2="35" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="110" y="65" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Raman amplifier</text>
+</svg>

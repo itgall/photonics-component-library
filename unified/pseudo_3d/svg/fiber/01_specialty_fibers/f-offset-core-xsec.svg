@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <radialGradient id="coating-grad" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FFD966"/>
+      <stop offset="60%" stop-color="#E8A820"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+  <radialGradient id="cladding-grad" cx="38%" cy="33%" r="52%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#D8DCE8"/>
+      <stop offset="100%" stop-color="#98A0B8"/>
+    </radialGradient>
+  <radialGradient id="core-grad" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#6068C0"/>
+      <stop offset="100%" stop-color="#1B1E89"/>
+    </radialGradient>
+</defs>
+<circle cx="40" cy="40" r="36" fill="url(#coating-grad)" stroke="#000000" stroke-width="0.75"/>
+<circle cx="40" cy="40" r="28" fill="url(#cladding-grad)" stroke="#000000" stroke-width="0.5"/>
+<circle cx="48" cy="36" r="3.5" fill="url(#core-grad)" stroke="#000000" stroke-width="0.4"/>
+<line x1="37" y1="40" x2="43" y2="40" stroke="#444444" stroke-width="0.5" stroke-dasharray="1,1"/>
+<line x1="40" y1="37" x2="40" y2="43" stroke="#444444" stroke-width="0.5" stroke-dasharray="1,1"/>
+</svg>

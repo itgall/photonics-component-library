@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 55" width="220" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="20" y1="10" x2="20" y2="40" stroke="#000000" stroke-width="1.5"/>
+<line x1="20" y1="12" x2="14" y2="16" stroke="#444444" stroke-width="0.5"/>
+<line x1="20" y1="17" x2="14" y2="21" stroke="#444444" stroke-width="0.5"/>
+<line x1="20" y1="22" x2="14" y2="26" stroke="#444444" stroke-width="0.5"/>
+<line x1="20" y1="27" x2="14" y2="31" stroke="#444444" stroke-width="0.5"/>
+<line x1="20" y1="32" x2="14" y2="36" stroke="#444444" stroke-width="0.5"/>
+<line x1="20" y1="37" x2="14" y2="41" stroke="#444444" stroke-width="0.5"/>
+<text x="14" y="8" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">HR</text>
+<path d="M20,25 L50,25" fill="none" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<path d="M50,25 C60,15 72,35 82,25 C92,15 104,35 114,25" fill="none" stroke="#2D8B2D" stroke-width="2.5" stroke-linecap="round" />
+<path d="M114,25 L140,25" fill="none" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="82" y="42" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#2D8B2D" text-anchor="middle" font-weight="normal" font-style="normal">gain fiber</text>
+<line x1="140" y1="10" x2="140" y2="40" stroke="#000000" stroke-width="0.6"/>
+<line x1="142" y1="10" x2="142" y2="40" stroke="#000000" stroke-width="0.6"/>
+<text x="146" y="8" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">OC</text>
+<line x1="142" y1="25" x2="215" y2="25" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<polygon points="148,22 154,25 148,28" fill="#CC0000" opacity="0.4"/>
+<text x="213" y="19" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">out</text>
+<text x="100" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Linear cavity</text>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+</defs>
+<circle cx="60" cy="40" r="15" fill="none" stroke="GRADIENT" stroke-width="3.0" opacity="0.5"/>
+<circle cx="60" cy="40" r="20" fill="none" stroke="GRADIENT" stroke-width="3.0" opacity="0.5"/>
+<circle cx="60" cy="40" r="25" fill="none" stroke="GRADIENT" stroke-width="3.0" opacity="0.5"/>
+<line x1="5" y1="40" x2="35" y2="40" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="85" y1="40" x2="115" y2="40" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<path d="M40,12 A30,30 0 0,1 80,12" fill="none" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2"/>
+<polygon points="78,10 82,12 78,14" fill="#000000"/>
+<text x="60" y="45" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">Ω</text>
+<text x="60" y="75" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">FOG coil</text>
+</svg>

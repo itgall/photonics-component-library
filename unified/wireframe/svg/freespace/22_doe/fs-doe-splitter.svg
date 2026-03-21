@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 75" width="140" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="37" x2="48" y2="37" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="37" x2="30" y2="37" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="50" y="10" width="10" height="55" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="50" y1="14" x2="60" y2="14" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="18" x2="60" y2="18" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="22" x2="60" y2="22" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="26" x2="60" y2="26" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="30" x2="60" y2="30" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="34" x2="60" y2="34" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="38" x2="60" y2="38" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="42" x2="60" y2="42" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="46" x2="60" y2="46" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="50" x2="60" y2="50" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="54" x2="60" y2="54" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="50" y1="58" x2="60" y2="58" stroke="#1a1a1a" stroke-width="0.3" opacity="0.2"/>
+<line x1="60" y1="37" x2="135" y2="17" stroke="#c0392b" stroke-width="0.5" opacity="0.3"/>
+<line x1="60" y1="37" x2="135" y2="27" stroke="#c0392b" stroke-width="0.5" opacity="0.3"/>
+<line x1="60" y1="37" x2="135" y2="37" stroke="#c0392b" stroke-width="0.5" opacity="0.5"/>
+<line x1="60" y1="37" x2="135" y2="47" stroke="#c0392b" stroke-width="0.5" opacity="0.3"/>
+<line x1="60" y1="37" x2="135" y2="57" stroke="#c0392b" stroke-width="0.5" opacity="0.3"/>
+<text x="70" y="72" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">DOE beam splitter</text>
+</svg>

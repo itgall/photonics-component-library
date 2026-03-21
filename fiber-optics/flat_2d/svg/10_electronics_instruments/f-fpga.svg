@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 55" width="120" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="15" y="8" width="75" height="38" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<text x="52" y="30" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">FPGA</text>
+<line x1="5" y1="16" x2="15" y2="16" stroke="#000000" stroke-width="0.4"/>
+<line x1="90" y1="16" x2="115" y2="16" stroke="#000000" stroke-width="0.4"/>
+<line x1="5" y1="22" x2="15" y2="22" stroke="#000000" stroke-width="0.4"/>
+<line x1="90" y1="22" x2="115" y2="22" stroke="#000000" stroke-width="0.4"/>
+<line x1="5" y1="28" x2="15" y2="28" stroke="#000000" stroke-width="0.4"/>
+<line x1="90" y1="28" x2="115" y2="28" stroke="#000000" stroke-width="0.4"/>
+<line x1="5" y1="34" x2="15" y2="34" stroke="#000000" stroke-width="0.4"/>
+<line x1="90" y1="34" x2="115" y2="34" stroke="#000000" stroke-width="0.4"/>
+<line x1="5" y1="40" x2="15" y2="40" stroke="#000000" stroke-width="0.4"/>
+<line x1="90" y1="40" x2="115" y2="40" stroke="#000000" stroke-width="0.4"/>
+<text x="52" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">FPGA</text>
+</svg>

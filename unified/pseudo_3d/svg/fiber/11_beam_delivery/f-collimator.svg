@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 45" width="160" height="45">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="coll-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0E0E8"/>
+      <stop offset="50%" stop-color="#B0B0C0"/>
+      <stop offset="100%" stop-color="#707080"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="22" x2="35" y2="22" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="35" y="10" width="55" height="24" rx="2" fill="url(#coll-grad)" stroke="#000" stroke-width="0.75"/>
+<path d="M88,10 C94,16 94,28 88,34" fill="none" stroke="#000000" stroke-width="0.75"/>
+<path d="M90,10 C96,16 96,28 90,34" fill="none" stroke="#6688CC" stroke-width="0.5" opacity="0.5"/>
+<line x1="96" y1="16" x2="155" y2="16" stroke="#CC0000" stroke-width="0.5" opacity="0.5"/>
+<line x1="96" y1="22" x2="155" y2="22" stroke="#CC0000" stroke-width="0.5" opacity="0.5"/>
+<line x1="96" y1="28" x2="155" y2="28" stroke="#CC0000" stroke-width="0.5" opacity="0.5"/>
+<line x1="39" y1="22" x2="88" y2="16" stroke="#1B1E89" stroke-width="0.5" opacity="0.25"/>
+<line x1="39" y1="22" x2="88" y2="22" stroke="#1B1E89" stroke-width="0.5" opacity="0.25"/>
+<line x1="39" y1="22" x2="88" y2="28" stroke="#1B1E89" stroke-width="0.5" opacity="0.25"/>
+<text x="75" y="42" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Collimator</text>
+</svg>

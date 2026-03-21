@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70" width="220" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="35" x2="30" y2="35" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="30" y="28" width="16" height="14" rx="1" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<polygon points="34,31 34,39 43,35" fill="#000000" opacity="0.4"/>
+<rect x="50" y="27" width="20" height="16" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.5"/>
+<text x="60" y="38" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">WDM</text>
+<line x1="60" y1="12" x2="60" y2="27" stroke="#CC3300" stroke-width="1.5"/>
+<polygon points="56,7 60,2 64,7 62,7 62,12 58,12 58,7" fill="#CC3300" opacity="0.7"/>
+<text x="68" y="8" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#CC3300" text-anchor="middle" font-weight="normal" font-style="normal">Pump</text>
+<path d="M70,35 C78,22 88,48 98,35 C108,22 118,48 128,35 C138,22 148,48 158,35" fill="none" stroke="#2D8B2D" stroke-width="2.5" stroke-linecap="round" />
+<rect x="162" y="28" width="16" height="14" rx="1" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<polygon points="166,31 166,39 175,35" fill="#000000" opacity="0.4"/>
+<line x1="178" y1="35" x2="215" y2="35" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="110" y="65" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">BDFA</text>
+</svg>

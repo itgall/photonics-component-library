@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 90" width="130" height="90" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<polygon points="25,20 75,20 95,70 25,70" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="5" y1="35" x2="25" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="8" y1="35" x2="18" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="60" y1="70" x2="60" y2="88" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="60" y1="75" x2="60" y2="85" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="80" y="15" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">90° dev.</text>
+<text x="60" y="88" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Pellin-Broca</text>
+</svg>

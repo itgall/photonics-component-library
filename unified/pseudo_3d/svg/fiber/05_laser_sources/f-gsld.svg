@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="10" width="75" height="35" rx="2" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<polygon points="30,18 30,36 50,27" fill="none" stroke="#000000" stroke-width="0.5"/>
+<line x1="50" y1="18" x2="50" y2="36" stroke="#000000" stroke-width="0.5"/>
+<path d="M60,32 L60,20 L65,20 L65,32 L70,32 L70,20 L75,20 L75,32" fill="none" stroke="#CC3300" stroke-width="0.5"/>
+<line x1="90" y1="27" x2="155" y2="27" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="35" y1="10" x2="35" y2="3" stroke="#000000" stroke-width="0.75"/>
+<line x1="55" y1="10" x2="55" y2="3" stroke="#000000" stroke-width="0.75"/>
+<text x="75" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">GSLD</text>
+</svg>

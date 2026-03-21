@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="50" x2="40" y2="50" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="155" y1="50" x2="195" y2="50" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<circle cx="55" cy="50" r="3" fill="#000000"/>
+<path d="M55,47 C55,15 140,15 140,47" fill="none" stroke="#1B1E89" stroke-width="2.5"/>
+<path d="M55,53 C55,80 80,80 90,65" fill="none" stroke="#1B1E89" stroke-width="2.5"/>
+<path d="M90,65 C100,55 110,55 120,65" fill="none" stroke="#2D8B2D" stroke-width="3.0"/>
+<path d="M120,65 C130,80 140,80 140,53" fill="none" stroke="#1B1E89" stroke-width="2.5"/>
+<circle cx="140" cy="50" r="3" fill="#000000"/>
+<line x1="140" y1="50" x2="155" y2="50" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="97" y="30" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">gain</text>
+<text x="100" y="96" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">NALM</text>
+</svg>

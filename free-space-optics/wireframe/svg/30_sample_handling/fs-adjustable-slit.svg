@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 70" width="80" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="28" y="8" width="10" height="22" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="28" y="40" width="10" height="22" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="33" y1="30" x2="33" y2="40" stroke="#1a1a1a" stroke-width="0.35" stroke-dasharray="1,1"/>
+<rect x="42" y="28" width="25" height="6" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<circle cx="67" cy="31" r="5" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.4"/>
+<line x1="5" y1="35" x2="28" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="8" y1="35" x2="22" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="38" y1="35" x2="75" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<text x="40" y="66" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Adjustable slit</text>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" width="220" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="gain-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5DC85D"/>
+      <stop offset="25%" stop-color="#2D8B2D"/>
+      <stop offset="100%" stop-color="#145A14"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="40" x2="40" y2="40" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="60" y="8" width="50" height="22" rx="2" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<text x="85" y="22" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">1018 nm</text>
+<line x1="85" y1="30" x2="85" y2="40" stroke="#CC3300" stroke-width="1.5"/>
+<rect x="75" y="35" width="20" height="12" rx="1" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<text x="85" y="44" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">WDM</text>
+<path d="M95,40 C105,28 115,52 125,40 C135,28 145,52 155,40 C165,28 175,52 185,40" fill="none" stroke="url(#gain-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="140" y="60" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#2D8B2D" text-anchor="middle" font-weight="normal" font-style="normal">DC-YDF</text>
+<line x1="185" y1="40" x2="215" y2="40" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="130" y="76" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Tandem-pumped amp</text>
+</svg>

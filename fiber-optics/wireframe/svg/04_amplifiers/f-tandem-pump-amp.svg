@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" width="220" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="40" x2="40" y2="40" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="40" x2="28" y2="40" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="60" y="8" width="50" height="22" rx="2" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="85" y="22" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">1018 nm</text>
+<line x1="85" y1="30" x2="85" y2="40" stroke="#c0392b" stroke-width="1.5"/>
+<rect x="75" y="35" width="20" height="12" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="85" y="44" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">WDM</text>
+<path d="M95,40 C105,28 115,52 125,40 C135,28 145,52 155,40 C165,28 175,52 185,40" fill="none" stroke="#333333" stroke-width="0.7" />
+<text x="140" y="60" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#888888" text-anchor="middle" font-weight="normal" font-style="normal">DC-YDF</text>
+<line x1="185" y1="40" x2="215" y2="40" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="195" y1="40" x2="210" y2="40" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="130" y="76" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Tandem-pumped amp</text>
+</svg>

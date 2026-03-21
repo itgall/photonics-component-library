@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 55" width="120" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="27" x2="60" y2="27" stroke="#000000" stroke-width="0.5"/>
+<line x1="60" y1="27" x2="115" y2="27" stroke="#000000" stroke-width="0.5"/>
+<line x1="60" y1="27" x2="60" y2="50" stroke="#000000" stroke-width="0.5"/>
+<line x1="35" y1="22" x2="35" y2="32" stroke="#000000" stroke-width="0.75"/>
+<line x1="39" y1="22" x2="39" y2="32" stroke="#000000" stroke-width="0.75"/>
+<path d="M60,32 C63,34 63,36 60,38 C57,40 57,42 60,44" fill="none" stroke="#000000" stroke-width="0.5"/>
+<text x="8" y="21" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">RF+DC</text>
+<text x="113" y="21" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">RF</text>
+<text x="65" y="50" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="start" font-weight="normal" font-style="normal">DC</text>
+<text x="60" y="8" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Bias tee</text>
+</svg>

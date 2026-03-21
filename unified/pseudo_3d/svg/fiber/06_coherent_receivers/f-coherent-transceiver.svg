@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60" width="180" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="8" width="110" height="42" rx="2" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75"/>
+<rect x="22" y="14" width="25" height="16" rx="1" fill="none" stroke="#000000" stroke-width="0.3"/>
+<text x="34" y="24" font-family="Helvetica, Arial, sans-serif" font-size="3.5" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">Tx</text>
+<rect x="55" y="14" width="25" height="16" rx="1" fill="none" stroke="#000000" stroke-width="0.3"/>
+<text x="67" y="24" font-family="Helvetica, Arial, sans-serif" font-size="3.5" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">DSP</text>
+<rect x="88" y="14" width="25" height="16" rx="1" fill="none" stroke="#000000" stroke-width="0.3"/>
+<text x="100" y="24" font-family="Helvetica, Arial, sans-serif" font-size="3.5" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">Rx</text>
+<rect x="22" y="34" width="91" height="10" rx="1" fill="none" stroke="#000000" stroke-width="0.3"/>
+<text x="67" y="42" font-family="Helvetica, Arial, sans-serif" font-size="3.5" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">Coherent optics</text>
+<rect x="5" y="16" width="10" height="26" fill="#000000" opacity="0.2"/>
+<line x1="125" y1="22" x2="175" y2="22" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="125" y1="38" x2="175" y2="38" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="173" y="16" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">Tx</text>
+<text x="173" y="44" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">Rx</text>
+<text x="90" y="58" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Coherent transceiver</text>
+</svg>

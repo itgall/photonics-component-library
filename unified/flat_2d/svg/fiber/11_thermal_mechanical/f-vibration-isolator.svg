@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" width="160" height="50">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="20" y="12" width="120" height="10" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75"/>
+<path d="M35,22 C38,26 32,30 35,34 C38,38 32,42 35,46" fill="none" stroke="#000000" stroke-width="0.5"/>
+<path d="M75,22 C78,26 72,30 75,34 C78,38 72,42 75,46" fill="none" stroke="#000000" stroke-width="0.5"/>
+<path d="M125,22 C128,26 122,30 125,34 C128,38 122,42 125,46" fill="none" stroke="#000000" stroke-width="0.5"/>
+<line x1="20" y1="46" x2="140" y2="46" stroke="#000000" stroke-width="0.5"/>
+<line x1="25" y1="46" x2="21" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="33" y1="46" x2="29" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="41" y1="46" x2="37" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="49" y1="46" x2="45" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="57" y1="46" x2="53" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="65" y1="46" x2="61" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="73" y1="46" x2="69" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="81" y1="46" x2="77" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="89" y1="46" x2="85" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="97" y1="46" x2="93" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="105" y1="46" x2="101" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="113" y1="46" x2="109" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="121" y1="46" x2="117" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="129" y1="46" x2="125" y2="50" stroke="#444444" stroke-width="0.5"/>
+<line x1="137" y1="46" x2="133" y2="50" stroke="#444444" stroke-width="0.5"/>
+<text x="80" y="9" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">Optical table</text>
+</svg>

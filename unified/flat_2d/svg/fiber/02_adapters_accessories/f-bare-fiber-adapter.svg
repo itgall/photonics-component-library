@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 42" width="110" height="42">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="21" x2="30" y2="21" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="30" y="8" width="40" height="26" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<path d="M35,21 L45,16 L55,21 L65,16" fill="none" stroke="#444444" stroke-width="0.3"/>
+<rect x="70" y="12" width="12" height="18" rx="1" fill="#444444" stroke="#000000" stroke-width="0.4" opacity="0.5"/>
+<line x1="82" y1="12" x2="82" y2="30" stroke="#000000" stroke-width="0.75"/>
+<text x="50" y="38" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Bare fiber adapter</text>
+</svg>

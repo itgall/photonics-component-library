@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="30" x2="30" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<circle cx="60" cy="30" r="18" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="60" cy="30" r="21" fill="none" stroke="#333333" stroke-width="0.7" opacity="0.4"/>
+<circle cx="60" cy="30" r="24" fill="none" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
+<line x1="84" y1="30" x2="115" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="30" x2="24" y2="30" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="60" y="56" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Mandrel wrap</text>
+</svg>

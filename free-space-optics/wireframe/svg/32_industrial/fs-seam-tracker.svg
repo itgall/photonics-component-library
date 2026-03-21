@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 70" width="130" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="25" y="8" width="60" height="38" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<ellipse cx="55" cy="46" rx="10" ry="3" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="35" y1="46" x2="35" y2="62" stroke="#c0392b" stroke-width="0.5" opacity="0.4"/>
+<line x1="30" y1="62" x2="40" y2="62" stroke="#c0392b" stroke-width="0.5" opacity="0.4"/>
+<rect x="10" y="60" width="105" height="6" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<line x1="55" y1="60" x2="55" y2="66" stroke="#1a1a1a" stroke-width="0.4" opacity="0.3"/>
+<text x="55" y="55" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">seam</text>
+<line x1="85" y1="27" x2="125" y2="27" stroke="#1a1a1a" stroke-width="0.4"/>
+<text x="115" y="24" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">XY</text>
+<text x="55" y="70" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Seam tracker</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 55" width="130" height="55" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="15" y="8" width="55" height="35" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="42" cy="25" r="10" fill="#888888" opacity="0.2" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="42" y="28" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">D₂</text>
+<line x1="70" y1="25" x2="125" y2="25" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="80" y1="25" x2="110" y2="25" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="65" y="50" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Deuterium lamp</text>
+</svg>

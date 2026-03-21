@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 75" width="110" height="75" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="37" x2="28" y2="37" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="8" y1="37" x2="20" y2="37" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<circle cx="50" cy="37" r="18" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3" opacity="0.15"/>
+<circle cx="50" cy="37" r="15" fill="none" stroke="#1a1a1a" stroke-width="0.3" opacity="0"/>
+<circle cx="50" cy="37" r="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3" opacity="0.15"/>
+<circle cx="50" cy="37" r="11" fill="none" stroke="#1a1a1a" stroke-width="0.3" opacity="0"/>
+<circle cx="50" cy="37" r="9" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3" opacity="0.15"/>
+<circle cx="50" cy="37" r="7" fill="none" stroke="#1a1a1a" stroke-width="0.3" opacity="0"/>
+<circle cx="50" cy="37" r="5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3" opacity="0.15"/>
+<circle cx="50" cy="37" r="3" fill="none" stroke="#1a1a1a" stroke-width="0.3" opacity="0"/>
+<circle cx="50" cy="37" r="18" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="68" y1="37" x2="95" y2="37" stroke="#c0392b" stroke-width="0.5" opacity="0.4"/>
+<circle cx="95" cy="37" r="2" fill="#c0392b" opacity="0.4"/>
+<text x="95" y="33" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">f</text>
+<text x="50" y="68" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Fresnel zone plate</text>
+</svg>

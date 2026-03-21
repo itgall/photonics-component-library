@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 70" width="120" height="70">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="45" x2="115" y2="45" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<ellipse cx="60" cy="30" rx="16" ry="22" fill="#D4D8E8" opacity="0.5" stroke="#000" stroke-width="0.75"/>
+<text x="60" y="67" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1-paddle PC</text>
+</svg>

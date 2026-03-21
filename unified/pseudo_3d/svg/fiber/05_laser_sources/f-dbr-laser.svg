@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 55" width="180" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="10" width="105" height="35" rx="2" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<line x1="22" y1="18" x2="22" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="25" y1="18" x2="25" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="28" y1="18" x2="28" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="31" y1="18" x2="31" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="34" y1="18" x2="34" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="37" y1="18" x2="37" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="40" y1="18" x2="40" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<rect x="45" y="18" width="30" height="20" fill="#2D8B2D" stroke="#000000" stroke-width="0.3" opacity="0.2"/>
+<rect x="78" y="18" width="15" height="20" fill="GRADIENT" stroke="#000000" stroke-width="0.3"/>
+<text x="60" y="30" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">gain</text>
+<text x="85" y="30" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">φ</text>
+<line x1="96" y1="18" x2="96" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="99" y1="18" x2="99" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="102" y1="18" x2="102" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="105" y1="18" x2="105" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="108" y1="18" x2="108" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="111" y1="18" x2="111" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="114" y1="18" x2="114" y2="38" stroke="#444444" stroke-width="0.4" opacity="0.3"/>
+<line x1="120" y1="28" x2="175" y2="28" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="45" y1="10" x2="45" y2="4" stroke="#000000" stroke-width="0.75"/>
+<line x1="85" y1="10" x2="85" y2="4" stroke="#000000" stroke-width="0.75"/>
+<text x="67" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">DBR laser</text>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="gain-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5DC85D"/>
+      <stop offset="25%" stop-color="#2D8B2D"/>
+      <stop offset="100%" stop-color="#145A14"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<line x1="5" y1="30" x2="25" y2="30" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="25" y="24" width="12" height="12" rx="1" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<polygon points="28,27 28,33 34,30" fill="#000000" opacity="0.4"/>
+<rect x="40" y="24" width="10" height="12" rx="1" fill="GRADIENT" stroke="#000000" stroke-width="0.3"/>
+<text x="45" y="22" font-family="Helvetica, Arial, sans-serif" font-size="3.5" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">BPF</text>
+<rect x="55" y="22" width="12" height="16" rx="1" fill="GRADIENT" stroke="#000000" stroke-width="0.4"/>
+<line x1="61" y1="14" x2="61" y2="22" stroke="#CC3300" stroke-width="1"/>
+<polygon points="58,10 61,6 64,10" fill="#CC3300" opacity="0.7"/>
+<text x="68" y="12" font-family="Helvetica, Arial, sans-serif" font-size="3.5" fill="#CC3300" text-anchor="middle" font-weight="normal" font-style="normal">980</text>
+<path d="M67,30 C75,20 85,40 95,30 C105,20 115,40 125,30 C135,20 145,40 150,30" fill="none" stroke="url(#gain-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="153" y="24" width="12" height="12" rx="1" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<polygon points="156,27 156,33 162,30" fill="#000000" opacity="0.4"/>
+<line x1="165" y1="30" x2="195" y2="30" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="100" y="55" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Pre-amp EDFA</text>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <radialGradient id="coating-grad" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FFD966"/>
+      <stop offset="60%" stop-color="#E8A820"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+  <radialGradient id="cladding-grad" cx="38%" cy="33%" r="52%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#D8DCE8"/>
+      <stop offset="100%" stop-color="#98A0B8"/>
+    </radialGradient>
+</defs>
+<circle cx="40" cy="40" r="36" fill="url(#coating-grad)" stroke="#000000" stroke-width="0.75"/>
+<circle cx="40" cy="40" r="28" fill="url(#cladding-grad)" stroke="#000000" stroke-width="0.5"/>
+<line x1="50.0" y1="40.0" x2="45.0" y2="48.7" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="45.0" y1="48.7" x2="35.0" y2="48.7" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="35.0" y1="48.7" x2="30.0" y2="40.0" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="30.0" y1="40.0" x2="35.0" y2="31.3" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="35.0" y1="31.3" x2="45.0" y2="31.3" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="45.0" y1="31.3" x2="50.0" y2="40.0" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="57.0" y1="40.0" x2="48.5" y2="54.7" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="48.5" y1="54.7" x2="31.5" y2="54.7" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="31.5" y1="54.7" x2="23.0" y2="40.0" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="23.0" y1="40.0" x2="31.5" y2="25.3" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="31.5" y1="25.3" x2="48.5" y2="25.3" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="48.5" y1="25.3" x2="57.0" y2="40.0" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="64.0" y1="40.0" x2="52.0" y2="60.8" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="52.0" y1="60.8" x2="28.0" y2="60.8" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="28.0" y1="60.8" x2="16.0" y2="40.0" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="16.0" y1="40.0" x2="28.0" y2="19.2" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="28.0" y1="19.2" x2="52.0" y2="19.2" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<line x1="52.0" y1="19.2" x2="64.0" y2="40.0" stroke="#404060" stroke-width="0.3" opacity="0.4"/>
+<circle cx="40" cy="40" r="8" fill="#E8F0FF" stroke="#404060" stroke-width="0.5"/>
+</svg>

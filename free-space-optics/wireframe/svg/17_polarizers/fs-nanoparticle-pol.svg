@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 65" width="110" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="32" x2="40" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="10" y1="32" x2="28" y2="32" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="42" y="8" width="10" height="48" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5" opacity="0.5"/>
+<circle cx="46.4" cy="20.0" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="45.1" cy="21.9" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="48.6" cy="22.0" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="46.3" cy="39.4" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="47.2" cy="49.5" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="46.9" cy="28.9" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="47.7" cy="20.7" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="49.4" cy="27.0" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="46.3" cy="39.3" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="44.9" cy="38.4" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="49.1" cy="25.6" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="49.7" cy="33.1" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="48.6" cy="30.8" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="46.4" cy="22.8" r="0.6" fill="#888888" opacity="0.3"/>
+<circle cx="44.0" cy="20.2" r="0.6" fill="#888888" opacity="0.3"/>
+<line x1="52" y1="32" x2="105" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="47" y="62" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Polarcor polarizer</text>
+</svg>

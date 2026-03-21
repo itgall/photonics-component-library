@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 48" width="140" height="48">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="15" y="8" width="75" height="28" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75"/>
+<line x1="22.0" y1="36" x2="22.0" y2="44" stroke="#000000" stroke-width="0.5"/>
+<line x1="29.5" y1="36" x2="29.5" y2="44" stroke="#000000" stroke-width="0.5"/>
+<line x1="37.0" y1="36" x2="37.0" y2="44" stroke="#000000" stroke-width="0.5"/>
+<line x1="44.5" y1="36" x2="44.5" y2="44" stroke="#000000" stroke-width="0.5"/>
+<line x1="52.0" y1="36" x2="52.0" y2="44" stroke="#000000" stroke-width="0.5"/>
+<line x1="59.5" y1="36" x2="59.5" y2="44" stroke="#000000" stroke-width="0.5"/>
+<line x1="67.0" y1="36" x2="67.0" y2="44" stroke="#000000" stroke-width="0.5"/>
+<line x1="74.5" y1="36" x2="74.5" y2="44" stroke="#000000" stroke-width="0.5"/>
+<line x1="82.0" y1="36" x2="82.0" y2="44" stroke="#000000" stroke-width="0.5"/>
+<rect x="90" y="14" width="8" height="8" rx="1" fill="#000000" opacity="0.3"/>
+<rect x="90" y="24" width="8" height="8" rx="1" fill="#000000" opacity="0.3"/>
+<line x1="98" y1="18" x2="135" y2="18" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<line x1="98" y1="28" x2="135" y2="28" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="52" y="26" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">1×9</text>
+<text x="70" y="48" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1×9 transceiver</text>
+</svg>

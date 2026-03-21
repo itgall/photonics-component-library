@@ -1,0 +1,9 @@
+# SVG files are text
+*.svg text eol=lf
+
+# PNG files are binary
+*.png binary
+
+# Documentation
+*.md text eol=lf
+LICENSE text eol=lf

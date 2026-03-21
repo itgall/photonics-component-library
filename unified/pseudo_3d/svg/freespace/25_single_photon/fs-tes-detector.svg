@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 60" width="130" height="60" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="housing-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B0B0B8"/><stop offset="100%" stop-color="#707078"/></linearGradient>
+</defs>
+<rect x="30" y="8" width="55" height="38" rx="3" fill="url(#housing-grad)" stroke="#000000" stroke-width="0.75"/>
+<rect x="34" y="12" width="47" height="30" rx="2" fill="none" stroke="#4488CC" stroke-width="0.4" stroke-dasharray="2,2"/>
+<text x="57" y="15" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#4488CC" text-anchor="middle" font-weight="normal">100 mK</text>
+<rect x="48" y="22" width="18" height="12" rx="1" fill="#CC6600" opacity="0.3" stroke="#000000" stroke-width="0.3"/>
+<text x="57" y="31" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#000000" text-anchor="middle" font-weight="normal">TES</text>
+<line x1="5" y1="28" x2="30" y2="28" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="8" y1="28" x2="22" y2="28" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="85" y1="28" x2="125" y2="28" stroke="#000000" stroke-width="0.4"/>
+<text x="57" y="55" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">TES detector</text>
+</svg>

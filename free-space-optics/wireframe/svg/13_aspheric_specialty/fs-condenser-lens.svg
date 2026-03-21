@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 70" width="130" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<path d="M50,8 C42,18 42,52 50,62 C68,52 68,18 50,8 Z" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="5" y1="20" x2="42" y2="30" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="5" y1="35" x2="42" y2="35" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="5" y1="50" x2="42" y2="40" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="58" y1="30" x2="95" y2="35" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="58" y1="35" x2="95" y2="35" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="58" y1="40" x2="95" y2="35" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<circle cx="95" cy="35" r="2" fill="#c0392b" opacity="0.3"/>
+<text x="5" y="15" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">source</text>
+<text x="50" y="68" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Condenser lens</text>
+</svg>

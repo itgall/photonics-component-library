@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60" width="140" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<rect x="15" y="8" width="80" height="42" rx="3" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<rect x="22" y="14" width="50" height="22" rx="2" fill="#101828" stroke="#000000" stroke-width="0.3"/>
+<path d="M26,32 L32,32 L32,18 L38,18 L38,32 L50,32 L50,18 L56,18 L56,32 L68,32" fill="none" stroke="#00CC66" stroke-width="0.7"/>
+<text x="55" y="44" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">PG</text>
+<line x1="95" y1="30" x2="135" y2="30" stroke="#000000" stroke-width="0.5"/>
+<text x="133" y="24" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="end" font-weight="normal" font-style="normal">out</text>
+<text x="55" y="58" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Pulse generator</text>
+</svg>

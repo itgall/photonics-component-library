@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 65" width="200" height="65">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="comp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0F0F8"/>
+      <stop offset="50%" stop-color="#B0B0C8"/>
+      <stop offset="100%" stop-color="#707088"/>
+    </linearGradient>
+</defs>
+<rect x="15" y="8" width="150" height="42" rx="3" fill="GRADIENT" stroke="#000000" stroke-width="0.75"/>
+<line x1="15" y1="29" x2="35" y2="29" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="35" y="22" width="12" height="14" rx="1" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<polygon points="38,25 38,33 44,29" fill="#000000" opacity="0.3"/>
+<path d="M50,29 C56,22 62,36 68,29 C74,22 80,36 86,29" fill="none" stroke="#2D8B2D" stroke-width="0.8" opacity="0.5"/>
+<rect x="90" y="22" width="12" height="14" rx="1" fill="url(#comp-grad)" stroke="#000000" stroke-width="0.75" />
+<polygon points="93,25 93,33 99,29" fill="#000000" opacity="0.3"/>
+<line x1="102" y1="29" x2="165" y2="29" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<rect x="115" y="14" width="40" height="10" rx="1" fill="#101828" stroke="#000000" stroke-width="0.2"/>
+<text x="135" y="22" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#00CC66" text-anchor="middle">G=20dB</text>
+<line x1="5" y1="29" x2="15" y2="29" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="165" y1="29" x2="195" y2="29" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="90" y="60" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">EDFA module</text>
+</svg>

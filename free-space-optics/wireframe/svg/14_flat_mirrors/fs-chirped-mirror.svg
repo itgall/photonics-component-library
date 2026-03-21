@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 70" width="120" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="55" y="10" width="16" height="50" rx="1" fill="#e8e8ec" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="55" y1="13.0" x2="71" y2="13.0" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="16.0" x2="71" y2="16.0" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="19.5" x2="71" y2="19.5" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="23.5" x2="71" y2="23.5" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="28.0" x2="71" y2="28.0" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="33.0" x2="71" y2="33.0" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="38.5" x2="71" y2="38.5" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="55" y1="44.5" x2="71" y2="44.5" stroke="#888888" stroke-width="0.5" opacity="0.4"/>
+<line x1="5" y1="35" x2="55" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="35" x2="30" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<path d="M55,33 L30,18" fill="none" stroke="#c0392b" stroke-width="0.6" opacity="0.4" marker-end="url(#arrowhead-beam)"/>
+<text x="75" y="20" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">GDD</text>
+<text x="55" y="68" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Chirped mirror</text>
+</svg>

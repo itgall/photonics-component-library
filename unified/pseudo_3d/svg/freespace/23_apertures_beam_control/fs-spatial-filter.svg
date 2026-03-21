@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 70" width="200" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="lens-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#D0E0F8"/><stop offset="50%" stop-color="#E8F0FF"/><stop offset="100%" stop-color="#B8C8E0"/></linearGradient>
+<linearGradient id="housing-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B0B0B8"/><stop offset="100%" stop-color="#707078"/></linearGradient>
+</defs>
+<line x1="5" y1="35" x2="30" y2="35" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="8" y1="35" x2="20" y2="35" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<path d="M35.0,17.5 L35.0,52.5 C50,43.75 50,26.25 35.0,17.5 Z" fill="url(#lens-grad)" stroke="#000000" stroke-width="0.75"/>
+<line x1="48" y1="22" x2="80" y2="35" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="48" y1="35" x2="80" y2="35" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="48" y1="48" x2="80" y2="35" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="80" y1="15" x2="80" y2="32" stroke="#000000" stroke-width="0.75"/>
+<line x1="80" y1="38" x2="80" y2="55" stroke="#000000" stroke-width="0.75"/>
+<circle cx="80" cy="35" r="2" fill="none" stroke="#000000" stroke-width="0.35"/>
+<line x1="82" y1="35" x2="115" y2="22" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="82" y1="35" x2="115" y2="35" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="82" y1="35" x2="115" y2="48" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<path d="M130.0,17.5 L130.0,52.5 C115,43.75 115,26.25 130.0,17.5 Z" fill="url(#lens-grad)" stroke="#000000" stroke-width="0.75"/>
+<line x1="133" y1="25" x2="195" y2="25" stroke="#CC0000" stroke-width="0.8" opacity="0.3"/>
+<line x1="133" y1="35" x2="195" y2="35" stroke="#CC0000" stroke-width="0.8" opacity="0.3"/>
+<line x1="133" y1="45" x2="195" y2="45" stroke="#CC0000" stroke-width="0.8" opacity="0.3"/>
+<text x="100" y="65" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Spatial filter</text>
+</svg>

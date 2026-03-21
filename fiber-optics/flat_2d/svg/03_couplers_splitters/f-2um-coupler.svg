@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<path d="M10,25 C60,25 80,45 120,45 S180,25 230,25" fill="none" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<path d="M10,70 C60,70 80,50 120,50 S180,70 230,70" fill="none" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="85" y="40" width="70" height="15" rx="2" fill="#444444" opacity="0.08" stroke="none"/>
+<text x="120" y="38" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#CC6600" text-anchor="middle" font-weight="normal" font-style="normal">2 µm</text>
+<text x="120" y="95" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">2 µm coupler</text>
+</svg>

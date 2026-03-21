@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 65" width="140" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="30" y="8" width="60" height="40" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="34" y="12" width="52" height="32" rx="2" fill="none" stroke="#888888" stroke-width="0.4" stroke-dasharray="2,2"/>
+<text x="60" y="15" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">2 K</text>
+<path d="M45,22 L55,22 L55,26 L45,26 L45,30 L55,30 L55,34 L45,34 L45,38 L55,38" fill="none" stroke="#888888" stroke-width="0.4" opacity="0.4"/>
+<line x1="5" y1="28" x2="30" y2="28" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="8" y1="28" x2="22" y2="28" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="90" y1="28" x2="135" y2="28" stroke="#1a1a1a" stroke-width="0.4"/>
+<text x="120" y="24" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">TCSPC</text>
+<text x="60" y="58" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">SNSPD</text>
+</svg>

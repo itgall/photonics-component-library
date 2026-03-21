@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 80" width="130" height="80" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="grating-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C8C0A0"/><stop offset="100%" stop-color="#908860"/></linearGradient>
+</defs>
+<line x1="55" y1="12" x2="55" y2="62" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="58" y1="12" x2="58" y2="62" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="61" y1="12" x2="61" y2="62" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="64" y1="12" x2="64" y2="62" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="67" y1="12" x2="67" y2="62" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<line x1="70" y1="12" x2="70" y2="62" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+<rect x="52" y="10" width="22" height="54" rx="1" fill="none" stroke="#000000" stroke-width="0.75"/>
+<line x1="5" y1="37" x2="52" y2="37" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="10" y1="37" x2="30" y2="37" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="74" y1="37" x2="125" y2="20" stroke="#CC0000" stroke-width="0.6" opacity="0.5"/>
+<line x1="74" y1="37" x2="125" y2="37" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<line x1="74" y1="37" x2="125" y2="54" stroke="#CC0000" stroke-width="0.4" opacity="0.3"/>
+<text x="63" y="75" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Transmission grating</text>
+</svg>

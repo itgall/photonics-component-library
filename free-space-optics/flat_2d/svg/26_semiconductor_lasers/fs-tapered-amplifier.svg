@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<rect x="25" y="8" width="85" height="32" rx="3" fill="#808088" stroke="#000000" stroke-width="0.75"/>
+<polygon points="40,20 40,28 95,14 95,34" fill="#CC6644" opacity="0.2" stroke="#000000" stroke-width="0.3"/>
+<line x1="5" y1="24" x2="25" y2="24" stroke="#CC0000" stroke-width="0.8" opacity="0.4"/>
+<line x1="8" y1="24" x2="18" y2="24" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<text x="12" y="18" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">seed</text>
+<line x1="110" y1="24" x2="155" y2="24" stroke="#CC0000" stroke-width="0.8" opacity="0.6"/>
+<line x1="120" y1="24" x2="145" y2="24" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<text x="140" y="18" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">0.5-4W</text>
+<line x1="50" y1="40" x2="50" y2="50" stroke="#000000" stroke-width="0.4"/>
+<line x1="75" y1="40" x2="75" y2="50" stroke="#000000" stroke-width="0.4"/>
+<text x="80" y="50" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Tapered amplifier</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 80" width="170" height="80" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<path d="M140,10 C150,30 150,50 140,70" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<path d="M30,10 C24,18 24,28 30,36" fill="none" stroke="#1a1a1a" stroke-width="0.6"/>
+<path d="M30,44 C24,52 24,62 30,70" fill="none" stroke="#1a1a1a" stroke-width="0.6"/>
+<path d="M5,23 L30,23 L138,25 L30,57 L138,55 L30,27" fill="none" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="8" y1="23" x2="18" y2="23" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<text x="85" y="75" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">White cell</text>
+</svg>

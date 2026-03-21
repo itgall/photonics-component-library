@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 130" width="150" height="130" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="35" x2="30" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="8" y1="35" x2="22" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="32" y="23" width="22" height="22" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="43" y="37" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">BS</text>
+<line x1="54" y1="32" x2="120" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<line x1="125" y1="22" x2="125" y2="45" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="125.0" y1="24.9" x2="120.0" y2="24.9" stroke="#888888" stroke-width="0.25"/>
+<line x1="125.0" y1="30.6" x2="120.0" y2="30.6" stroke="#888888" stroke-width="0.25"/>
+<line x1="125.0" y1="36.4" x2="120.0" y2="36.4" stroke="#888888" stroke-width="0.25"/>
+<line x1="125.0" y1="42.1" x2="120.0" y2="42.1" stroke="#888888" stroke-width="0.25"/>
+<line x1="125" y1="38" x2="125" y2="90" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<line x1="115" y1="95" x2="135" y2="95" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="117.5" y1="95.0" x2="117.5" y2="90.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="122.5" y1="95.0" x2="122.5" y2="90.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="127.5" y1="95.0" x2="127.5" y2="90.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="132.5" y1="95.0" x2="132.5" y2="90.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="125" y1="100" x2="43" y2="100" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<line x1="32" y1="95" x2="55" y2="95" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="34.9" y1="95.0" x2="34.9" y2="90.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="40.6" y1="95.0" x2="40.6" y2="90.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="46.4" y1="95.0" x2="46.4" y2="90.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="52.1" y1="95.0" x2="52.1" y2="90.0" stroke="#888888" stroke-width="0.25"/>
+<line x1="43" y1="95" x2="43" y2="45" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<polygon points="90,30 96,32 90,34" fill="#c0392b" opacity="0.25"/>
+<polygon points="127,65 125,59 123,65" fill="#c0392b" opacity="0.25"/>
+<polygon points="80,102 74,100 80,98" fill="#c0392b" opacity="0.25"/>
+<polygon points="80,28 74,30 80,32" fill="#c0392b" opacity="0.15"/>
+<text x="130" y="18" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">M₁</text>
+<text x="130" y="108" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">M₂</text>
+<text x="30" y="108" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#888888" text-anchor="middle" font-weight="normal">M₃</text>
+<line x1="43" y1="45" x2="43" y2="115" stroke="#c0392b" stroke-width="0.6" opacity="0.0"/>
+<line x1="32" y1="34" x2="5" y2="34" stroke="#c0392b" stroke-width="0.6" opacity="0.3"/>
+<text x="75" y="125" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Sagnac interferometer</text>
+</svg>

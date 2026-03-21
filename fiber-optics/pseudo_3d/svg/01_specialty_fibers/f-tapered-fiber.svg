@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+</defs>
+<path d="M10,20 L60,20" fill="none" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round"/>
+<path d="M60,16 C80,18 90,19.5 100,20 C110,20.5 120,22 140,24" fill="none" stroke="url(#fiber-grad)" stroke-width="0.4"/>
+<path d="M60,24 C80,22 90,20.5 100,20 C110,19.5 120,18 140,16" fill="none" stroke="url(#fiber-grad)" stroke-width="0.4"/>
+<path d="M140,20 L190,20" fill="none" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round"/>
+<line x1="100" y1="12" x2="100" y2="16" stroke="#444444" stroke-width="0.5"/>
+<text x="100" y="10" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">waist</text>
+<text x="100" y="36" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">Tapered fiber</text>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<rect x="15" y="10" width="120" height="40" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<line x1="40" y1="18" x2="110" y2="18" stroke="#CC0000" stroke-width="1.5" opacity="0.5"/>
+<line x1="40" y1="22" x2="110" y2="22" stroke="#CC6600" stroke-width="1.5" opacity="0.5"/>
+<line x1="40" y1="26" x2="110" y2="26" stroke="#CCCC00" stroke-width="1.5" opacity="0.5"/>
+<line x1="40" y1="30" x2="110" y2="30" stroke="#00CC00" stroke-width="1.5" opacity="0.5"/>
+<line x1="40" y1="34" x2="110" y2="34" stroke="#0066CC" stroke-width="1.5" opacity="0.5"/>
+<line x1="40" y1="38" x2="110" y2="38" stroke="#6600CC" stroke-width="1.5" opacity="0.5"/>
+<line x1="135" y1="30" x2="195" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="150" y1="30" x2="170" y2="30" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="40" y1="10" x2="40" y2="3" stroke="#1a1a1a" stroke-width="0.75"/>
+<line x1="60" y1="10" x2="60" y2="3" stroke="#1a1a1a" stroke-width="0.75"/>
+<text x="75" y="58" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Supercontinuum</text>
+</svg>

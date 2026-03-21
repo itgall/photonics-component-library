@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70" width="140" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<rect x="28" y="10" width="70" height="40" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+<path d="M32,18 C35,16 38,20 41,18" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<path d="M85,18 C88,16 91,20 94,18" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<path d="M32,26 C35,24 38,28 41,26" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<path d="M85,26 C88,24 91,28 94,26" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<path d="M32,34 C35,32 38,36 41,34" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<path d="M85,34 C88,32 91,36 94,34" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<path d="M32,42 C35,40 38,44 41,42" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<path d="M85,42 C88,40 91,44 94,42" fill="none" stroke="#888888" stroke-width="0.3" opacity="0.2"/>
+<rect x="50" y="18" width="26" height="24" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.4"/>
+<text x="63" y="33" font-family="Arial, Helvetica, sans-serif" font-size="5.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal">NLO</text>
+<line x1="5" y1="30" x2="28" y2="30" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="8" y1="30" x2="20" y2="30" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="98" y1="30" x2="135" y2="30" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<rect x="100" y="14" width="18" height="10" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="109" y="22" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">T ctrl</text>
+<line x1="118" y1="19" x2="135" y2="19" stroke="#1a1a1a" stroke-width="0.3"/>
+<text x="63" y="62" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Crystal oven</text>
+</svg>

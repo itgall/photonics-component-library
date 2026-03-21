@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 70" width="110" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<polygon points="55,12 55,55 70,55 70,12" fill="#e8e8ec" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="55" y1="12" x2="55" y2="55" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="55" y1="15" x2="51" y2="18" stroke="#888888" stroke-width="0.25"/>
+<line x1="55" y1="20" x2="51" y2="23" stroke="#888888" stroke-width="0.25"/>
+<line x1="55" y1="25" x2="51" y2="28" stroke="#888888" stroke-width="0.25"/>
+<line x1="55" y1="30" x2="51" y2="33" stroke="#888888" stroke-width="0.25"/>
+<line x1="55" y1="35" x2="51" y2="38" stroke="#888888" stroke-width="0.25"/>
+<line x1="55" y1="40" x2="51" y2="43" stroke="#888888" stroke-width="0.25"/>
+<line x1="55" y1="45" x2="51" y2="48" stroke="#888888" stroke-width="0.25"/>
+<line x1="55" y1="50" x2="51" y2="53" stroke="#888888" stroke-width="0.25"/>
+<line x1="5" y1="30" x2="55" y2="30" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="10" y1="30" x2="35" y2="30" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="55" y1="32" x2="40" y2="55" stroke="#c0392b" stroke-width="0.4" opacity="0.3"/>
+<line x1="5" y1="18" x2="105" y2="18" stroke="#c0392b" stroke-width="0.6" opacity="0.25"/>
+<text x="15" y="14" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">pass</text>
+<text x="35" y="58" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">pickoff</text>
+<text x="55" y="66" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Knife-edge mirror</text>
+</svg>

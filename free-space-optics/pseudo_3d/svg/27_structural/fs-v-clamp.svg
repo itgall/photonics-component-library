@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 55" width="80" height="55" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+<linearGradient id="mount-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A0A0A8"/><stop offset="100%" stop-color="#606068"/></linearGradient>
+</defs>
+<rect x="12" y="28" width="50" height="15" rx="2" fill="url(#mount-grad)" stroke="#000000" stroke-width="0.75"/>
+<path d="M18,28 L30,18 L42,28" fill="none" stroke="#000000" stroke-width="0.6"/>
+<path d="M32,28 L44,18 L56,28" fill="none" stroke="#000000" stroke-width="0.6"/>
+<circle cx="37" cy="14" r="5" fill="#A8A8B0" stroke="#000000" stroke-width="0.4"/>
+<text x="37" y="50" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">V-clamp</text>
+</svg>

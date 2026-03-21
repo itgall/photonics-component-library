@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70" width="140" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<polygon points="35,15 48,15 55,50 42,50" fill="#C8D0E0" stroke="#000000" stroke-width="0.75"/>
+<polygon points="55,15 70,15 63,50 55,50" fill="#B8C8D8" stroke="#000000" stroke-width="0.75"/>
+<polygon points="70,15 83,15 76,50 63,50" fill="#C8D0E0" stroke="#000000" stroke-width="0.75"/>
+<line x1="5" y1="32" x2="38" y2="32" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="10" y1="32" x2="25" y2="32" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<line x1="80" y1="32" x2="135" y2="26" stroke="#CC0000" stroke-width="0.4" opacity="0.4"/>
+<line x1="80" y1="32" x2="135" y2="29" stroke="#CCAA00" stroke-width="0.4" opacity="0.4"/>
+<line x1="80" y1="32" x2="135" y2="32" stroke="#00CC00" stroke-width="0.4" opacity="0.4"/>
+<line x1="80" y1="32" x2="135" y2="35" stroke="#0066CC" stroke-width="0.4" opacity="0.4"/>
+<line x1="80" y1="32" x2="135" y2="38" stroke="#6600CC" stroke-width="0.4" opacity="0.4"/>
+<text x="70" y="66" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">Direct-vision prism</text>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 55" width="160" height="55">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+</defs>
+<line x1="5" y1="27" x2="45" y2="27" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<rect x="45" y="10" width="60" height="34" rx="2" fill="#D4D8E8" stroke="#000000" stroke-width="0.75" />
+<path d="M65,18 A8,8 0 1,1 85,18" fill="none" stroke="#000000" stroke-width="0.5"/>
+<polygon points="83,16 87,18 83,20" fill="#000000"/>
+<line x1="75" y1="22" x2="75" y2="38" stroke="#000000" stroke-width="0.5" stroke-dasharray="1.5,1.5"/>
+<line x1="105" y1="27" x2="155" y2="27" stroke="#1B1E89" stroke-width="2.5" stroke-linecap="round" />
+<text x="75" y="52" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">FORJ</text>
+</svg>

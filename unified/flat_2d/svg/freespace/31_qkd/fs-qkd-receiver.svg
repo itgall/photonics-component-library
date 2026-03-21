@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 60" width="170" height="60" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#000000"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#CC0000"/></marker>
+</defs>
+<rect x="25" y="8" width="110" height="38" rx="3" fill="#808088" stroke="#000000" stroke-width="0.75"/>
+<line x1="5" y1="27" x2="25" y2="27" stroke="#CC0000" stroke-width="0.8" opacity="0.5"/>
+<line x1="8" y1="27" x2="18" y2="27" stroke="#CC0000" stroke-width="0.8" marker-end="url(#arrowhead-beam)"/>
+<rect x="35" y="16" width="6" height="22" rx="1" fill="#C8D8F0" stroke="#000000" stroke-width="0.4"/>
+<text x="38" y="12" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#000000" text-anchor="middle" font-weight="normal">λ/2</text>
+<rect x="58" y="14" width="22" height="22" fill="#C8D8F0" stroke="#000000" stroke-width="0.5"/>
+<text x="69" y="28" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#000000" text-anchor="middle" font-weight="normal">PBS</text>
+<rect x="90" y="18" width="12" height="12" rx="1" fill="#333366" opacity="0.7" stroke="#000000" stroke-width="0.3"/>
+<rect x="62" y="38" width="12" height="6" rx="1" fill="#333366" opacity="0.7" stroke="#000000" stroke-width="0.3"/>
+<text x="96" y="26" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="white" text-anchor="middle" font-weight="normal">D₁</text>
+<text x="68" y="43" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="white" text-anchor="middle" font-weight="normal">D₂</text>
+<text x="120" y="22" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#666666" text-anchor="middle" font-weight="normal">QRNG</text>
+<text x="85" y="55" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#000000" text-anchor="middle" font-weight="bold">QKD receiver</text>
+</svg>

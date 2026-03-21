@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<rect x="35" y="10" width="75" height="75" rx="3" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<rect x="47" y="22" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="47" y="36" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="47" y="50" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="47" y="64" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="61" y="22" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="61" y="36" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="61" y="50" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="61" y="64" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="75" y="22" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="75" y="36" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="75" y="50" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="75" y="64" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="89" y="22" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="89" y="36" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="89" y="50" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<rect x="89" y="64" width="6" height="6" rx="0.5" fill="#888888" stroke="#1a1a1a" stroke-width="0.2" opacity="0.3"/>
+<line x1="5" y1="25" x2="35" y2="25" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="5" y1="39" x2="35" y2="39" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="5" y1="53" x2="35" y2="53" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="5" y1="67" x2="35" y2="67" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="25" x2="155" y2="25" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="39" x2="155" y2="39" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="53" x2="155" y2="53" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="110" y1="67" x2="155" y2="67" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="25" x2="22" y2="25" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="72" y="55" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">MEMS</text>
+<text x="80" y="96" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">MEMS switch</text>
+</svg>

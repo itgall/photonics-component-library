@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 80" width="110" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+  <linearGradient id="motor-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D8D8E0"/>
+      <stop offset="50%" stop-color="#A8A8B8"/>
+      <stop offset="100%" stop-color="#707080"/>
+    </linearGradient>
+  <linearGradient id="mirror-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8F8FF"/>
+      <stop offset="50%" stop-color="#C8C8D8"/>
+      <stop offset="100%" stop-color="#909098"/>
+    </linearGradient>
+</defs>
+<rect x="35" y="40" width="30" height="30" rx="2" fill="url(#motor-grad)" stroke="#000" stroke-width="0.75"/>
+<line x1="50" y1="40" x2="50" y2="30" stroke="#000000" stroke-width="2.0"/>
+<rect x="35" y="13" width="30" height="4" rx="1" fill="url(#mirror-grad)" stroke="#000" stroke-width="0.5" transform="rotate(27, 50, 22)"/>
+<path d="M30,10 A25,25 0 0,1 70,10" fill="none" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2"/>
+<path d="M68,14 L72,10 L66,8" fill="none" stroke="#000000" stroke-width="0.5"/>
+<line x1="5" y1="22" x2="37" y2="22" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<line x1="42" y1="70" x2="42" y2="78" stroke="#000000" stroke-width="0.75"/>
+<line x1="58" y1="70" x2="58" y2="78" stroke="#000000" stroke-width="0.75"/>
+<text x="50" y="38" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">Galvo</text>
+</svg>

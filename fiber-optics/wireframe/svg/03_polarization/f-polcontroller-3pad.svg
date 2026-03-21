@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" width="220" height="80">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="50" x2="215" y2="50" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<path d="M42,50 A18,18 0 1,1 78,50" fill="none" stroke="#333333" stroke-width="0.7"/>
+<path d="M46,53 A22,10 0 0,0 74,53" fill="none" stroke="#888888" stroke-width="2.5" stroke-linecap="round"/>
+<text x="60" y="12" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#888888" text-anchor="middle" font-weight="normal" font-style="normal">λ/4</text>
+<path d="M92,50 A18,18 0 1,1 128,50" fill="none" stroke="#333333" stroke-width="0.7"/>
+<path d="M96,53 A22,10 0 0,0 124,53" fill="none" stroke="#888888" stroke-width="2.5" stroke-linecap="round"/>
+<text x="110" y="12" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#888888" text-anchor="middle" font-weight="normal" font-style="normal">λ/2</text>
+<path d="M142,50 A18,18 0 1,1 178,50" fill="none" stroke="#333333" stroke-width="0.7"/>
+<path d="M146,53 A22,10 0 0,0 174,53" fill="none" stroke="#888888" stroke-width="2.5" stroke-linecap="round"/>
+<text x="160" y="12" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#888888" text-anchor="middle" font-weight="normal" font-style="normal">λ/4</text>
+<line x1="10" y1="50" x2="28" y2="50" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="185" y1="50" x2="203" y2="50" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="8" y="44" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="start" font-weight="normal" font-style="italic">in</text>
+<text x="212" y="44" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#888888" text-anchor="end" font-weight="normal" font-style="italic">out</text>
+<text x="110" y="75" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Polarization controller</text>
+</svg>

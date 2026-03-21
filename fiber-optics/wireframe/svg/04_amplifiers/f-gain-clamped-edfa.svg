@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 75" width="240" height="75">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="37" x2="30" y2="37" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="8" y1="37" x2="22" y2="37" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="30" y="30" width="14" height="14" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<polygon points="33,33 33,41 41,37" fill="#1a1a1a" opacity="0.4"/>
+<path d="M44,37 C52,24 62,50 72,37 C82,24 92,50 102,37 C112,24 122,50 132,37" fill="none" stroke="#333333" stroke-width="0.7" />
+<rect x="136" y="30" width="14" height="14" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<polygon points="139,33 139,41 147,37" fill="#1a1a1a" opacity="0.4"/>
+<line x1="150" y1="37" x2="235" y2="37" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="200" y1="37" x2="220" y2="37" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<path d="M170,37 C170,15 50,15 50,37" fill="none" stroke="#c0392b" stroke-width="0.5" stroke-dasharray="3,2" opacity="0.4"/>
+<text x="110" y="12" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#c0392b" text-anchor="middle" font-weight="normal" font-style="normal">lasing ring</text>
+<line x1="88" y1="58" x2="88" y2="50" stroke="#c0392b" stroke-width="1"/>
+<polygon points="85,62 88,66 91,62" fill="#c0392b" opacity="0.7"/>
+<text x="96" y="64" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#c0392b" text-anchor="middle" font-weight="normal" font-style="normal">980 nm</text>
+<text x="120" y="72" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Gain-clamped EDFA</text>
+</svg>

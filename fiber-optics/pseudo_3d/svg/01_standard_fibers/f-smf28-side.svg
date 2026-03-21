@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#000000" />
+  </marker>
+  <linearGradient id="fiber-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ADACC6"/>
+      <stop offset="22%" stop-color="#1B1E89"/>
+      <stop offset="100%" stop-color="#0D0F42"/>
+    </linearGradient>
+</defs>
+<line x1="10" y1="20" x2="190" y2="20" stroke="url(#fiber-grad)" stroke-width="3.0" stroke-linecap="round" />
+<text x="100" y="14" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#444444" text-anchor="middle" font-weight="normal" font-style="normal">SMF-28</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 70" width="120" height="70" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="35" x2="45" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="10" y1="35" x2="28" y2="35" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<rect x="48" y="10" width="6" height="50" rx="1" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<rect x="54" y="10" width="6" height="50" rx="1" fill="#e8eaf0" stroke="#1a1a1a" stroke-width="0.5"/>
+<text x="51" y="8" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">MgF₂</text>
+<text x="57" y="8" font-family="Arial, Helvetica, sans-serif" font-size="4.5" fill="#888888" text-anchor="middle" font-weight="normal">Qz</text>
+<line x1="60" y1="35" x2="115" y2="35" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<text x="55" y="68" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Achromatic WP</text>
+</svg>

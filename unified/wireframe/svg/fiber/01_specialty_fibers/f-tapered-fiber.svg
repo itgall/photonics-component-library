@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<path d="M10,20 L60,20" fill="none" stroke="#333333" stroke-width="0.7" stroke-linecap="round"/>
+<path d="M60,16 C80,18 90,19.5 100,20 C110,20.5 120,22 140,24" fill="none" stroke="#333333" stroke-width="0.4"/>
+<path d="M60,24 C80,22 90,20.5 100,20 C110,19.5 120,18 140,16" fill="none" stroke="#333333" stroke-width="0.4"/>
+<path d="M140,20 L190,20" fill="none" stroke="#333333" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15" y1="20" x2="35" y2="20" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<line x1="100" y1="12" x2="100" y2="16" stroke="#888888" stroke-width="0.35"/>
+<text x="100" y="10" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#888888" text-anchor="middle" font-weight="normal" font-style="normal">waist</text>
+<text x="100" y="36" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Tapered fiber</text>
+</svg>

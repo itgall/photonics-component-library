@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 65" width="130" height="65" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<polygon points="30,12 60,12 85,48 55,48" fill="#f4f6fa" stroke="#1a1a1a" stroke-width="0.5"/>
+<line x1="5" y1="25" x2="38" y2="25" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="8" y1="25" x2="25" y2="25" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<line x1="75" y1="38" x2="125" y2="38" stroke="#c0392b" stroke-width="0.6" opacity="0.5"/>
+<line x1="85" y1="38" x2="115" y2="38" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<path d="M38,25 L68,25 L75,38" fill="none" stroke="#c0392b" stroke-width="0.3" opacity="0.2"/>
+<text x="65" y="60" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Rhomboid prism</text>
+</svg>

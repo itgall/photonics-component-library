@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60">
+<defs>
+  <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#1a1a1a" />
+  </marker>
+  <marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+    <polygon points="0 0, 6 2, 0 4" fill="#c0392b" />
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="5" markerHeight="3.5" refX="4" refY="1.75" orient="auto">
+    <polygon points="0 0, 5 1.75, 0 3.5" fill="#888888" />
+  </marker>
+</defs>
+<line x1="5" y1="30" x2="40" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="10" y1="30" x2="28" y2="30" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<rect x="40" y="18" width="18" height="24" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="49" y="33" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">λ/4</text>
+<line x1="58" y1="30" x2="80" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<rect x="80" y="18" width="18" height="24" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<text x="89" y="33" font-family="Arial, Helvetica, sans-serif" font-size="6" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">λ/2</text>
+<line x1="98" y1="30" x2="120" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<rect x="120" y="18" width="24" height="24" rx="1" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5" />
+<line x1="128" y1="22" x2="128" y2="38" stroke="#1a1a1a" stroke-width="0.75"/>
+<line x1="138" y1="22" x2="138" y2="38" stroke="#1a1a1a" stroke-width="0.75" stroke-dasharray="2,2"/>
+<line x1="144" y1="30" x2="215" y2="30" stroke="#333333" stroke-width="0.7" stroke-linecap="round" />
+<line x1="170" y1="30" x2="190" y2="30" stroke="#888888" stroke-width="0.5" marker-end="url(#arrowhead-gray)" />
+<text x="110" y="55" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">NPE mode-locker</text>
+</svg>

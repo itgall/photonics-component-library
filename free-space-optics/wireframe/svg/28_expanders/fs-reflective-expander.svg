@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" width="160" height="80" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#1a1a1a"/></marker>
+<marker id="arrowhead-beam" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><polygon points="0,0 6,2 0,4" fill="#c0392b"/></marker>
+</defs>
+<line x1="5" y1="40" x2="50" y2="40" stroke="#c0392b" stroke-width="0.6" opacity="0.4"/>
+<line x1="10" y1="40" x2="35" y2="40" stroke="#c0392b" stroke-width="0.6" marker-end="url(#arrowhead-beam)"/>
+<path d="M55,30 C60,36 60,44 55,50" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="58" y1="33" x2="60" y2="35" stroke="#888888" stroke-width="0.25"/>
+<line x1="60" y1="40" x2="63" y2="42" stroke="#888888" stroke-width="0.25"/>
+<line x1="58" y1="47" x2="60" y2="49" stroke="#888888" stroke-width="0.25"/>
+<path d="M120,15 C105,30 105,50 120,65" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="116" y1="19" x2="120" y2="17" stroke="#888888" stroke-width="0.25"/>
+<line x1="109" y1="28" x2="113" y2="26" stroke="#888888" stroke-width="0.25"/>
+<line x1="106" y1="36" x2="110" y2="34" stroke="#888888" stroke-width="0.25"/>
+<line x1="106" y1="44" x2="110" y2="42" stroke="#888888" stroke-width="0.25"/>
+<line x1="109" y1="52" x2="113" y2="50" stroke="#888888" stroke-width="0.25"/>
+<line x1="116" y1="61" x2="120" y2="59" stroke="#888888" stroke-width="0.25"/>
+<line x1="55" y1="35" x2="115" y2="22" stroke="#c0392b" stroke-width="0.4" opacity="0.2"/>
+<line x1="55" y1="45" x2="115" y2="58" stroke="#c0392b" stroke-width="0.4" opacity="0.2"/>
+<line x1="120" y1="22" x2="155" y2="22" stroke="#c0392b" stroke-width="0.6" opacity="0.2"/>
+<line x1="120" y1="32" x2="155" y2="32" stroke="#c0392b" stroke-width="0.6" opacity="0.2"/>
+<line x1="120" y1="40" x2="155" y2="40" stroke="#c0392b" stroke-width="0.6" opacity="0.2"/>
+<line x1="120" y1="48" x2="155" y2="48" stroke="#c0392b" stroke-width="0.6" opacity="0.2"/>
+<line x1="120" y1="58" x2="155" y2="58" stroke="#c0392b" stroke-width="0.6" opacity="0.2"/>
+<text x="80" y="75" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Reflective expander</text>
+</svg>

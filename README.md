@@ -1,6 +1,6 @@
 # Photonics Component Library
 
-A comprehensive open-source vector graphics library of **879 unique photonics and optics components** for scientific diagrams, technical illustrations, and publication-quality figures. Every component is provided in three rendering styles (flat 2D, pseudo-3D, and wireframe) and two formats (SVG and PNG).
+An open-source vector graphics library of **photonics and optics components** for scientific diagrams, technical illustrations, and publication-quality figures. Every component is provided in three rendering styles (flat 2D, pseudo-3D, and wireframe) and two formats (SVG and PNG).
 
 ## Overview
 
@@ -10,7 +10,7 @@ A comprehensive open-source vector graphics library of **879 unique photonics an
 | **Fiber Optics** | 489 | 3 | 2 | 2,934 |
 | **Free-Space Optics** | 390 | 3 | 2 | 2,340 |
 
-The library covers virtually every component encountered in modern photonics laboratories and systems, organized into clearly labeled categories for easy browsing.
+The library attempts to cover virtually every component encountered in modern photonics laboratories and systems, organized into clearly labeled categories for easy browsing.
 
 ## Rendering Styles
 
@@ -140,4 +140,4 @@ Contributions are welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 If you use this library in a publication, we appreciate (but do not require) a citation or acknowledgment. A suggested format:
 
-> Photonics Component Library (2025). Available at: https://github.com/[username]/photonics-component-library
+> Photonics Component Library (2025). Available at: https://github.com/itgall/photonics-component-library

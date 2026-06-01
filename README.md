@@ -30,18 +30,18 @@ Each component is available in three styles optimized for different use cases.
 
 | Category | Components | Description |
 |---|---|---|
-| 01 — Fiber Types | 106 | Standard, specialty, gain, mid-IR, doped, and application-specific fibers |
-| 02 — Connectors | 28 | Single-fiber (FC, SC, LC), multi-fiber (MPO), high-power, and adapters |
-| 03 — Passive Components | 58 | Couplers, isolators, circulators, WDM, filters, attenuators, switches, polarization |
-| 04 — Active Components | 45 | Modulators (EOM, AOM, MZM), amplifiers (EDFA, YDFA, Raman), pump sources |
-| 05 — Laser Sources | 43 | DFB, DBR, VCSEL, ECL, fiber laser cavities, saturable absorbers |
-| 06 — Detectors & Receivers | 15 | Photodetectors, APD, balanced receivers, coherent DSP |
-| 07 — Transceivers & Networking | 39 | SFP through CFP8 modules, ROADM, WSS, OLT/ONU |
-| 08 — Packaging | 6 | Butterfly, TO-can, hermetic housings |
-| 09 — Gratings & Sensors | 31 | FBG variants, physical sensors, distributed sensing (DTS, DAS, BOTDA) |
-| 10 — Test & Measurement | 50 | OSA, OTDR, oscilloscopes, RF analyzers, characterization instruments |
-| 11 — Infrastructure | 53 | Splicing, cable management, inline components, beam delivery, thermal |
-| 12 — Quantum & Specialty | 15 | Quantum sources, QKD, specialty fiber systems |
+| 01 : Fiber Types | 106 | Standard, specialty, gain, mid-IR, doped, and application-specific fibers |
+| 02 : Connectors | 28 | Single-fiber (FC, SC, LC), multi-fiber (MPO), high-power, and adapters 
+| 03 : Passive Components | 58 | Couplers, isolators, circulators, WDM, filters, attenuators, switches, polarization |
+| 04 : Active Components | 45 | Modulators (EOM, AOM, MZM), amplifiers (EDFA, YDFA, Raman), pump sources |
+| 05 : Laser Sources | 43 | DFB, DBR, VCSEL, ECL, fiber laser cavities, saturable absorbers |
+| 06 : Detectors & Receivers | 15 | Photodetectors, APD, balanced receivers, coherent DSP |
+| 07 : Transceivers & Networking | 39 | SFP through CFP8 modules, ROADM, WSS, OLT/ONU |
+| 08 : Packaging | 6 | Butterfly, TO-can, hermetic housings |
+| 09 : Gratings & Sensors | 31 | FBG variants, physical sensors, distributed sensing (DTS, DAS, BOTDA) |
+| 10 : Test & Measurement | 50 | OSA, OTDR, oscilloscopes, RF analyzers, characterization instruments |
+| 11 : Infrastructure | 53 | Splicing, cable management, inline components, beam delivery, thermal |
+| 12 : Quantum & Specialty | 15 | Quantum sources, QKD, specialty fiber systems |
 
 ### Free-Space Optics (`free-space-optics/`)
 
@@ -49,26 +49,26 @@ Each component is available in three styles optimized for different use cases.
 
 | Category | Components | Description |
 |---|---|---|
-| 13 — Lenses | 23 | Singlet, aspheric, achromatic, cylindrical, objectives, imaging |
-| 14 — Mirrors | 20 | Flat, curved, OAP, scanning, flip, adaptive (DM) |
-| 15 — Beamsplitters | 7 | Non-polarizing (plate, cube, pellicle), polarizing (PBS) |
-| 16 — Prisms | 18 | Steering, dispersive, polarizing (Wollaston, Glan-Taylor, etc.) |
-| 17 — Polarization | 17 | Waveplates, compensators, polarizers, isolators, depolarizers |
-| 18 — Filters | 14 | Interference, ND, absorptive, tunable (LCTF, AOTF) |
-| 19 — Gratings | 6 | Blazed, transmission, echelle, VPH, concave, grism |
-| 20 — NLO Crystals | 34 | SHG/SFG, OPO/DFG, Raman crystals, accessories |
-| 21 — EO/AO Devices | 11 | Pockels cells, AOMs, pulse pickers, cavity dumpers |
-| 22 — SLM & Beam Shaping | 16 | LCoS, DMD, DOE, microlens arrays, diffusers |
-| 23 — Apertures & Beam Control | 8 | Iris, spatial filter, beam dump, chopper, stabilizer |
-| 24 — Windows | 19 | CaF₂, ZnSe, Ge, Si, sapphire, diamond, BaF₂, and more |
-| 25 — Detectors & Cameras | 37 | Photodiodes, thermal, IR, single-photon, cameras, wavefront sensors |
-| 26 — Laser Sources | 44 | Gas, solid-state, semiconductor, tunable/broadband, THz |
-| 27 — Optomechanical | 24 | Mounts, stages, posts, cage systems, breadboards |
-| 28 — Beam Delivery | 17 | Expanders, scanners, alignment tools, transport |
-| 29 — Interferometric | 15 | Etalons, delay stages, Michelson, Mach-Zehnder, Sagnac, etc. |
-| 30 — Spectroscopy | 24 | Light sources, monochromators, spectrometers, sample cells |
-| 31 — Quantum Optics | 15 | SPDC sources, Bell analyzers, HBT correlators, QKD |
-| 32 — Adaptive/Astro/Industrial | 21 | Deformable mirrors, coronagraphs, cutting heads, safety |
+| 13 : Lenses | 23 | Singlet, aspheric, achromatic, cylindrical, objectives, imaging |
+| 14 : Mirrors | 20 | Flat, curved, OAP, scanning, flip, adaptive (DM) |
+| 15 : Beamsplitters | 7 | Non-polarizing (plate, cube, pellicle), polarizing (PBS) |
+| 16 : Prisms | 18 | Steering, dispersive, polarizing (Wollaston, Glan-Taylor, etc.) |
+| 17 : Polarization | 17 | Waveplates, compensators, polarizers, isolators, depolarizers |
+| 18 : Filters | 14 | Interference, ND, absorptive, tunable (LCTF, AOTF) |
+| 19 : Gratings | 6 | Blazed, transmission, echelle, VPH, concave, grism |
+| 20 : NLO Crystals | 34 | SHG/SFG, OPO/DFG, Raman crystals, accessories |
+| 21 : EO/AO Devices | 11 | Pockels cells, AOMs, pulse pickers, cavity dumpers |
+| 22 : SLM & Beam Shaping | 16 | LCoS, DMD, DOE, microlens arrays, diffusers |
+| 23 : Apertures & Beam Control | 8 | Iris, spatial filter, beam dump, chopper, stabilizer |
+| 24 : Windows | 19 | CaF₂, ZnSe, Ge, Si, sapphire, diamond, BaF₂, and more |
+| 25 : Detectors & Cameras | 37 | Photodiodes, thermal, IR, single-photon, cameras, wavefront sensors |
+| 26 : Laser Sources | 44 | Gas, solid-state, semiconductor, tunable/broadband, THz |
+| 27 : Optomechanical | 24 | Mounts, stages, posts, cage systems, breadboards |
+| 28 : Beam Delivery | 17 | Expanders, scanners, alignment tools, transport |
+| 29 : Interferometric | 15 | Etalons, delay stages, Michelson, Mach-Zehnder, Sagnac, etc. |
+| 30 : Spectroscopy | 24 | Light sources, monochromators, spectrometers, sample cells |
+| 31 : Quantum Optics | 15 | SPDC sources, Bell analyzers, HBT correlators, QKD |
+| 32 : Adaptive/Astro/Industrial | 21 | Deformable mirrors, coronagraphs, cutting heads, safety 
 
 ### Unified Library (`unified/`)
 
